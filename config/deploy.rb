@@ -1,9 +1,9 @@
 # config valid only for Capistrano 3.1
-lock '3.2.1'
+lock '3.3.4'
 
 # setup rvm.
 set :rvm_type, :system                   # /usr/local/rvm
-set :rvm_ruby_version, '2.1.0@flashdog'  # Defaults to: 'default'
+#set :rvm_ruby_version, '2.1.0@flashdog'  # Defaults to: 'default'
 
 # if you want to remove the local dump file after loading
 set :db_local_clean, true
@@ -92,7 +92,7 @@ namespace :deploy do
 end
 
 # sumlink to nginx
-# sudo ln -nfs /home/flashdog/flashdog_production/current/config/nginx.conf /etc/nginx/sites-enabled/flashdog
+# sudo ln -nfs /home/flashdog/flashdog_production/current/config/nginx_production.conf /etc/nginx/sites-enabled/flashdog
 # sudo service nginx start
 
 # ps aux | grep puma    # Get puma pid
