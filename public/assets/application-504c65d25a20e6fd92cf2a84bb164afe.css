@@ -1,0 +1,6667 @@
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+
+
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/assets/fontawesome-webfont.eot?v=4.2.0');
+  src: url('/assets/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('/assets/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('/assets/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('/assets/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* makes the font 33% larger relative to the icon container */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.fa.pull-left {
+  margin-right: .3em;
+}
+.fa.pull-right {
+  margin-left: .3em;
+}
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fa-stack-1x {
+  line-height: inherit;
+}
+.fa-stack-2x {
+  font-size: 2em;
+}
+.fa-inverse {
+  color: #ffffff;
+}
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+.fa-glass:before {
+  content: "\f000";
+}
+.fa-music:before {
+  content: "\f001";
+}
+.fa-search:before {
+  content: "\f002";
+}
+.fa-envelope-o:before {
+  content: "\f003";
+}
+.fa-heart:before {
+  content: "\f004";
+}
+.fa-star:before {
+  content: "\f005";
+}
+.fa-star-o:before {
+  content: "\f006";
+}
+.fa-user:before {
+  content: "\f007";
+}
+.fa-film:before {
+  content: "\f008";
+}
+.fa-th-large:before {
+  content: "\f009";
+}
+.fa-th:before {
+  content: "\f00a";
+}
+.fa-th-list:before {
+  content: "\f00b";
+}
+.fa-check:before {
+  content: "\f00c";
+}
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "\f00d";
+}
+.fa-search-plus:before {
+  content: "\f00e";
+}
+.fa-search-minus:before {
+  content: "\f010";
+}
+.fa-power-off:before {
+  content: "\f011";
+}
+.fa-signal:before {
+  content: "\f012";
+}
+.fa-gear:before,
+.fa-cog:before {
+  content: "\f013";
+}
+.fa-trash-o:before {
+  content: "\f014";
+}
+.fa-home:before {
+  content: "\f015";
+}
+.fa-file-o:before {
+  content: "\f016";
+}
+.fa-clock-o:before {
+  content: "\f017";
+}
+.fa-road:before {
+  content: "\f018";
+}
+.fa-download:before {
+  content: "\f019";
+}
+.fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+.fa-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+.fa-inbox:before {
+  content: "\f01c";
+}
+.fa-play-circle-o:before {
+  content: "\f01d";
+}
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: "\f01e";
+}
+.fa-refresh:before {
+  content: "\f021";
+}
+.fa-list-alt:before {
+  content: "\f022";
+}
+.fa-lock:before {
+  content: "\f023";
+}
+.fa-flag:before {
+  content: "\f024";
+}
+.fa-headphones:before {
+  content: "\f025";
+}
+.fa-volume-off:before {
+  content: "\f026";
+}
+.fa-volume-down:before {
+  content: "\f027";
+}
+.fa-volume-up:before {
+  content: "\f028";
+}
+.fa-qrcode:before {
+  content: "\f029";
+}
+.fa-barcode:before {
+  content: "\f02a";
+}
+.fa-tag:before {
+  content: "\f02b";
+}
+.fa-tags:before {
+  content: "\f02c";
+}
+.fa-book:before {
+  content: "\f02d";
+}
+.fa-bookmark:before {
+  content: "\f02e";
+}
+.fa-print:before {
+  content: "\f02f";
+}
+.fa-camera:before {
+  content: "\f030";
+}
+.fa-font:before {
+  content: "\f031";
+}
+.fa-bold:before {
+  content: "\f032";
+}
+.fa-italic:before {
+  content: "\f033";
+}
+.fa-text-height:before {
+  content: "\f034";
+}
+.fa-text-width:before {
+  content: "\f035";
+}
+.fa-align-left:before {
+  content: "\f036";
+}
+.fa-align-center:before {
+  content: "\f037";
+}
+.fa-align-right:before {
+  content: "\f038";
+}
+.fa-align-justify:before {
+  content: "\f039";
+}
+.fa-list:before {
+  content: "\f03a";
+}
+.fa-dedent:before,
+.fa-outdent:before {
+  content: "\f03b";
+}
+.fa-indent:before {
+  content: "\f03c";
+}
+.fa-video-camera:before {
+  content: "\f03d";
+}
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: "\f03e";
+}
+.fa-pencil:before {
+  content: "\f040";
+}
+.fa-map-marker:before {
+  content: "\f041";
+}
+.fa-adjust:before {
+  content: "\f042";
+}
+.fa-tint:before {
+  content: "\f043";
+}
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: "\f044";
+}
+.fa-share-square-o:before {
+  content: "\f045";
+}
+.fa-check-square-o:before {
+  content: "\f046";
+}
+.fa-arrows:before {
+  content: "\f047";
+}
+.fa-step-backward:before {
+  content: "\f048";
+}
+.fa-fast-backward:before {
+  content: "\f049";
+}
+.fa-backward:before {
+  content: "\f04a";
+}
+.fa-play:before {
+  content: "\f04b";
+}
+.fa-pause:before {
+  content: "\f04c";
+}
+.fa-stop:before {
+  content: "\f04d";
+}
+.fa-forward:before {
+  content: "\f04e";
+}
+.fa-fast-forward:before {
+  content: "\f050";
+}
+.fa-step-forward:before {
+  content: "\f051";
+}
+.fa-eject:before {
+  content: "\f052";
+}
+.fa-chevron-left:before {
+  content: "\f053";
+}
+.fa-chevron-right:before {
+  content: "\f054";
+}
+.fa-plus-circle:before {
+  content: "\f055";
+}
+.fa-minus-circle:before {
+  content: "\f056";
+}
+.fa-times-circle:before {
+  content: "\f057";
+}
+.fa-check-circle:before {
+  content: "\f058";
+}
+.fa-question-circle:before {
+  content: "\f059";
+}
+.fa-info-circle:before {
+  content: "\f05a";
+}
+.fa-crosshairs:before {
+  content: "\f05b";
+}
+.fa-times-circle-o:before {
+  content: "\f05c";
+}
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+.fa-ban:before {
+  content: "\f05e";
+}
+.fa-arrow-left:before {
+  content: "\f060";
+}
+.fa-arrow-right:before {
+  content: "\f061";
+}
+.fa-arrow-up:before {
+  content: "\f062";
+}
+.fa-arrow-down:before {
+  content: "\f063";
+}
+.fa-mail-forward:before,
+.fa-share:before {
+  content: "\f064";
+}
+.fa-expand:before {
+  content: "\f065";
+}
+.fa-compress:before {
+  content: "\f066";
+}
+.fa-plus:before {
+  content: "\f067";
+}
+.fa-minus:before {
+  content: "\f068";
+}
+.fa-asterisk:before {
+  content: "\f069";
+}
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+.fa-gift:before {
+  content: "\f06b";
+}
+.fa-leaf:before {
+  content: "\f06c";
+}
+.fa-fire:before {
+  content: "\f06d";
+}
+.fa-eye:before {
+  content: "\f06e";
+}
+.fa-eye-slash:before {
+  content: "\f070";
+}
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: "\f071";
+}
+.fa-plane:before {
+  content: "\f072";
+}
+.fa-calendar:before {
+  content: "\f073";
+}
+.fa-random:before {
+  content: "\f074";
+}
+.fa-comment:before {
+  content: "\f075";
+}
+.fa-magnet:before {
+  content: "\f076";
+}
+.fa-chevron-up:before {
+  content: "\f077";
+}
+.fa-chevron-down:before {
+  content: "\f078";
+}
+.fa-retweet:before {
+  content: "\f079";
+}
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+.fa-folder:before {
+  content: "\f07b";
+}
+.fa-folder-open:before {
+  content: "\f07c";
+}
+.fa-arrows-v:before {
+  content: "\f07d";
+}
+.fa-arrows-h:before {
+  content: "\f07e";
+}
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: "\f080";
+}
+.fa-twitter-square:before {
+  content: "\f081";
+}
+.fa-facebook-square:before {
+  content: "\f082";
+}
+.fa-camera-retro:before {
+  content: "\f083";
+}
+.fa-key:before {
+  content: "\f084";
+}
+.fa-gears:before,
+.fa-cogs:before {
+  content: "\f085";
+}
+.fa-comments:before {
+  content: "\f086";
+}
+.fa-thumbs-o-up:before {
+  content: "\f087";
+}
+.fa-thumbs-o-down:before {
+  content: "\f088";
+}
+.fa-star-half:before {
+  content: "\f089";
+}
+.fa-heart-o:before {
+  content: "\f08a";
+}
+.fa-sign-out:before {
+  content: "\f08b";
+}
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+.fa-thumb-tack:before {
+  content: "\f08d";
+}
+.fa-external-link:before {
+  content: "\f08e";
+}
+.fa-sign-in:before {
+  content: "\f090";
+}
+.fa-trophy:before {
+  content: "\f091";
+}
+.fa-github-square:before {
+  content: "\f092";
+}
+.fa-upload:before {
+  content: "\f093";
+}
+.fa-lemon-o:before {
+  content: "\f094";
+}
+.fa-phone:before {
+  content: "\f095";
+}
+.fa-square-o:before {
+  content: "\f096";
+}
+.fa-bookmark-o:before {
+  content: "\f097";
+}
+.fa-phone-square:before {
+  content: "\f098";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-unlock:before {
+  content: "\f09c";
+}
+.fa-credit-card:before {
+  content: "\f09d";
+}
+.fa-rss:before {
+  content: "\f09e";
+}
+.fa-hdd-o:before {
+  content: "\f0a0";
+}
+.fa-bullhorn:before {
+  content: "\f0a1";
+}
+.fa-bell:before {
+  content: "\f0f3";
+}
+.fa-certificate:before {
+  content: "\f0a3";
+}
+.fa-hand-o-right:before {
+  content: "\f0a4";
+}
+.fa-hand-o-left:before {
+  content: "\f0a5";
+}
+.fa-hand-o-up:before {
+  content: "\f0a6";
+}
+.fa-hand-o-down:before {
+  content: "\f0a7";
+}
+.fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+.fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+.fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+.fa-globe:before {
+  content: "\f0ac";
+}
+.fa-wrench:before {
+  content: "\f0ad";
+}
+.fa-tasks:before {
+  content: "\f0ae";
+}
+.fa-filter:before {
+  content: "\f0b0";
+}
+.fa-briefcase:before {
+  content: "\f0b1";
+}
+.fa-arrows-alt:before {
+  content: "\f0b2";
+}
+.fa-group:before,
+.fa-users:before {
+  content: "\f0c0";
+}
+.fa-chain:before,
+.fa-link:before {
+  content: "\f0c1";
+}
+.fa-cloud:before {
+  content: "\f0c2";
+}
+.fa-flask:before {
+  content: "\f0c3";
+}
+.fa-cut:before,
+.fa-scissors:before {
+  content: "\f0c4";
+}
+.fa-copy:before,
+.fa-files-o:before {
+  content: "\f0c5";
+}
+.fa-paperclip:before {
+  content: "\f0c6";
+}
+.fa-save:before,
+.fa-floppy-o:before {
+  content: "\f0c7";
+}
+.fa-square:before {
+  content: "\f0c8";
+}
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "\f0c9";
+}
+.fa-list-ul:before {
+  content: "\f0ca";
+}
+.fa-list-ol:before {
+  content: "\f0cb";
+}
+.fa-strikethrough:before {
+  content: "\f0cc";
+}
+.fa-underline:before {
+  content: "\f0cd";
+}
+.fa-table:before {
+  content: "\f0ce";
+}
+.fa-magic:before {
+  content: "\f0d0";
+}
+.fa-truck:before {
+  content: "\f0d1";
+}
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+.fa-pinterest-square:before {
+  content: "\f0d3";
+}
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+.fa-money:before {
+  content: "\f0d6";
+}
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+.fa-caret-up:before {
+  content: "\f0d8";
+}
+.fa-caret-left:before {
+  content: "\f0d9";
+}
+.fa-caret-right:before {
+  content: "\f0da";
+}
+.fa-columns:before {
+  content: "\f0db";
+}
+.fa-unsorted:before,
+.fa-sort:before {
+  content: "\f0dc";
+}
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: "\f0dd";
+}
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: "\f0de";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: "\f0e2";
+}
+.fa-legal:before,
+.fa-gavel:before {
+  content: "\f0e3";
+}
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: "\f0e4";
+}
+.fa-comment-o:before {
+  content: "\f0e5";
+}
+.fa-comments-o:before {
+  content: "\f0e6";
+}
+.fa-flash:before,
+.fa-bolt:before {
+  content: "\f0e7";
+}
+.fa-sitemap:before {
+  content: "\f0e8";
+}
+.fa-umbrella:before {
+  content: "\f0e9";
+}
+.fa-paste:before,
+.fa-clipboard:before {
+  content: "\f0ea";
+}
+.fa-lightbulb-o:before {
+  content: "\f0eb";
+}
+.fa-exchange:before {
+  content: "\f0ec";
+}
+.fa-cloud-download:before {
+  content: "\f0ed";
+}
+.fa-cloud-upload:before {
+  content: "\f0ee";
+}
+.fa-user-md:before {
+  content: "\f0f0";
+}
+.fa-stethoscope:before {
+  content: "\f0f1";
+}
+.fa-suitcase:before {
+  content: "\f0f2";
+}
+.fa-bell-o:before {
+  content: "\f0a2";
+}
+.fa-coffee:before {
+  content: "\f0f4";
+}
+.fa-cutlery:before {
+  content: "\f0f5";
+}
+.fa-file-text-o:before {
+  content: "\f0f6";
+}
+.fa-building-o:before {
+  content: "\f0f7";
+}
+.fa-hospital-o:before {
+  content: "\f0f8";
+}
+.fa-ambulance:before {
+  content: "\f0f9";
+}
+.fa-medkit:before {
+  content: "\f0fa";
+}
+.fa-fighter-jet:before {
+  content: "\f0fb";
+}
+.fa-beer:before {
+  content: "\f0fc";
+}
+.fa-h-square:before {
+  content: "\f0fd";
+}
+.fa-plus-square:before {
+  content: "\f0fe";
+}
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+.fa-angle-left:before {
+  content: "\f104";
+}
+.fa-angle-right:before {
+  content: "\f105";
+}
+.fa-angle-up:before {
+  content: "\f106";
+}
+.fa-angle-down:before {
+  content: "\f107";
+}
+.fa-desktop:before {
+  content: "\f108";
+}
+.fa-laptop:before {
+  content: "\f109";
+}
+.fa-tablet:before {
+  content: "\f10a";
+}
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: "\f10b";
+}
+.fa-circle-o:before {
+  content: "\f10c";
+}
+.fa-quote-left:before {
+  content: "\f10d";
+}
+.fa-quote-right:before {
+  content: "\f10e";
+}
+.fa-spinner:before {
+  content: "\f110";
+}
+.fa-circle:before {
+  content: "\f111";
+}
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: "\f112";
+}
+.fa-github-alt:before {
+  content: "\f113";
+}
+.fa-folder-o:before {
+  content: "\f114";
+}
+.fa-folder-open-o:before {
+  content: "\f115";
+}
+.fa-smile-o:before {
+  content: "\f118";
+}
+.fa-frown-o:before {
+  content: "\f119";
+}
+.fa-meh-o:before {
+  content: "\f11a";
+}
+.fa-gamepad:before {
+  content: "\f11b";
+}
+.fa-keyboard-o:before {
+  content: "\f11c";
+}
+.fa-flag-o:before {
+  content: "\f11d";
+}
+.fa-flag-checkered:before {
+  content: "\f11e";
+}
+.fa-terminal:before {
+  content: "\f120";
+}
+.fa-code:before {
+  content: "\f121";
+}
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: "\f122";
+}
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: "\f123";
+}
+.fa-location-arrow:before {
+  content: "\f124";
+}
+.fa-crop:before {
+  content: "\f125";
+}
+.fa-code-fork:before {
+  content: "\f126";
+}
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: "\f127";
+}
+.fa-question:before {
+  content: "\f128";
+}
+.fa-info:before {
+  content: "\f129";
+}
+.fa-exclamation:before {
+  content: "\f12a";
+}
+.fa-superscript:before {
+  content: "\f12b";
+}
+.fa-subscript:before {
+  content: "\f12c";
+}
+.fa-eraser:before {
+  content: "\f12d";
+}
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+.fa-microphone:before {
+  content: "\f130";
+}
+.fa-microphone-slash:before {
+  content: "\f131";
+}
+.fa-shield:before {
+  content: "\f132";
+}
+.fa-calendar-o:before {
+  content: "\f133";
+}
+.fa-fire-extinguisher:before {
+  content: "\f134";
+}
+.fa-rocket:before {
+  content: "\f135";
+}
+.fa-maxcdn:before {
+  content: "\f136";
+}
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+.fa-chevron-circle-right:before {
+  content: "\f138";
+}
+.fa-chevron-circle-up:before {
+  content: "\f139";
+}
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+.fa-html5:before {
+  content: "\f13b";
+}
+.fa-css3:before {
+  content: "\f13c";
+}
+.fa-anchor:before {
+  content: "\f13d";
+}
+.fa-unlock-alt:before {
+  content: "\f13e";
+}
+.fa-bullseye:before {
+  content: "\f140";
+}
+.fa-ellipsis-h:before {
+  content: "\f141";
+}
+.fa-ellipsis-v:before {
+  content: "\f142";
+}
+.fa-rss-square:before {
+  content: "\f143";
+}
+.fa-play-circle:before {
+  content: "\f144";
+}
+.fa-ticket:before {
+  content: "\f145";
+}
+.fa-minus-square:before {
+  content: "\f146";
+}
+.fa-minus-square-o:before {
+  content: "\f147";
+}
+.fa-level-up:before {
+  content: "\f148";
+}
+.fa-level-down:before {
+  content: "\f149";
+}
+.fa-check-square:before {
+  content: "\f14a";
+}
+.fa-pencil-square:before {
+  content: "\f14b";
+}
+.fa-external-link-square:before {
+  content: "\f14c";
+}
+.fa-share-square:before {
+  content: "\f14d";
+}
+.fa-compass:before {
+  content: "\f14e";
+}
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: "\f150";
+}
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: "\f151";
+}
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: "\f152";
+}
+.fa-euro:before,
+.fa-eur:before {
+  content: "\f153";
+}
+.fa-gbp:before {
+  content: "\f154";
+}
+.fa-dollar:before,
+.fa-usd:before {
+  content: "\f155";
+}
+.fa-rupee:before,
+.fa-inr:before {
+  content: "\f156";
+}
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: "\f157";
+}
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: "\f158";
+}
+.fa-won:before,
+.fa-krw:before {
+  content: "\f159";
+}
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: "\f15a";
+}
+.fa-file:before {
+  content: "\f15b";
+}
+.fa-file-text:before {
+  content: "\f15c";
+}
+.fa-sort-alpha-asc:before {
+  content: "\f15d";
+}
+.fa-sort-alpha-desc:before {
+  content: "\f15e";
+}
+.fa-sort-amount-asc:before {
+  content: "\f160";
+}
+.fa-sort-amount-desc:before {
+  content: "\f161";
+}
+.fa-sort-numeric-asc:before {
+  content: "\f162";
+}
+.fa-sort-numeric-desc:before {
+  content: "\f163";
+}
+.fa-thumbs-up:before {
+  content: "\f164";
+}
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+.fa-youtube-square:before {
+  content: "\f166";
+}
+.fa-youtube:before {
+  content: "\f167";
+}
+.fa-xing:before {
+  content: "\f168";
+}
+.fa-xing-square:before {
+  content: "\f169";
+}
+.fa-youtube-play:before {
+  content: "\f16a";
+}
+.fa-dropbox:before {
+  content: "\f16b";
+}
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+.fa-flickr:before {
+  content: "\f16e";
+}
+.fa-adn:before {
+  content: "\f170";
+}
+.fa-bitbucket:before {
+  content: "\f171";
+}
+.fa-bitbucket-square:before {
+  content: "\f172";
+}
+.fa-tumblr:before {
+  content: "\f173";
+}
+.fa-tumblr-square:before {
+  content: "\f174";
+}
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+.fa-long-arrow-up:before {
+  content: "\f176";
+}
+.fa-long-arrow-left:before {
+  content: "\f177";
+}
+.fa-long-arrow-right:before {
+  content: "\f178";
+}
+.fa-apple:before {
+  content: "\f179";
+}
+.fa-windows:before {
+  content: "\f17a";
+}
+.fa-android:before {
+  content: "\f17b";
+}
+.fa-linux:before {
+  content: "\f17c";
+}
+.fa-dribbble:before {
+  content: "\f17d";
+}
+.fa-skype:before {
+  content: "\f17e";
+}
+.fa-foursquare:before {
+  content: "\f180";
+}
+.fa-trello:before {
+  content: "\f181";
+}
+.fa-female:before {
+  content: "\f182";
+}
+.fa-male:before {
+  content: "\f183";
+}
+.fa-gittip:before {
+  content: "\f184";
+}
+.fa-sun-o:before {
+  content: "\f185";
+}
+.fa-moon-o:before {
+  content: "\f186";
+}
+.fa-archive:before {
+  content: "\f187";
+}
+.fa-bug:before {
+  content: "\f188";
+}
+.fa-vk:before {
+  content: "\f189";
+}
+.fa-weibo:before {
+  content: "\f18a";
+}
+.fa-renren:before {
+  content: "\f18b";
+}
+.fa-pagelines:before {
+  content: "\f18c";
+}
+.fa-stack-exchange:before {
+  content: "\f18d";
+}
+.fa-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+.fa-arrow-circle-o-left:before {
+  content: "\f190";
+}
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: "\f191";
+}
+.fa-dot-circle-o:before {
+  content: "\f192";
+}
+.fa-wheelchair:before {
+  content: "\f193";
+}
+.fa-vimeo-square:before {
+  content: "\f194";
+}
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: "\f195";
+}
+.fa-plus-square-o:before {
+  content: "\f196";
+}
+.fa-space-shuttle:before {
+  content: "\f197";
+}
+.fa-slack:before {
+  content: "\f198";
+}
+.fa-envelope-square:before {
+  content: "\f199";
+}
+.fa-wordpress:before {
+  content: "\f19a";
+}
+.fa-openid:before {
+  content: "\f19b";
+}
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: "\f19c";
+}
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: "\f19d";
+}
+.fa-yahoo:before {
+  content: "\f19e";
+}
+.fa-google:before {
+  content: "\f1a0";
+}
+.fa-reddit:before {
+  content: "\f1a1";
+}
+.fa-reddit-square:before {
+  content: "\f1a2";
+}
+.fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+.fa-stumbleupon:before {
+  content: "\f1a4";
+}
+.fa-delicious:before {
+  content: "\f1a5";
+}
+.fa-digg:before {
+  content: "\f1a6";
+}
+.fa-pied-piper:before {
+  content: "\f1a7";
+}
+.fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
+.fa-drupal:before {
+  content: "\f1a9";
+}
+.fa-joomla:before {
+  content: "\f1aa";
+}
+.fa-language:before {
+  content: "\f1ab";
+}
+.fa-fax:before {
+  content: "\f1ac";
+}
+.fa-building:before {
+  content: "\f1ad";
+}
+.fa-child:before {
+  content: "\f1ae";
+}
+.fa-paw:before {
+  content: "\f1b0";
+}
+.fa-spoon:before {
+  content: "\f1b1";
+}
+.fa-cube:before {
+  content: "\f1b2";
+}
+.fa-cubes:before {
+  content: "\f1b3";
+}
+.fa-behance:before {
+  content: "\f1b4";
+}
+.fa-behance-square:before {
+  content: "\f1b5";
+}
+.fa-steam:before {
+  content: "\f1b6";
+}
+.fa-steam-square:before {
+  content: "\f1b7";
+}
+.fa-recycle:before {
+  content: "\f1b8";
+}
+.fa-automobile:before,
+.fa-car:before {
+  content: "\f1b9";
+}
+.fa-cab:before,
+.fa-taxi:before {
+  content: "\f1ba";
+}
+.fa-tree:before {
+  content: "\f1bb";
+}
+.fa-spotify:before {
+  content: "\f1bc";
+}
+.fa-deviantart:before {
+  content: "\f1bd";
+}
+.fa-soundcloud:before {
+  content: "\f1be";
+}
+.fa-database:before {
+  content: "\f1c0";
+}
+.fa-file-pdf-o:before {
+  content: "\f1c1";
+}
+.fa-file-word-o:before {
+  content: "\f1c2";
+}
+.fa-file-excel-o:before {
+  content: "\f1c3";
+}
+.fa-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: "\f1c5";
+}
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: "\f1c6";
+}
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: "\f1c7";
+}
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: "\f1c8";
+}
+.fa-file-code-o:before {
+  content: "\f1c9";
+}
+.fa-vine:before {
+  content: "\f1ca";
+}
+.fa-codepen:before {
+  content: "\f1cb";
+}
+.fa-jsfiddle:before {
+  content: "\f1cc";
+}
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: "\f1cd";
+}
+.fa-circle-o-notch:before {
+  content: "\f1ce";
+}
+.fa-ra:before,
+.fa-rebel:before {
+  content: "\f1d0";
+}
+.fa-ge:before,
+.fa-empire:before {
+  content: "\f1d1";
+}
+.fa-git-square:before {
+  content: "\f1d2";
+}
+.fa-git:before {
+  content: "\f1d3";
+}
+.fa-hacker-news:before {
+  content: "\f1d4";
+}
+.fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+.fa-qq:before {
+  content: "\f1d6";
+}
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "\f1d7";
+}
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "\f1d8";
+}
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: "\f1d9";
+}
+.fa-history:before {
+  content: "\f1da";
+}
+.fa-circle-thin:before {
+  content: "\f1db";
+}
+.fa-header:before {
+  content: "\f1dc";
+}
+.fa-paragraph:before {
+  content: "\f1dd";
+}
+.fa-sliders:before {
+  content: "\f1de";
+}
+.fa-share-alt:before {
+  content: "\f1e0";
+}
+.fa-share-alt-square:before {
+  content: "\f1e1";
+}
+.fa-bomb:before {
+  content: "\f1e2";
+}
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: "\f1e3";
+}
+.fa-tty:before {
+  content: "\f1e4";
+}
+.fa-binoculars:before {
+  content: "\f1e5";
+}
+.fa-plug:before {
+  content: "\f1e6";
+}
+.fa-slideshare:before {
+  content: "\f1e7";
+}
+.fa-twitch:before {
+  content: "\f1e8";
+}
+.fa-yelp:before {
+  content: "\f1e9";
+}
+.fa-newspaper-o:before {
+  content: "\f1ea";
+}
+.fa-wifi:before {
+  content: "\f1eb";
+}
+.fa-calculator:before {
+  content: "\f1ec";
+}
+.fa-paypal:before {
+  content: "\f1ed";
+}
+.fa-google-wallet:before {
+  content: "\f1ee";
+}
+.fa-cc-visa:before {
+  content: "\f1f0";
+}
+.fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+.fa-cc-discover:before {
+  content: "\f1f2";
+}
+.fa-cc-amex:before {
+  content: "\f1f3";
+}
+.fa-cc-paypal:before {
+  content: "\f1f4";
+}
+.fa-cc-stripe:before {
+  content: "\f1f5";
+}
+.fa-bell-slash:before {
+  content: "\f1f6";
+}
+.fa-bell-slash-o:before {
+  content: "\f1f7";
+}
+.fa-trash:before {
+  content: "\f1f8";
+}
+.fa-copyright:before {
+  content: "\f1f9";
+}
+.fa-at:before {
+  content: "\f1fa";
+}
+.fa-eyedropper:before {
+  content: "\f1fb";
+}
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
+.fa-birthday-cake:before {
+  content: "\f1fd";
+}
+.fa-area-chart:before {
+  content: "\f1fe";
+}
+.fa-pie-chart:before {
+  content: "\f200";
+}
+.fa-line-chart:before {
+  content: "\f201";
+}
+.fa-lastfm:before {
+  content: "\f202";
+}
+.fa-lastfm-square:before {
+  content: "\f203";
+}
+.fa-toggle-off:before {
+  content: "\f204";
+}
+.fa-toggle-on:before {
+  content: "\f205";
+}
+.fa-bicycle:before {
+  content: "\f206";
+}
+.fa-bus:before {
+  content: "\f207";
+}
+.fa-ioxhost:before {
+  content: "\f208";
+}
+.fa-angellist:before {
+  content: "\f209";
+}
+.fa-cc:before {
+  content: "\f20a";
+}
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "\f20b";
+}
+.fa-meanpath:before {
+  content: "\f20c";
+}
+/* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)) */
+
+
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body{-webkit-text-size-adjust:none}
+
+/* Box Model */
+
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/* Container */
+
+	body {
+		/* min-width: (containers) */
+		min-width: 60em;
+	}
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		
+		/* width: (containers) */
+		width: 60em;
+	}
+
+	/* Modifiers */
+
+		/* 125% */
+			.container.\31 25\25 {
+				width: 100%;
+				
+				/* max-width: (containers * 1.25) */
+				max-width: 75em;
+
+				/* min-width: (containers) */
+				min-width: 60em;
+			}
+
+		/* 75% */
+			.container.\37 5\25 {
+				
+				/* width: (containers * 0.75) */
+				width: 45em;
+
+			}
+
+		/* 50% */
+			.container.\35 0\25 {
+				
+				/* width: (containers * 0.50) */
+				width: 30em;
+
+			}
+
+		/* 25% */
+			.container.\32 5\25 {
+				
+				/* width: (containers * 0.25) */
+				width: 15em;
+
+			}
+
+/* Grid */
+
+	.row {
+		border-bottom: solid 1px transparent;
+	}
+	
+	.row > * {
+		float: left;
+	}
+	
+	.row:after, .row:before {
+		content: '';
+		display: block;
+		clear: both;
+		height: 0;
+	}
+	
+	.row.uniform > * > :first-child {
+		margin-top: 0;
+	}
+	
+	.row.uniform > * > :last-child {
+		margin-bottom: 0;
+	}
+
+	/* Gutters */
+
+		/* Normal */
+		
+			.row > * {
+				/* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+				padding: 0 0 0 2em;
+			}
+
+			.row {
+				/* margin: -(gutters.horizontal) 0 0 -(gutters.vertical) */
+				margin: 0 0 0 -2em;
+			}
+			
+			.row.uniform > * {
+				/* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+				padding: 2em 0 0 2em;
+			}
+
+			.row.uniform {
+				/* margin: -(gutters.vertical) 0 0 -(gutters.vertical) */
+				margin: -2em 0 0 -2em;
+			}
+			
+		/* 200% */
+		
+			.row.\32 00\25 > * {
+				/* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+				padding: 0 0 0 4em;
+			}
+
+			.row.\32 00\25 {
+				/* margin: -(gutters.horizontal) 0 0 -(gutters.vertical) */
+				margin: 0 0 0 -4em;
+			}
+
+			.row.uniform.\32 00\25 > * {
+				/* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+				padding: 4em 0 0 4em;
+			}
+
+			.row.uniform.\32 00\25 {
+				/* margin: -(gutters.vertical) 0 0 -(gutters.vertical) */
+				margin: -4em 0 0 -4em;
+			}
+
+		/* 150% */
+		
+			.row.\31 50\25 > * {
+				/* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+				padding: 0 0 0 1.5em;
+			}
+
+			.row.\31 50\25 {
+				/* margin: -(gutters.horizontal) 0 0 -(gutters.vertical) */
+				margin: 0 0 0 -1.5em;
+			}
+
+			.row.uniform.\31 50\25 > * {
+				/* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+				padding: 1.5em 0 0 1.5em;
+			}
+
+			.row.uniform.\31 50\25 {
+				/* margin: -(gutters.vertical) 0 0 -(gutters.vertical) */
+				margin: -1.5em 0 0 -1.5em;
+			}
+
+		/* 50% */
+		
+			.row.\35 0\25 > * {
+				/* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+				padding: 0 0 0 1em;
+			}
+
+			.row.\35 0\25 {
+				/* margin: -(gutters.horizontal) 0 0 -(gutters.vertical) */
+				margin: 0 0 0 -1em;
+			}
+
+			.row.uniform.\35 0\25 > * {
+				/* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+				padding: 1em 0 0 1em;
+			}
+
+			.row.uniform.\35 0\25 {
+				/* margin: -(gutters.vertical) 0 0 -(gutters.vertical) */
+				margin: -1em 0 0 -1em;
+			}
+
+		/* 25% */
+		
+			.row.\32 5\25 > * {
+				/* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+				padding: 0 0 0 0.5em;
+			}
+
+			.row.\32 5\25 {
+				/* margin: -(gutters.horizontal) 0 0 -(gutters.vertical) */
+				margin: 0 0 0 -0.5em;
+			}
+
+			.row.uniform.\32 5\25 > * {
+				/* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+				padding: 0.5em 0 0 0.5em;
+			}
+
+			.row.uniform.\32 5\25 {
+				/* margin: -(gutters.vertical) 0 0 -(gutters.vertical) */
+				margin: -0.5em 0 0 -0.5em;
+			}
+
+		/* 0% */
+		
+			.row.\30 \25 > * {
+				/* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+				padding: 0;
+			}
+
+			.row.\30 \25 {
+				/* margin: -(gutters.horizontal) 0 0 -(gutters.vertical) */
+				margin: 0;
+			}
+
+	/* Cells */
+
+		.\31 2u, .\31 2u\24, .\31 2u\28 1\29, .\31 2u\24\28 1\29 { width: 100%; clear: none; }
+		.\31 1u, .\31 1u\24, .\31 1u\28 1\29, .\31 1u\24\28 1\29 { width: 91.6666666667%; clear: none; }
+		.\31 0u, .\31 0u\24, .\31 0u\28 1\29, .\31 0u\24\28 1\29 { width: 83.3333333333%; clear: none; }
+		.\39 u, .\39 u\24, .\39 u\28 1\29, .\39 u\24\28 1\29 { width: 75%; clear: none; }
+		.\38 u, .\38 u\24, .\38 u\28 1\29, .\38 u\24\28 1\29 { width: 66.6666666667%; clear: none; }
+		.\37 u, .\37 u\24, .\37 u\28 1\29, .\37 u\24\28 1\29 { width: 58.3333333333%; clear: none; }
+		.\36 u, .\36 u\24, .\36 u\28 1\29, .\36 u\24\28 1\29 { width: 50%; clear: none; }
+		.\35 u, .\35 u\24, .\35 u\28 1\29, .\35 u\24\28 1\29 { width: 41.6666666667%; clear: none; }
+		.\34 u, .\34 u\24, .\34 u\28 1\29, .\34 u\24\28 1\29 { width: 33.3333333333%; clear: none; }
+		.\33 u, .\33 u\24, .\33 u\28 1\29, .\33 u\24\28 1\29 { width: 25%; clear: none; }
+		.\32 u, .\32 u\24, .\32 u\28 1\29, .\32 u\24\28 1\29 { width: 16.6666666667%; clear: none; }
+		.\31 u, .\31 u\24, .\31 u\28 1\29, .\31 u\24\28 1\29 { width: 8.3333333333%; clear: none; }
+
+		.\31 2u\24 + *, .\31 2u\24\28 1\29 + *,
+		.\31 1u\24 + *, .\31 1u\24\28 1\29 + *,
+		.\31 0u\24 + *, .\31 0u\24\28 1\29 + *,
+		.\39 u\24 + *, .\39 u\24\28 1\29 + *,
+		.\38 u\24 + *, .\38 u\24\28 1\29 + *,
+		.\37 u\24 + *, .\37 u\24\28 1\29 + *,
+		.\36 u\24 + *, .\36 u\24\28 1\29 + *,
+		.\35 u\24 + *, .\35 u\24\28 1\29 + *,
+		.\34 u\24 + *, .\34 u\24\28 1\29 + *,
+		.\33 u\24 + *, .\33 u\24\28 1\29 + *,
+		.\32 u\24 + *, .\32 u\24\28 1\29 + *,
+		.\31 u\24  + *,  .\31 u\24\28 1\29 + * {
+			clear: left;
+		}
+			
+		.\-11u { margin-left: 91.6666666667% }
+		.\-10u { margin-left: 83.3333333333% }
+		.\-9u { margin-left: 75% }
+		.\-8u { margin-left: 66.6666666667% }
+		.\-7u { margin-left: 58.3333333333% }
+		.\-6u { margin-left: 50% }
+		.\-5u { margin-left: 41.6666666667% }
+		.\-4u { margin-left: 33.3333333333% }
+		.\-3u { margin-left: 25% }
+		.\-2u { margin-left: 16.6666666667% }
+		.\-1u { margin-left: 8.3333333333% }
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("/assets/fontawesome-webfont.eot?v=4.2.0");
+  src: url("/assets/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("/assets/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("/assets/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("/assets/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 18, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 27, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+/* line 32, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 35, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 38, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 41, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 44, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+/* line 48, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+/* line 53, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 56, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+
+/* line 63, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+
+/* line 66, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+
+/* line 71, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.pull-right {
+  float: right;
+}
+
+/* line 74, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.pull-left {
+  float: left;
+}
+
+/* line 77, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa.pull-left {
+  margin-right: .3em;
+}
+
+/* line 80, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa.pull-right {
+  margin-left: .3em;
+}
+
+/* line 83, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+@-webkit-keyframes fa-spin {
+  /* line 88, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 92, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin {
+  /* line 98, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 102, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/* line 107, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 113, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 119, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 125, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 131, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 141, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+
+/* line 144, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 153, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 159, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 162, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 165, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-inverse {
+  color: #ffffff;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 170, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-glass:before {
+  content: "\f000";
+}
+
+/* line 173, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-music:before {
+  content: "\f001";
+}
+
+/* line 176, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-search:before {
+  content: "\f002";
+}
+
+/* line 179, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+/* line 182, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-heart:before {
+  content: "\f004";
+}
+
+/* line 185, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star:before {
+  content: "\f005";
+}
+
+/* line 188, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star-o:before {
+  content: "\f006";
+}
+
+/* line 191, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user:before {
+  content: "\f007";
+}
+
+/* line 194, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-film:before {
+  content: "\f008";
+}
+
+/* line 197, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-th-large:before {
+  content: "\f009";
+}
+
+/* line 200, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-th:before {
+  content: "\f00a";
+}
+
+/* line 203, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-th-list:before {
+  content: "\f00b";
+}
+
+/* line 206, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check:before {
+  content: "\f00c";
+}
+
+/* line 211, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "\f00d";
+}
+
+/* line 214, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-search-plus:before {
+  content: "\f00e";
+}
+
+/* line 217, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-search-minus:before {
+  content: "\f010";
+}
+
+/* line 220, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-power-off:before {
+  content: "\f011";
+}
+
+/* line 223, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-signal:before {
+  content: "\f012";
+}
+
+/* line 227, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gear:before,
+.fa-cog:before {
+  content: "\f013";
+}
+
+/* line 230, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trash-o:before {
+  content: "\f014";
+}
+
+/* line 233, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-home:before {
+  content: "\f015";
+}
+
+/* line 236, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-o:before {
+  content: "\f016";
+}
+
+/* line 239, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+/* line 242, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-road:before {
+  content: "\f018";
+}
+
+/* line 245, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-download:before {
+  content: "\f019";
+}
+
+/* line 248, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+
+/* line 251, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+
+/* line 254, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-inbox:before {
+  content: "\f01c";
+}
+
+/* line 257, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-play-circle-o:before {
+  content: "\f01d";
+}
+
+/* line 261, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: "\f01e";
+}
+
+/* line 264, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-refresh:before {
+  content: "\f021";
+}
+
+/* line 267, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list-alt:before {
+  content: "\f022";
+}
+
+/* line 270, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lock:before {
+  content: "\f023";
+}
+
+/* line 273, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flag:before {
+  content: "\f024";
+}
+
+/* line 276, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-headphones:before {
+  content: "\f025";
+}
+
+/* line 279, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-volume-off:before {
+  content: "\f026";
+}
+
+/* line 282, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-volume-down:before {
+  content: "\f027";
+}
+
+/* line 285, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-volume-up:before {
+  content: "\f028";
+}
+
+/* line 288, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-qrcode:before {
+  content: "\f029";
+}
+
+/* line 291, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-barcode:before {
+  content: "\f02a";
+}
+
+/* line 294, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tag:before {
+  content: "\f02b";
+}
+
+/* line 297, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tags:before {
+  content: "\f02c";
+}
+
+/* line 300, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-book:before {
+  content: "\f02d";
+}
+
+/* line 303, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 306, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-print:before {
+  content: "\f02f";
+}
+
+/* line 309, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-camera:before {
+  content: "\f030";
+}
+
+/* line 312, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-font:before {
+  content: "\f031";
+}
+
+/* line 315, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bold:before {
+  content: "\f032";
+}
+
+/* line 318, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-italic:before {
+  content: "\f033";
+}
+
+/* line 321, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-text-height:before {
+  content: "\f034";
+}
+
+/* line 324, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-text-width:before {
+  content: "\f035";
+}
+
+/* line 327, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-left:before {
+  content: "\f036";
+}
+
+/* line 330, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-center:before {
+  content: "\f037";
+}
+
+/* line 333, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-right:before {
+  content: "\f038";
+}
+
+/* line 336, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-justify:before {
+  content: "\f039";
+}
+
+/* line 339, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list:before {
+  content: "\f03a";
+}
+
+/* line 343, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dedent:before,
+.fa-outdent:before {
+  content: "\f03b";
+}
+
+/* line 346, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-indent:before {
+  content: "\f03c";
+}
+
+/* line 349, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-video-camera:before {
+  content: "\f03d";
+}
+
+/* line 354, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: "\f03e";
+}
+
+/* line 357, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pencil:before {
+  content: "\f040";
+}
+
+/* line 360, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map-marker:before {
+  content: "\f041";
+}
+
+/* line 363, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-adjust:before {
+  content: "\f042";
+}
+
+/* line 366, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tint:before {
+  content: "\f043";
+}
+
+/* line 370, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: "\f044";
+}
+
+/* line 373, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-square-o:before {
+  content: "\f045";
+}
+
+/* line 376, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-square-o:before {
+  content: "\f046";
+}
+
+/* line 379, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows:before {
+  content: "\f047";
+}
+
+/* line 382, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-step-backward:before {
+  content: "\f048";
+}
+
+/* line 385, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 388, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-backward:before {
+  content: "\f04a";
+}
+
+/* line 391, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-play:before {
+  content: "\f04b";
+}
+
+/* line 394, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pause:before {
+  content: "\f04c";
+}
+
+/* line 397, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stop:before {
+  content: "\f04d";
+}
+
+/* line 400, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-forward:before {
+  content: "\f04e";
+}
+
+/* line 403, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 406, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-step-forward:before {
+  content: "\f051";
+}
+
+/* line 409, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eject:before {
+  content: "\f052";
+}
+
+/* line 412, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 415, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 418, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus-circle:before {
+  content: "\f055";
+}
+
+/* line 421, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus-circle:before {
+  content: "\f056";
+}
+
+/* line 424, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-times-circle:before {
+  content: "\f057";
+}
+
+/* line 427, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-circle:before {
+  content: "\f058";
+}
+
+/* line 430, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-question-circle:before {
+  content: "\f059";
+}
+
+/* line 433, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-info-circle:before {
+  content: "\f05a";
+}
+
+/* line 436, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-crosshairs:before {
+  content: "\f05b";
+}
+
+/* line 439, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-times-circle-o:before {
+  content: "\f05c";
+}
+
+/* line 442, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+
+/* line 445, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ban:before {
+  content: "\f05e";
+}
+
+/* line 448, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 451, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 454, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 457, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 461, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mail-forward:before,
+.fa-share:before {
+  content: "\f064";
+}
+
+/* line 464, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-expand:before {
+  content: "\f065";
+}
+
+/* line 467, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-compress:before {
+  content: "\f066";
+}
+
+/* line 470, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus:before {
+  content: "\f067";
+}
+
+/* line 473, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus:before {
+  content: "\f068";
+}
+
+/* line 476, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-asterisk:before {
+  content: "\f069";
+}
+
+/* line 479, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+
+/* line 482, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gift:before {
+  content: "\f06b";
+}
+
+/* line 485, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-leaf:before {
+  content: "\f06c";
+}
+
+/* line 488, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fire:before {
+  content: "\f06d";
+}
+
+/* line 491, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eye:before {
+  content: "\f06e";
+}
+
+/* line 494, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eye-slash:before {
+  content: "\f070";
+}
+
+/* line 498, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: "\f071";
+}
+
+/* line 501, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plane:before {
+  content: "\f072";
+}
+
+/* line 504, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar:before {
+  content: "\f073";
+}
+
+/* line 507, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-random:before {
+  content: "\f074";
+}
+
+/* line 510, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comment:before {
+  content: "\f075";
+}
+
+/* line 513, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-magnet:before {
+  content: "\f076";
+}
+
+/* line 516, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 519, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 522, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-retweet:before {
+  content: "\f079";
+}
+
+/* line 525, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 528, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder:before {
+  content: "\f07b";
+}
+
+/* line 531, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 534, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows-v:before {
+  content: "\f07d";
+}
+
+/* line 537, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows-h:before {
+  content: "\f07e";
+}
+
+/* line 541, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 544, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
+/* line 547, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+/* line 550, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 553, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-key:before {
+  content: "\f084";
+}
+
+/* line 557, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gears:before,
+.fa-cogs:before {
+  content: "\f085";
+}
+
+/* line 560, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comments:before {
+  content: "\f086";
+}
+
+/* line 563, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-o-up:before {
+  content: "\f087";
+}
+
+/* line 566, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-o-down:before {
+  content: "\f088";
+}
+
+/* line 569, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star-half:before {
+  content: "\f089";
+}
+
+/* line 572, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-heart-o:before {
+  content: "\f08a";
+}
+
+/* line 575, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sign-out:before {
+  content: "\f08b";
+}
+
+/* line 578, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+
+/* line 581, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumb-tack:before {
+  content: "\f08d";
+}
+
+/* line 584, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-external-link:before {
+  content: "\f08e";
+}
+
+/* line 587, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sign-in:before {
+  content: "\f090";
+}
+
+/* line 590, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trophy:before {
+  content: "\f091";
+}
+
+/* line 593, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-github-square:before {
+  content: "\f092";
+}
+
+/* line 596, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-upload:before {
+  content: "\f093";
+}
+
+/* line 599, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lemon-o:before {
+  content: "\f094";
+}
+
+/* line 602, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-phone:before {
+  content: "\f095";
+}
+
+/* line 605, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-square-o:before {
+  content: "\f096";
+}
+
+/* line 608, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bookmark-o:before {
+  content: "\f097";
+}
+
+/* line 611, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-phone-square:before {
+  content: "\f098";
+}
+
+/* line 614, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-twitter:before {
+  content: "\f099";
+}
+
+/* line 617, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+/* line 620, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-github:before {
+  content: "\f09b";
+}
+
+/* line 623, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unlock:before {
+  content: "\f09c";
+}
+
+/* line 626, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 629, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rss:before {
+  content: "\f09e";
+}
+
+/* line 632, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hdd-o:before {
+  content: "\f0a0";
+}
+
+/* line 635, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 638, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell:before {
+  content: "\f0f3";
+}
+
+/* line 641, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 644, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-right:before {
+  content: "\f0a4";
+}
+
+/* line 647, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-left:before {
+  content: "\f0a5";
+}
+
+/* line 650, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-up:before {
+  content: "\f0a6";
+}
+
+/* line 653, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-down:before {
+  content: "\f0a7";
+}
+
+/* line 656, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+
+/* line 659, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+
+/* line 662, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+
+/* line 665, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+/* line 668, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-globe:before {
+  content: "\f0ac";
+}
+
+/* line 671, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 674, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 677, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-filter:before {
+  content: "\f0b0";
+}
+
+/* line 680, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 683, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows-alt:before {
+  content: "\f0b2";
+}
+
+/* line 687, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-group:before,
+.fa-users:before {
+  content: "\f0c0";
+}
+
+/* line 691, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chain:before,
+.fa-link:before {
+  content: "\f0c1";
+}
+
+/* line 694, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 697, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flask:before {
+  content: "\f0c3";
+}
+
+/* line 701, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cut:before,
+.fa-scissors:before {
+  content: "\f0c4";
+}
+
+/* line 705, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-copy:before,
+.fa-files-o:before {
+  content: "\f0c5";
+}
+
+/* line 708, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paperclip:before {
+  content: "\f0c6";
+}
+
+/* line 712, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-save:before,
+.fa-floppy-o:before {
+  content: "\f0c7";
+}
+
+/* line 715, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-square:before {
+  content: "\f0c8";
+}
+
+/* line 720, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "\f0c9";
+}
+
+/* line 723, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 726, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 729, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 732, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-underline:before {
+  content: "\f0cd";
+}
+
+/* line 735, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-table:before {
+  content: "\f0ce";
+}
+
+/* line 738, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-magic:before {
+  content: "\f0d0";
+}
+
+/* line 741, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-truck:before {
+  content: "\f0d1";
+}
+
+/* line 744, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 747, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pinterest-square:before {
+  content: "\f0d3";
+}
+
+/* line 750, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+
+/* line 753, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 756, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-money:before {
+  content: "\f0d6";
+}
+
+/* line 759, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 762, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 765, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 768, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 771, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-columns:before {
+  content: "\f0db";
+}
+
+/* line 775, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unsorted:before,
+.fa-sort:before {
+  content: "\f0dc";
+}
+
+/* line 779, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: "\f0dd";
+}
+
+/* line 783, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: "\f0de";
+}
+
+/* line 786, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 789, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 793, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: "\f0e2";
+}
+
+/* line 797, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-legal:before,
+.fa-gavel:before {
+  content: "\f0e3";
+}
+
+/* line 801, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: "\f0e4";
+}
+
+/* line 804, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comment-o:before {
+  content: "\f0e5";
+}
+
+/* line 807, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comments-o:before {
+  content: "\f0e6";
+}
+
+/* line 811, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flash:before,
+.fa-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 814, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 817, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 821, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paste:before,
+.fa-clipboard:before {
+  content: "\f0ea";
+}
+
+/* line 824, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lightbulb-o:before {
+  content: "\f0eb";
+}
+
+/* line 827, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 830, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 833, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 836, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 839, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 842, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 845, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell-o:before {
+  content: "\f0a2";
+}
+
+/* line 848, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 851, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cutlery:before {
+  content: "\f0f5";
+}
+
+/* line 854, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-text-o:before {
+  content: "\f0f6";
+}
+
+/* line 857, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-building-o:before {
+  content: "\f0f7";
+}
+
+/* line 860, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hospital-o:before {
+  content: "\f0f8";
+}
+
+/* line 863, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 866, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 869, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 872, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-beer:before {
+  content: "\f0fc";
+}
+
+/* line 875, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-h-square:before {
+  content: "\f0fd";
+}
+
+/* line 878, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus-square:before {
+  content: "\f0fe";
+}
+
+/* line 881, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+
+/* line 884, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+
+/* line 887, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+
+/* line 890, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+
+/* line 893, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-left:before {
+  content: "\f104";
+}
+
+/* line 896, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-right:before {
+  content: "\f105";
+}
+
+/* line 899, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-up:before {
+  content: "\f106";
+}
+
+/* line 902, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-down:before {
+  content: "\f107";
+}
+
+/* line 905, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-desktop:before {
+  content: "\f108";
+}
+
+/* line 908, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-laptop:before {
+  content: "\f109";
+}
+
+/* line 911, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tablet:before {
+  content: "\f10a";
+}
+
+/* line 915, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: "\f10b";
+}
+
+/* line 918, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle-o:before {
+  content: "\f10c";
+}
+
+/* line 921, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 924, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 927, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spinner:before {
+  content: "\f110";
+}
+
+/* line 930, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle:before {
+  content: "\f111";
+}
+
+/* line 934, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: "\f112";
+}
+
+/* line 937, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-github-alt:before {
+  content: "\f113";
+}
+
+/* line 940, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder-o:before {
+  content: "\f114";
+}
+
+/* line 943, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder-open-o:before {
+  content: "\f115";
+}
+
+/* line 946, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-smile-o:before {
+  content: "\f118";
+}
+
+/* line 949, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-frown-o:before {
+  content: "\f119";
+}
+
+/* line 952, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-meh-o:before {
+  content: "\f11a";
+}
+
+/* line 955, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gamepad:before {
+  content: "\f11b";
+}
+
+/* line 958, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-keyboard-o:before {
+  content: "\f11c";
+}
+
+/* line 961, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flag-o:before {
+  content: "\f11d";
+}
+
+/* line 964, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flag-checkered:before {
+  content: "\f11e";
+}
+
+/* line 967, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-terminal:before {
+  content: "\f120";
+}
+
+/* line 970, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-code:before {
+  content: "\f121";
+}
+
+/* line 974, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: "\f122";
+}
+
+/* line 979, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: "\f123";
+}
+
+/* line 982, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-location-arrow:before {
+  content: "\f124";
+}
+
+/* line 985, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-crop:before {
+  content: "\f125";
+}
+
+/* line 988, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-code-fork:before {
+  content: "\f126";
+}
+
+/* line 992, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: "\f127";
+}
+
+/* line 995, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-question:before {
+  content: "\f128";
+}
+
+/* line 998, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-info:before {
+  content: "\f129";
+}
+
+/* line 1001, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-exclamation:before {
+  content: "\f12a";
+}
+
+/* line 1004, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-superscript:before {
+  content: "\f12b";
+}
+
+/* line 1007, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-subscript:before {
+  content: "\f12c";
+}
+
+/* line 1010, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eraser:before {
+  content: "\f12d";
+}
+
+/* line 1013, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+
+/* line 1016, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-microphone:before {
+  content: "\f130";
+}
+
+/* line 1019, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-microphone-slash:before {
+  content: "\f131";
+}
+
+/* line 1022, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shield:before {
+  content: "\f132";
+}
+
+/* line 1025, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-o:before {
+  content: "\f133";
+}
+
+/* line 1028, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fire-extinguisher:before {
+  content: "\f134";
+}
+
+/* line 1031, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rocket:before {
+  content: "\f135";
+}
+
+/* line 1034, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-maxcdn:before {
+  content: "\f136";
+}
+
+/* line 1037, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+
+/* line 1040, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-right:before {
+  content: "\f138";
+}
+
+/* line 1043, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-up:before {
+  content: "\f139";
+}
+
+/* line 1046, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+/* line 1049, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-html5:before {
+  content: "\f13b";
+}
+
+/* line 1052, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-css3:before {
+  content: "\f13c";
+}
+
+/* line 1055, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-anchor:before {
+  content: "\f13d";
+}
+
+/* line 1058, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 1061, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bullseye:before {
+  content: "\f140";
+}
+
+/* line 1064, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ellipsis-h:before {
+  content: "\f141";
+}
+
+/* line 1067, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ellipsis-v:before {
+  content: "\f142";
+}
+
+/* line 1070, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rss-square:before {
+  content: "\f143";
+}
+
+/* line 1073, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-play-circle:before {
+  content: "\f144";
+}
+
+/* line 1076, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ticket:before {
+  content: "\f145";
+}
+
+/* line 1079, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus-square:before {
+  content: "\f146";
+}
+
+/* line 1082, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus-square-o:before {
+  content: "\f147";
+}
+
+/* line 1085, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-level-up:before {
+  content: "\f148";
+}
+
+/* line 1088, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-level-down:before {
+  content: "\f149";
+}
+
+/* line 1091, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-square:before {
+  content: "\f14a";
+}
+
+/* line 1094, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pencil-square:before {
+  content: "\f14b";
+}
+
+/* line 1097, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-external-link-square:before {
+  content: "\f14c";
+}
+
+/* line 1100, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-square:before {
+  content: "\f14d";
+}
+
+/* line 1103, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-compass:before {
+  content: "\f14e";
+}
+
+/* line 1107, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: "\f150";
+}
+
+/* line 1111, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: "\f151";
+}
+
+/* line 1115, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: "\f152";
+}
+
+/* line 1119, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-euro:before,
+.fa-eur:before {
+  content: "\f153";
+}
+
+/* line 1122, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gbp:before {
+  content: "\f154";
+}
+
+/* line 1126, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dollar:before,
+.fa-usd:before {
+  content: "\f155";
+}
+
+/* line 1130, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rupee:before,
+.fa-inr:before {
+  content: "\f156";
+}
+
+/* line 1136, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: "\f157";
+}
+
+/* line 1141, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: "\f158";
+}
+
+/* line 1145, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-won:before,
+.fa-krw:before {
+  content: "\f159";
+}
+
+/* line 1149, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: "\f15a";
+}
+
+/* line 1152, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file:before {
+  content: "\f15b";
+}
+
+/* line 1155, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-text:before {
+  content: "\f15c";
+}
+
+/* line 1158, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-alpha-asc:before {
+  content: "\f15d";
+}
+
+/* line 1161, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-alpha-desc:before {
+  content: "\f15e";
+}
+
+/* line 1164, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-amount-asc:before {
+  content: "\f160";
+}
+
+/* line 1167, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-amount-desc:before {
+  content: "\f161";
+}
+
+/* line 1170, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-numeric-asc:before {
+  content: "\f162";
+}
+
+/* line 1173, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-numeric-desc:before {
+  content: "\f163";
+}
+
+/* line 1176, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-up:before {
+  content: "\f164";
+}
+
+/* line 1179, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+
+/* line 1182, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-youtube-square:before {
+  content: "\f166";
+}
+
+/* line 1185, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-youtube:before {
+  content: "\f167";
+}
+
+/* line 1188, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-xing:before {
+  content: "\f168";
+}
+
+/* line 1191, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-xing-square:before {
+  content: "\f169";
+}
+
+/* line 1194, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-youtube-play:before {
+  content: "\f16a";
+}
+
+/* line 1197, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dropbox:before {
+  content: "\f16b";
+}
+
+/* line 1200, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+
+/* line 1203, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+/* line 1206, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flickr:before {
+  content: "\f16e";
+}
+
+/* line 1209, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-adn:before {
+  content: "\f170";
+}
+
+/* line 1212, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bitbucket:before {
+  content: "\f171";
+}
+
+/* line 1215, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bitbucket-square:before {
+  content: "\f172";
+}
+
+/* line 1218, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tumblr:before {
+  content: "\f173";
+}
+
+/* line 1221, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tumblr-square:before {
+  content: "\f174";
+}
+
+/* line 1224, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+
+/* line 1227, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-up:before {
+  content: "\f176";
+}
+
+/* line 1230, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-left:before {
+  content: "\f177";
+}
+
+/* line 1233, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-right:before {
+  content: "\f178";
+}
+
+/* line 1236, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-apple:before {
+  content: "\f179";
+}
+
+/* line 1239, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-windows:before {
+  content: "\f17a";
+}
+
+/* line 1242, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-android:before {
+  content: "\f17b";
+}
+
+/* line 1245, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-linux:before {
+  content: "\f17c";
+}
+
+/* line 1248, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 1251, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-skype:before {
+  content: "\f17e";
+}
+
+/* line 1254, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-foursquare:before {
+  content: "\f180";
+}
+
+/* line 1257, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trello:before {
+  content: "\f181";
+}
+
+/* line 1260, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-female:before {
+  content: "\f182";
+}
+
+/* line 1263, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-male:before {
+  content: "\f183";
+}
+
+/* line 1266, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gittip:before {
+  content: "\f184";
+}
+
+/* line 1269, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sun-o:before {
+  content: "\f185";
+}
+
+/* line 1272, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-moon-o:before {
+  content: "\f186";
+}
+
+/* line 1275, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-archive:before {
+  content: "\f187";
+}
+
+/* line 1278, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bug:before {
+  content: "\f188";
+}
+
+/* line 1281, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vk:before {
+  content: "\f189";
+}
+
+/* line 1284, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-weibo:before {
+  content: "\f18a";
+}
+
+/* line 1287, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-renren:before {
+  content: "\f18b";
+}
+
+/* line 1290, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pagelines:before {
+  content: "\f18c";
+}
+
+/* line 1293, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-exchange:before {
+  content: "\f18d";
+}
+
+/* line 1296, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+
+/* line 1299, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-left:before {
+  content: "\f190";
+}
+
+/* line 1303, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: "\f191";
+}
+
+/* line 1306, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dot-circle-o:before {
+  content: "\f192";
+}
+
+/* line 1309, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wheelchair:before {
+  content: "\f193";
+}
+
+/* line 1312, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vimeo-square:before {
+  content: "\f194";
+}
+
+/* line 1316, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: "\f195";
+}
+
+/* line 1319, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus-square-o:before {
+  content: "\f196";
+}
+
+/* line 1322, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-space-shuttle:before {
+  content: "\f197";
+}
+
+/* line 1325, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-slack:before {
+  content: "\f198";
+}
+
+/* line 1328, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-envelope-square:before {
+  content: "\f199";
+}
+
+/* line 1331, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wordpress:before {
+  content: "\f19a";
+}
+
+/* line 1334, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-openid:before {
+  content: "\f19b";
+}
+
+/* line 1339, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: "\f19c";
+}
+
+/* line 1343, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+/* line 1346, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-yahoo:before {
+  content: "\f19e";
+}
+
+/* line 1349, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google:before {
+  content: "\f1a0";
+}
+
+/* line 1352, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-reddit:before {
+  content: "\f1a1";
+}
+
+/* line 1355, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-reddit-square:before {
+  content: "\f1a2";
+}
+
+/* line 1358, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+
+/* line 1361, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stumbleupon:before {
+  content: "\f1a4";
+}
+
+/* line 1364, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-delicious:before {
+  content: "\f1a5";
+}
+
+/* line 1367, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-digg:before {
+  content: "\f1a6";
+}
+
+/* line 1370, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pied-piper:before {
+  content: "\f1a7";
+}
+
+/* line 1373, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
+
+/* line 1376, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-drupal:before {
+  content: "\f1a9";
+}
+
+/* line 1379, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-joomla:before {
+  content: "\f1aa";
+}
+
+/* line 1382, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-language:before {
+  content: "\f1ab";
+}
+
+/* line 1385, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fax:before {
+  content: "\f1ac";
+}
+
+/* line 1388, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-building:before {
+  content: "\f1ad";
+}
+
+/* line 1391, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-child:before {
+  content: "\f1ae";
+}
+
+/* line 1394, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paw:before {
+  content: "\f1b0";
+}
+
+/* line 1397, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spoon:before {
+  content: "\f1b1";
+}
+
+/* line 1400, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cube:before {
+  content: "\f1b2";
+}
+
+/* line 1403, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cubes:before {
+  content: "\f1b3";
+}
+
+/* line 1406, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-behance:before {
+  content: "\f1b4";
+}
+
+/* line 1409, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-behance-square:before {
+  content: "\f1b5";
+}
+
+/* line 1412, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-steam:before {
+  content: "\f1b6";
+}
+
+/* line 1415, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-steam-square:before {
+  content: "\f1b7";
+}
+
+/* line 1418, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-recycle:before {
+  content: "\f1b8";
+}
+
+/* line 1422, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-automobile:before,
+.fa-car:before {
+  content: "\f1b9";
+}
+
+/* line 1426, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cab:before,
+.fa-taxi:before {
+  content: "\f1ba";
+}
+
+/* line 1429, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tree:before {
+  content: "\f1bb";
+}
+
+/* line 1432, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spotify:before {
+  content: "\f1bc";
+}
+
+/* line 1435, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-deviantart:before {
+  content: "\f1bd";
+}
+
+/* line 1438, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-soundcloud:before {
+  content: "\f1be";
+}
+
+/* line 1441, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-database:before {
+  content: "\f1c0";
+}
+
+/* line 1444, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-pdf-o:before {
+  content: "\f1c1";
+}
+
+/* line 1447, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-word-o:before {
+  content: "\f1c2";
+}
+
+/* line 1450, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-excel-o:before {
+  content: "\f1c3";
+}
+
+/* line 1453, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+
+/* line 1458, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: "\f1c5";
+}
+
+/* line 1462, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: "\f1c6";
+}
+
+/* line 1466, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: "\f1c7";
+}
+
+/* line 1470, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: "\f1c8";
+}
+
+/* line 1473, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-code-o:before {
+  content: "\f1c9";
+}
+
+/* line 1476, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vine:before {
+  content: "\f1ca";
+}
+
+/* line 1479, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-codepen:before {
+  content: "\f1cb";
+}
+
+/* line 1482, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-jsfiddle:before {
+  content: "\f1cc";
+}
+
+/* line 1489, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: "\f1cd";
+}
+
+/* line 1492, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle-o-notch:before {
+  content: "\f1ce";
+}
+
+/* line 1496, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ra:before,
+.fa-rebel:before {
+  content: "\f1d0";
+}
+
+/* line 1500, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ge:before,
+.fa-empire:before {
+  content: "\f1d1";
+}
+
+/* line 1503, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-git-square:before {
+  content: "\f1d2";
+}
+
+/* line 1506, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-git:before {
+  content: "\f1d3";
+}
+
+/* line 1509, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hacker-news:before {
+  content: "\f1d4";
+}
+
+/* line 1512, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+
+/* line 1515, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-qq:before {
+  content: "\f1d6";
+}
+
+/* line 1519, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "\f1d7";
+}
+
+/* line 1523, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "\f1d8";
+}
+
+/* line 1527, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: "\f1d9";
+}
+
+/* line 1530, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-history:before {
+  content: "\f1da";
+}
+
+/* line 1533, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle-thin:before {
+  content: "\f1db";
+}
+
+/* line 1536, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-header:before {
+  content: "\f1dc";
+}
+
+/* line 1539, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paragraph:before {
+  content: "\f1dd";
+}
+
+/* line 1542, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sliders:before {
+  content: "\f1de";
+}
+
+/* line 1545, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-alt:before {
+  content: "\f1e0";
+}
+
+/* line 1548, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-alt-square:before {
+  content: "\f1e1";
+}
+
+/* line 1551, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bomb:before {
+  content: "\f1e2";
+}
+
+/* line 1555, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: "\f1e3";
+}
+
+/* line 1558, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tty:before {
+  content: "\f1e4";
+}
+
+/* line 1561, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-binoculars:before {
+  content: "\f1e5";
+}
+
+/* line 1564, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plug:before {
+  content: "\f1e6";
+}
+
+/* line 1567, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-slideshare:before {
+  content: "\f1e7";
+}
+
+/* line 1570, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-twitch:before {
+  content: "\f1e8";
+}
+
+/* line 1573, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-yelp:before {
+  content: "\f1e9";
+}
+
+/* line 1576, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-newspaper-o:before {
+  content: "\f1ea";
+}
+
+/* line 1579, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wifi:before {
+  content: "\f1eb";
+}
+
+/* line 1582, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calculator:before {
+  content: "\f1ec";
+}
+
+/* line 1585, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paypal:before {
+  content: "\f1ed";
+}
+
+/* line 1588, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google-wallet:before {
+  content: "\f1ee";
+}
+
+/* line 1591, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-visa:before {
+  content: "\f1f0";
+}
+
+/* line 1594, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+
+/* line 1597, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-discover:before {
+  content: "\f1f2";
+}
+
+/* line 1600, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-amex:before {
+  content: "\f1f3";
+}
+
+/* line 1603, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-paypal:before {
+  content: "\f1f4";
+}
+
+/* line 1606, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-stripe:before {
+  content: "\f1f5";
+}
+
+/* line 1609, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell-slash:before {
+  content: "\f1f6";
+}
+
+/* line 1612, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell-slash-o:before {
+  content: "\f1f7";
+}
+
+/* line 1615, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trash:before {
+  content: "\f1f8";
+}
+
+/* line 1618, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-copyright:before {
+  content: "\f1f9";
+}
+
+/* line 1621, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-at:before {
+  content: "\f1fa";
+}
+
+/* line 1624, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eyedropper:before {
+  content: "\f1fb";
+}
+
+/* line 1627, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
+
+/* line 1630, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-birthday-cake:before {
+  content: "\f1fd";
+}
+
+/* line 1633, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-area-chart:before {
+  content: "\f1fe";
+}
+
+/* line 1636, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pie-chart:before {
+  content: "\f200";
+}
+
+/* line 1639, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-line-chart:before {
+  content: "\f201";
+}
+
+/* line 1642, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lastfm:before {
+  content: "\f202";
+}
+
+/* line 1645, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lastfm-square:before {
+  content: "\f203";
+}
+
+/* line 1648, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-off:before {
+  content: "\f204";
+}
+
+/* line 1651, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-on:before {
+  content: "\f205";
+}
+
+/* line 1654, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bicycle:before {
+  content: "\f206";
+}
+
+/* line 1657, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bus:before {
+  content: "\f207";
+}
+
+/* line 1660, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ioxhost:before {
+  content: "\f208";
+}
+
+/* line 1663, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angellist:before {
+  content: "\f209";
+}
+
+/* line 1666, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc:before {
+  content: "\f20a";
+}
+
+/* line 1671, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "\f20b";
+}
+
+/* line 1674, /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/font-awesome-rails-4.2.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-meanpath:before {
+  content: "\f20c";
+}
+
+/*
+	Alpha by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+/* Basic */
+/* line 13, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+body {
+  background: #f5f5f5;
+}
+
+/* line 17, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+body, input, select, textarea {
+  color: #777;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 1.65em;
+  letter-spacing: -0.015em;
+}
+
+/* line 26, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+a {
+  -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  color: #82a8e0;
+  text-decoration: none;
+}
+
+/* line 37, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+a:hover {
+  border-bottom-color: transparent;
+}
+
+/* line 41, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+strong, b {
+  color: #646464;
+  font-weight: 400;
+}
+
+/* line 46, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+em, i {
+  font-style: italic;
+}
+
+/* line 50, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+p {
+  margin: 0 0 2em 0;
+}
+
+/* line 54, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #646464;
+  font-weight: 300;
+  line-height: 1em;
+  margin: 0 0 0.5em 0;
+}
+
+/* line 61, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 66, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+h2 {
+  font-size: 2.25em;
+  line-height: 1.5em;
+  letter-spacing: -0.035em;
+}
+
+/* line 72, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+h3 {
+  font-size: 1.75em;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+}
+
+/* line 78, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+h4 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  letter-spacing: 0;
+}
+
+/* line 84, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+h5 {
+  font-size: 0.9em;
+  line-height: 1.5em;
+  letter-spacing: 0;
+}
+
+/* line 90, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+h6 {
+  font-size: 0.7em;
+  line-height: 1.5em;
+  letter-spacing: 0;
+}
+
+/* line 96, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em;
+}
+
+/* line 102, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em;
+}
+
+/* line 108, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+hr {
+  border: 0;
+  border-bottom: solid 2px #e5e5e5;
+  margin: 2em 0;
+}
+
+/* line 114, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+hr.major {
+  margin: 3em 0;
+}
+
+/* line 118, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+blockquote {
+  border-left: solid 4px #e5e5e5;
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 2em;
+}
+
+/* line 125, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+pre {
+  -webkit-overflow-scrolling: touch;
+  background: #f8f8f8;
+  border-radius: 6px;
+  border: solid 1px #e5e5e5;
+  font-family: monospace;
+  font-size: 0.9em;
+  line-height: 1.75em;
+  margin: 0 0 2em 0;
+  overflow-x: auto;
+  padding: 1em 1.5em;
+}
+
+/* line 138, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+code {
+  background: #f8f8f8;
+  border-radius: 6px;
+  border: solid 1px #e5e5e5;
+  font-family: monospace;
+  font-size: 0.9em;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em;
+}
+
+/* line 148, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.align-left {
+  text-align: left;
+}
+
+/* line 152, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.align-center {
+  text-align: center;
+}
+
+/* line 156, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.align-right {
+  text-align: right;
+}
+
+/* Section/Article */
+/* line 162, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+section.special, article.special {
+  text-align: center;
+}
+
+/* line 166, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+header p {
+  color: #999;
+  position: relative;
+  margin: 0 0 1.5em 0;
+  font-style: italic;
+}
+
+/* line 173, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+header h2 + p {
+  font-size: 1.25em;
+  margin-top: -1em;
+  line-height: 1.5em;
+}
+
+/* line 179, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+header h3 + p {
+  font-size: 1.1em;
+  margin-top: -0.85em;
+  line-height: 1.5em;
+}
+
+/* line 187, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+header h4 + p,
+header h5 + p,
+header h6 + p {
+  font-size: 0.8em;
+  margin-top: -0.5em;
+  line-height: 1.5em;
+}
+
+/* line 193, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+header.major {
+  padding: 1em 0;
+  text-align: center;
+}
+
+/* line 198, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+header.major h2 {
+  margin: 0;
+}
+
+/* line 202, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+header.major p {
+  display: inline-block;
+  border-top: solid 2px #e5e5e5;
+  color: #777;
+  margin: 1.5em 0 0 0;
+  padding: 1.5em 0 0 0;
+  font-style: normal;
+}
+
+/* Form */
+/* line 213, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+form {
+  margin: 0 0 2em 0;
+}
+
+/* line 217, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+label {
+  color: #646464;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 0 0 1em 0;
+}
+
+/* line 225, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+label.error {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 5px #555;
+}
+
+/* line 230, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+label.white_label {
+  color: #ffffff !important;
+}
+
+/* line 234, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+a.white_label {
+  color: #ffffff !important;
+}
+
+/* line 242, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: #f8f8f8;
+  border-radius: 6px;
+  border: solid 1px #e5e5e5;
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* line 263, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="text"]:invalid,
+input[type="password"]:invalid,
+input[type="email"]:invalid,
+select:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+/* line 271, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #82a8e0;
+  box-shadow: 0 0 0 2px #82a8e0;
+}
+
+/* line 276, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.select-wrapper {
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+/* line 282, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.select-wrapper:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 291, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.select-wrapper:before {
+  color: #e5e5e5;
+  content: '\f078';
+  display: block;
+  height: 3em;
+  line-height: 3em;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 3em;
+}
+
+/* line 305, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.select-wrapper select::-ms-expand {
+  display: none;
+}
+
+/* line 312, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  height: 3em;
+}
+
+/* line 316, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+textarea {
+  padding: 0.75em 1em;
+}
+
+/* line 321, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: block;
+  float: left;
+  margin-right: -2em;
+  opacity: 0;
+  width: 1em;
+  z-index: -1;
+}
+
+/* line 336, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  text-decoration: none;
+  color: #777;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 300;
+  padding-left: 2.55em;
+  padding-right: 0.75em;
+  position: relative;
+}
+
+/* line 349, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 359, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  background: #f8f8f8;
+  border-radius: 6px;
+  border: solid 1px #e5e5e5;
+  content: '';
+  display: inline-block;
+  height: 1.8em;
+  left: 0;
+  line-height: 1.725em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1.8em;
+}
+
+/* line 375, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"]:checked + label:before,
+input[type="radio"]:checked + label:before {
+  background: #666;
+  border-color: #666;
+  color: #ffffff;
+  content: '\f00c';
+}
+
+/* line 383, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"]:focus + label:before,
+input[type="radio"]:focus + label:before {
+  border-color: #82a8e0;
+  box-shadow: 0 0 0 1px #82a8e0;
+}
+
+/* line 388, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"] + label:before {
+  border-radius: 6px;
+}
+
+/* line 392, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="radio"] + label:before {
+  border-radius: 100%;
+}
+
+/* line 396, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+::-webkit-input-placeholder {
+  color: #999 !important;
+  opacity: 1.0;
+}
+
+/* line 401, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+:-moz-placeholder {
+  color: #999 !important;
+  opacity: 1.0;
+}
+
+/* line 406, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+::-moz-placeholder {
+  color: #999 !important;
+  opacity: 1.0;
+}
+
+/* line 411, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+:-ms-input-placeholder {
+  color: #999 !important;
+  opacity: 1.0;
+}
+
+/* line 416, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.formerize-placeholder {
+  color: #999 !important;
+  opacity: 1.0;
+}
+
+/* Box */
+/* line 423, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #e5e5e5;
+  margin: 0 0 2em 0;
+  padding: 3em;
+}
+
+/* line 431, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 435, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.alt {
+  background: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin: 0 0 2em 0;
+  padding: 0 !important;
+}
+
+/* line 443, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row {
+  border-top: solid 2px #e5e5e5;
+  position: relative;
+}
+
+/* line 448, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+/* line 454, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row section {
+  float: left;
+  padding: 3em;
+  width: 50%;
+}
+
+/* line 460, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row section :last-child {
+  margin-bottom: 0;
+}
+
+/* line 464, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row section:nth-child(2n) {
+  padding-right: 0;
+}
+
+/* line 468, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row section:nth-child(2n):before {
+  background: #e5e5e5;
+  content: '';
+  display: block;
+  height: 100%;
+  margin-left: -3em;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+/* line 479, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row section:nth-child(2n-1) {
+  padding-left: 0;
+}
+
+/* line 483, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row:first-child {
+  border-top: 0;
+}
+
+/* line 487, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row:first-child section {
+  padding-top: 0;
+}
+
+/* line 491, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row:last-child {
+  padding-bottom: 0;
+}
+
+/* line 495, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.features .features-row:last-child section {
+  padding-bottom: 0;
+}
+
+/* line 499, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box.special {
+  text-align: center;
+}
+
+/* line 503, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box .image.featured {
+  border-radius: 0;
+  display: block;
+  margin: 3em 0 3em -3em;
+  position: relative;
+  width: calc(100% + 6em);
+}
+
+/* line 511, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box .image.featured img {
+  border-radius: 0;
+  display: block;
+  width: 100%;
+}
+
+/* line 517, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box .image.featured:first-child {
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 3em;
+  margin-top: -3em;
+}
+
+/* line 523, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box .image.featured:first-child img {
+  border-radius: 6px 6px 0 0;
+}
+
+/* line 527, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box .image.featured:last-child {
+  border-radius: 0 0 6px 6px;
+  margin-bottom: -3em;
+  margin-top: 3em;
+}
+
+/* line 533, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.box .image.featured:last-child img {
+  border-radius: 0 0 6px 6px;
+}
+
+/* Icon */
+/* line 539, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+}
+
+/* line 545, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 554, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon > .label {
+  display: none;
+}
+
+/* line 558, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon.checked {
+  margin-left: 20px;
+  font-size: 25px;
+  color: #82A8E0;
+}
+
+/* line 564, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon.major {
+  background: #666;
+  border-radius: 100%;
+  color: #ffffff;
+  cursor: default;
+  display: inline-block;
+  height: 5.5em;
+  line-height: 5.5em;
+  margin: 0 0 2em 0;
+  width: 5.5em;
+}
+
+/* line 576, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon.major:before {
+  font-size: 2.5em;
+}
+
+/* line 580, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon.major.accent1 {
+  background: #666;
+  color: #ffffff;
+}
+
+/* line 585, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon.major.accent2 {
+  background: #82a8e0;
+  color: #ffffff;
+}
+
+/* line 590, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon.major.accent3 {
+  background: #91d4b0;
+  color: #ffffff;
+}
+
+/* line 595, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon.major.accent4 {
+  background: #e88792;
+  color: #ffffff;
+}
+
+/* line 600, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.icon.major.accent5 {
+  background: #e695b9;
+  color: #ffffff;
+}
+
+/* Image */
+/* line 607, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.image {
+  border-radius: 6px;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 614, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.image img {
+  border-radius: 6px;
+  display: block;
+}
+
+/* line 619, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.image.left {
+  float: left;
+  padding: 0 1.5em 1em 0;
+  top: 0.25em;
+}
+
+/* line 625, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.image.right {
+  float: right;
+  padding: 0 0 1em 1.5em;
+  top: 0.25em;
+}
+
+/* line 631, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.image.fit {
+  display: block;
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+/* line 637, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.image.fit img {
+  display: block;
+  width: 100%;
+}
+
+/* List */
+/* line 644, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ol {
+  list-style: decimal;
+  margin: 0 0 2em 0;
+  padding-left: 1.25em;
+}
+
+/* line 650, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ol li {
+  padding-left: 0.25em;
+}
+
+/* line 654, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul {
+  list-style: disc;
+  margin: 0 0 2em 0;
+  padding-left: 1em;
+}
+
+/* line 660, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul li {
+  padding-left: 0.5em;
+}
+
+/* line 664, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.alt {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 669, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.alt li {
+  border-top: solid 1px #e5e5e5;
+  padding: 0.5em 0;
+}
+
+/* line 674, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.alt li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+/* line 679, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 685, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.icons li {
+  display: inline-block;
+  padding: 0 1.25em 0 0;
+}
+
+/* line 690, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.icons li:last-child {
+  padding-right: 0;
+}
+
+/* line 694, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.icons li .icon {
+  color: inherit;
+}
+
+/* line 698, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.icons li .icon:before {
+  font-size: 1.75em;
+}
+
+/* line 702, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 708, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+  vertical-align: middle;
+}
+
+/* line 714, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions li:last-child {
+  padding-right: 0;
+}
+
+/* line 718, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.small li {
+  padding: 0 0.5em 0 0;
+}
+
+/* line 722, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.vertical li {
+  display: block;
+  padding: 1em 0 0 0;
+}
+
+/* line 727, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.vertical li:first-child {
+  padding-top: 0;
+}
+
+/* line 731, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.vertical li > * {
+  margin-bottom: 0;
+}
+
+/* line 735, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.vertical.small li {
+  padding: 0.5em 0 0 0;
+}
+
+/* line 739, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.vertical.small li:first-child {
+  padding-top: 0;
+}
+
+/* line 743, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.fit {
+  display: table;
+  margin-left: -1em;
+  padding: 0;
+  table-layout: fixed;
+  width: calc(100% + 1em);
+}
+
+/* line 751, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.fit li {
+  display: table-cell;
+  padding: 0 0 0 1em;
+}
+
+/* line 756, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.fit li > * {
+  margin-bottom: 0;
+}
+
+/* line 760, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.fit.small {
+  margin-left: -0.5em;
+  width: calc(100% + 0.5em);
+}
+
+/* line 765, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+ul.actions.fit.small li {
+  padding: 0 0 0 0.5em;
+}
+
+/* line 769, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+dl {
+  margin: 0 0 2em 0;
+}
+
+/* Table */
+/* line 775, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.table-wrapper {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+/* line 780, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table {
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+/* line 785, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table tbody tr {
+  border: solid 1px #e5e5e5;
+  border-left: 0;
+  border-right: 0;
+}
+
+/* line 791, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table tbody tr:nth-child(2n + 1) {
+  background-color: #f8f8f8;
+}
+
+/* line 795, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table td {
+  padding: 0.75em 0.75em;
+}
+
+/* line 799, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table th {
+  color: #646464;
+  font-size: 0.9em;
+  font-weight: 300;
+  padding: 0 0.75em 0.75em 0.75em;
+  text-align: left;
+}
+
+/* line 807, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table thead {
+  border-bottom: solid 2px #e5e5e5;
+}
+
+/* line 811, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table tfoot {
+  border-top: solid 2px #e5e5e5;
+}
+
+/* line 815, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table.alt {
+  border-collapse: separate;
+}
+
+/* line 819, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table.alt tbody tr td {
+  border: solid 1px #e5e5e5;
+  border-left-width: 0;
+  border-top-width: 0;
+}
+
+/* line 825, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table.alt tbody tr td:first-child {
+  border-left-width: 1px;
+}
+
+/* line 829, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table.alt tbody tr:first-child td {
+  border-top-width: 1px;
+}
+
+/* line 833, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table.alt thead {
+  border-bottom: 0;
+}
+
+/* line 837, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+table.alt tfoot {
+  border-top: 0;
+}
+
+/* Button */
+/* line 846, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  background-color: #666;
+  border-radius: 6px;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  height: 3em;
+  line-height: 3em;
+  padding: 0 2em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* line 875, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:hover {
+  background-color: #737373;
+}
+
+/* line 882, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+.button:active {
+  background-color: #595959;
+}
+
+/* line 889, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].icon,
+input[type="reset"].icon,
+input[type="button"].icon,
+.button.icon {
+  padding-left: 1.35em;
+}
+
+/* line 896, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].icon:before,
+input[type="reset"].icon:before,
+input[type="button"].icon:before,
+.button.icon:before {
+  margin-right: 0.5em;
+}
+
+/* line 903, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].fit,
+input[type="reset"].fit,
+input[type="button"].fit,
+.button.fit {
+  display: block;
+  margin: 0 0 1em 0;
+  width: 100%;
+}
+
+/* line 912, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].small,
+input[type="reset"].small,
+input[type="button"].small,
+.button.small {
+  font-size: 0.8em;
+  height: 2.7em;
+  line-height: 2.7em;
+}
+
+/* line 921, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].big,
+input[type="reset"].big,
+input[type="button"].big,
+.button.big {
+  font-size: 1.25em;
+  height: 2.7em;
+  line-height: 2.7em;
+}
+
+/* line 930, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].alt,
+input[type="reset"].alt,
+input[type="button"].alt,
+.button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px #e5e5e5;
+  color: #777;
+}
+
+/* line 939, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].alt:hover,
+input[type="reset"].alt:hover,
+input[type="button"].alt:hover,
+.button.alt:hover {
+  background-color: #f8f8f8;
+}
+
+/* line 946, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].alt:active,
+input[type="reset"].alt:active,
+input[type="button"].alt:active,
+.button.alt:active {
+  background-color: #f0f0f0;
+}
+
+/* line 953, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].alt.icon:before,
+input[type="reset"].alt.icon:before,
+input[type="button"].alt.icon:before,
+.button.alt.icon:before {
+  color: #999;
+}
+
+/* line 960, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].special,
+input[type="reset"].special,
+input[type="button"].special,
+.button.special {
+  background-color: #82a8e0;
+  color: #ffffff !important;
+}
+
+/* line 968, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].special:hover,
+input[type="reset"].special:hover,
+input[type="button"].special:hover,
+.button.special:hover {
+  background-color: #ecaa96;
+}
+
+/* line 975, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].special:active,
+input[type="reset"].special:active,
+input[type="button"].special:active,
+.button.special:active {
+  background-color: #e4886a;
+}
+
+/* line 985, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+input[type="submit"].disabled, input[type="submit"]:disabled,
+input[type="reset"].disabled,
+input[type="reset"]:disabled,
+input[type="button"].disabled,
+input[type="button"]:disabled,
+.button.disabled,
+.button:disabled {
+  background-color: #777 !important;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
+  color: #f5f5f5 !important;
+  cursor: default;
+  opacity: 0.25;
+}
+
+/* Header */
+/* line 995, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#skel-layers-wrapper {
+  padding-top: 3em;
+}
+
+/* line 999, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+body.landing #skel-layers-wrapper {
+  padding-top: 0;
+}
+
+@-moz-keyframes reveal-header {
+  /* line 1002, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+  0% {
+    top: -5em;
+  }
+
+  /* line 1002, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+  100% {
+    top: 0;
+  }
+}
+
+@-webkit-keyframes reveal-header {
+  /* line 1003, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+  0% {
+    top: -5em;
+  }
+
+  /* line 1003, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+  100% {
+    top: 0;
+  }
+}
+
+@-o-keyframes reveal-header {
+  /* line 1004, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+  0% {
+    top: -5em;
+  }
+
+  /* line 1004, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+  100% {
+    top: 0;
+  }
+}
+
+@-ms-keyframes reveal-header {
+  /* line 1005, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+  0% {
+    top: -5em;
+  }
+
+  /* line 1005, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes reveal-header {
+  /* line 1006, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+  0% {
+    top: -5em;
+  }
+
+  /* line 1006, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+  100% {
+    top: 0;
+  }
+}
+
+/* line 1008, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header {
+  background: #444;
+  color: #bbb;
+  cursor: default;
+  height: 3.25em;
+  left: 0;
+  line-height: 3.25em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+/* line 1021, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header h1 {
+  color: inherit;
+  height: inherit;
+  left: 1.25em;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+}
+
+/* line 1032, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header h1 a {
+  color: #fff;
+  font-weight: 400;
+  border: 0;
+}
+
+/* line 1038, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header nav {
+  height: inherit;
+  line-height: inherit;
+  position: absolute;
+  right: 0.75em;
+  top: 0;
+  vertical-align: middle;
+}
+
+/* line 1047, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header nav > ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+/* line 1053, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header nav > ul > li {
+  display: inline-block;
+  padding-left: 0;
+}
+
+/* line 1058, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header nav > ul > li > ul {
+  display: none;
+}
+
+/* line 1062, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header nav > ul > li a {
+  display: inline-block;
+  height: 2em;
+  line-height: 1.95em;
+  padding: 0 1em;
+  border-radius: 6px;
+}
+
+/* line 1070, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header nav > ul > li a:not(.button) {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  border: 0;
+}
+
+/* line 1077, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header nav > ul > li a:not(.button).icon:before {
+  color: #999;
+  margin-right: 0.5em;
+}
+
+/* line 1082, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header nav > ul > li:first-child {
+  margin-left: 0;
+}
+
+/* line 1086, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header nav > ul > li.active a:not(.button) {
+  background-color: rgba(153, 153, 153, 0.25);
+}
+
+/* line 1090, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header nav > ul > li .button {
+  margin: 0 0 0 0.5em;
+  position: relative;
+}
+
+/* line 1098, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header input[type="submit"],
+#header input[type="reset"],
+#header input[type="button"],
+#header .button {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px #999;
+  color: #fff;
+}
+
+/* line 1107, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header input[type="submit"]:hover,
+#header input[type="reset"]:hover,
+#header input[type="button"]:hover,
+#header .button:hover {
+  background-color: rgba(153, 153, 153, 0.25);
+}
+
+/* line 1114, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header input[type="submit"]:active,
+#header input[type="reset"]:active,
+#header input[type="button"]:active,
+#header .button:active {
+  background-color: rgba(153, 153, 153, 0.5);
+}
+
+/* line 1118, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header .container {
+  position: relative;
+}
+
+/* line 1122, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header .container h1 {
+  left: 0;
+}
+
+/* line 1126, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header .container nav {
+  right: 0;
+}
+
+/* line 1130, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header.reveal {
+  -moz-animation: reveal-header 0.5s;
+  -webkit-animation: reveal-header 0.5s;
+  -o-animation: reveal-header 0.5s;
+  -ms-animation: reveal-header 0.5s;
+  animation: reveal-header 0.5s;
+}
+
+/* line 1138, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header.alt {
+  -moz-animation: none;
+  -webkit-animation: none;
+  -o-animation: none;
+  -ms-animation: none;
+  animation: none;
+  background: none;
+  color: rgba(255, 255, 255, 0.75);
+  position: absolute;
+}
+
+/* line 1149, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header.alt nav > ul > li a:not(.button).icon:before {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 1153, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header.alt nav > ul > li.active a:not(.button) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 1160, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header.alt input[type="submit"],
+#header.alt input[type="reset"],
+#header.alt input[type="button"],
+#header.alt .button {
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+/* line 1167, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header.alt input[type="submit"]:hover,
+#header.alt input[type="reset"]:hover,
+#header.alt input[type="button"]:hover,
+#header.alt .button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* line 1174, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#header.alt input[type="submit"]:active,
+#header.alt input[type="reset"]:active,
+#header.alt input[type="button"]:active,
+#header.alt .button:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 1178, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.dropotron {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.065), inset 0 -1px 0 0 white, inset 0 0 0 1px rgba(229, 229, 229, 0.5);
+  list-style: none;
+  margin: calc(-0.5em + 1px) 0 0 1px;
+  padding: 0.5em 0;
+  width: 13.5em;
+}
+
+/* line 1188, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.dropotron li {
+  padding: 0;
+}
+
+/* line 1192, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.dropotron li a, .dropotron li span {
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  border: 0;
+  border-top: solid 1px #f2f2f2;
+  color: inherit;
+  display: block;
+  padding: 0.15em 1em;
+}
+
+/* line 1205, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.dropotron li:first-child > a, .dropotron li:first-child > span {
+  border-top: 0;
+}
+
+/* line 1209, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
+  background: #82a8e0;
+  color: #ffffff;
+}
+
+/* line 1214, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.dropotron.level-0 {
+  font-size: 0.9em;
+  margin: 1em 0 0 0;
+}
+
+/* line 1219, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+.dropotron.level-0:before {
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #fff;
+  border: solid 1px rgba(229, 229, 229, 0.5);
+  border-bottom: 0;
+  border-right: 0;
+  box-shadow: -0.25em -0.125em 0.125em 0 rgba(0, 0, 0, 0.015);
+  content: '';
+  display: block;
+  height: 0.75em;
+  position: absolute;
+  right: 1.25em;
+  top: -0.375em;
+  width: 0.75em;
+  z-index: 0;
+}
+
+/* Banner */
+/* line 1242, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#banner {
+  background-attachment: scroll,							fixed;
+  background-color: #666;
+  background-image: url(/assets/overlay.png), url(/assets/banner.jpg);
+  background-position: top left,						center center;
+  background-repeat: repeat,							no-repeat;
+  background-size: auto,							cover;
+  color: #fff;
+  padding: 12em 0 20em 0;
+  text-align: center;
+}
+
+/* line 1254, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#banner :last-child {
+  margin-bottom: 0;
+}
+
+/* line 1258, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+  color: #fff;
+}
+
+/* line 1262, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#banner h2 {
+  font-size: 3.5em;
+  line-height: 1em;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
+
+/* line 1269, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#banner p {
+  font-size: 1.25em;
+  margin-bottom: 1.75em;
+}
+
+/* line 1277, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#banner input[type="submit"],
+#banner input[type="reset"],
+#banner input[type="button"],
+#banner .button {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+  color: #fff;
+  min-width: 12em;
+}
+
+/* line 1287, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#banner input[type="submit"]:hover,
+#banner input[type="reset"]:hover,
+#banner input[type="button"]:hover,
+#banner .button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* line 1294, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#banner input[type="submit"]:active,
+#banner input[type="reset"]:active,
+#banner input[type="button"]:active,
+#banner .button:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 1301, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#banner input[type="submit"].special,
+#banner input[type="reset"].special,
+#banner input[type="button"].special,
+#banner .button.special {
+  background: #fff;
+  color: #666 !important;
+}
+
+/* Main */
+/* line 1308, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#main {
+  padding: 4em 0;
+}
+
+/* line 1312, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#main > header {
+  text-align: center;
+  margin: 0 0 3em 0;
+}
+
+/* line 1317, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#main > header h2 {
+  font-size: 2.75em;
+  margin: 0;
+}
+
+/* line 1322, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#main > header p {
+  border-top: solid 2px #e5e5e5;
+  color: #777;
+  display: inline-block;
+  font-style: normal;
+  margin: 1em 0 0 0;
+  padding: 1em 0 1.25em 0;
+}
+
+/* line 1331, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+body.landing #main {
+  margin-top: -14em;
+}
+
+/* Footer */
+/* line 1337, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#footer {
+  background: #f0f0f0;
+  padding: 4em 0 6em 0;
+  text-align: center;
+}
+
+/* line 1343, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#footer .icons a {
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0.35;
+}
+
+/* line 1352, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#footer .icons a:hover {
+  opacity: 0.75;
+}
+
+/* line 1356, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#footer .copyright {
+  color: #999;
+  font-size: 0.9em;
+  line-height: 1em;
+  margin: 2em 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* line 1365, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#footer .copyright a {
+  color: inherit;
+}
+
+/* line 1369, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#footer .copyright li {
+  border-left: solid 1px #dddddd;
+  display: inline-block;
+  list-style: none;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+/* line 1377, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#footer .copyright li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* CTA */
+/* line 1385, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta {
+  background: #82a8e0;
+  color: #e2eaf7;
+  padding: 3.5em 0 4em 0;
+  text-align: center;
+}
+
+/* line 1392, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
+  color: inherit;
+}
+
+/* line 1396, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta form {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 25em;
+}
+
+/* line 1405, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta input[type="submit"],
+#cta input[type="reset"],
+#cta input[type="button"],
+#cta .button {
+  box-shadow: none;
+  background: #fff;
+  color: #82a8e0;
+}
+
+/* line 1415, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta input[type="text"],
+#cta input[type="password"],
+#cta input[type="email"],
+#cta select,
+#cta textarea {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.15);
+  border: 0;
+}
+
+/* line 1425, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta input[type="text"]:focus,
+#cta input[type="password"]:focus,
+#cta input[type="email"]:focus,
+#cta select:focus,
+#cta textarea:focus {
+  box-shadow: inset 0 0 0 2px #fff;
+}
+
+/* line 1429, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* line 1433, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta :-moz-placeholder {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* line 1437, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* line 1441, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta :-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* line 1445, /Users/egorcemohonenko/Documents/Aliservice/logistics/app/assets/stylesheets/style.css.scss */
+#cta .formerize-placeholder {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+/*
+	Alpha by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+
+
+	body, input, select, textarea {
+		font-size: 13pt;
+	}
+
+/* Banner */
+
+	#banner {
+		padding: 10em 0 18em 0;
+	}
+/*
+ *  Remodal - v0.3.0
+ *  Flat, responsive, lightweight, easy customizable modal window plugin with declarative state notation and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Exo+2:700,400&subset=latin,cyrillic);
+
+/* ==========================================================================
+   Remodal necessary styles
+   ========================================================================== */
+
+/* Hide scroll bar */
+
+html.remodal_lock,
+body.remodal_lock {
+    overflow: hidden;
+}
+
+/* Anti FOUC */
+
+.remodal,
+[data-remodal-id] {
+    visibility: hidden;
+}
+
+/* Overlay necessary styles */
+
+.remodal-overlay {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: none;
+    overflow: auto;
+
+    text-align: center;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.remodal-overlay:after {
+    display: inline-block;
+
+    height: 100%;
+    margin-left: -0.05em;
+
+    content: "";
+}
+
+/* Fix iPad, iPhone glitches */
+
+.remodal-overlay {
+    -webkit-backface-visibility: hidden;
+}
+
+/* Modal dialog necessary styles */
+
+.remodal {
+    position: relative;
+
+    display: inline-block;
+}
+
+/* Remodal anti-zoom. Font-size should be >= 16px. */
+
+.remodal select,
+.remodal textarea,
+.remodal input,
+.remodal select:focus,
+.remodal textarea:focus,
+.remodal input:focus {
+    font-size: 16px;
+}
+
+/* ==========================================================================
+   Remodal default theme
+   ========================================================================== */
+
+/* Default theme font */
+
+.remodal,
+.remodal * {
+    font-family: "Exo 2", sans-serif;
+}
+
+/* Background for effects */
+
+.remodal-bg {
+    -webkit-transition: -webkit-filter 0.2s linear;
+    -moz-transition: -moz-filter 0.2s linear;
+    -o-transition: -o-filter 0.2s linear;
+    transition: filter 0.2s linear;
+}
+
+body.remodal_active .remodal-bg {
+    -webkit-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+}
+
+/* Overlay default theme styles */
+
+.remodal-overlay {
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+
+    opacity: 0;
+    background: rgba(33, 36, 46, 0.95);
+}
+
+body.remodal_active .remodal-overlay {
+    opacity: 1;
+}
+
+/* Modal dialog default theme styles */
+
+.remodal {
+    font-size: 16px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100%;
+    padding: 35px;
+
+    -webkit-transition: -webkit-transform 0.2s linear;
+    -moz-transition: -moz-transform 0.2s linear;
+    -o-transition: -o-transform 0.2s linear;
+    transition: transform 0.2s linear;
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95);
+
+    color: #182a3c;
+    background: #f4f4f4;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 0 8px #171a24;
+    box-shadow: 0 0 8px #171a24;
+}
+
+body.remodal_active .remodal {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+/* Modal dialog vertical align  */
+
+.remodal,
+.remodal-overlay:after {
+    vertical-align: middle;
+}
+
+/* Close button */
+
+.remodal-close {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    width: 28px;
+    height: 28px;
+
+    -webkit-transition: background 0.2s linear;
+    -moz-transition: background 0.2s linear;
+    -o-transition: background 0.2s linear;
+    transition: background 0.2s linear;
+    text-decoration: none;
+
+    border: 2px solid #3e5368;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.remodal-close:after {
+    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+    font-size: 28px;
+    line-height: 28px;
+
+    display: block;
+
+    content: "×";
+    cursor: pointer;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    text-decoration: none;
+
+    color: #3e5368;
+}
+
+.remodal-close:hover,
+.remodal-close:active {
+    background: #3e5368;
+}
+
+.remodal-close:hover.remodal-close:after,
+.remodal-close:active.remodal-close:after {
+    color: #f4f4f4;
+}
+
+/* Dialog buttons */
+
+.remodal-confirm,
+.remodal-cancel {
+    font-size: 10pt;
+
+    display: inline-block;
+
+    width: 120px;
+    margin: 0 0 5px 0;
+    padding: 9px 0;
+
+    cursor: pointer;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    text-align: center;
+    text-decoration: none;
+
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-clip: padding-box;
+}
+
+.remodal-confirm {
+    color: #16a085;
+    border: 2px solid #16a085;
+    background: #f4f4f4;
+}
+
+.remodal-confirm:hover,
+.remodal-confirm:active {
+    color: #f4f4f4;
+    background: #16a085;
+}
+
+.remodal-cancel {
+    color: #c0392b;
+    border: 2px solid #c0392b;
+    background: #f4f4f4;
+}
+
+.remodal-cancel:hover,
+.remodal-cancel:active {
+    color: #f4f4f4;
+    background: #c0392b;
+}
+
+/* Media queries
+   ========================================================================== */
+
+@media only screen and (min-width: 40.063em) /* min-width 641px */ {
+    .remodal {
+        max-width: 700px;
+        min-height: 0;
+        margin: 20px auto;
+
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+    }
+}
+
+/* IE8
+   ========================================================================== */
+
+html.lt-ie9,
+html.lt-ie9 body {
+    overflow: auto !important;
+
+    min-height: 100%;
+    margin: 0;
+}
+
+.lt-ie9 .remodal-overlay {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUAQMAAAC3R49OAAAAA3NCSVQICAjb4U/gAAAABlBMVEX///8AAABVwtN+AAAAAnRSTlMAuyogpzwAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAAGHRFWHRDcmVhdGlvbiBUaW1lADA2LzEwLzIwMTSCx1nsAAAAD0lEQVQImWP4//8DAxUxACnDOpkfX95WAAAAAElFTkSuQmCC);
+}
+
+.lt-ie9 .remodal {
+    width: 500px;
+    min-height: auto;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+
+
+
+
+
+ */
+

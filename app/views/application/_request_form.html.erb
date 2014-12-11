@@ -1,0 +1,51 @@
+<section id="cta">
+  <% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+  <% elsif flash[:error] %>
+    <div class="notice"><%= flash[:notice] %></div>
+  <% else%>
+    <h2>Ваш запрос на доставку из Китая</h2>
+    <%= form_tag controller: "request", action: "create" do %>
+      <div class="row uniform">
+        <div class="12u 12u(3)">
+          <%= text_field_tag :info, nil, placeholder: 'Что нужно доставить и откуда', required: true %>
+          <br>
+          <%= text_field_tag :link, nil, placeholder: 'Интенет-ссылка на страницу товара' %>
+        </div>  
+
+        <div class="6u 12u(3)"> 
+          <%= text_field_tag :quantity, nil, placeholder: 'Количество товара', required: true %>
+        </div>      
+
+        <div class="6u 12u(3)">
+          <%= text_field_tag :destination_city, nil, placeholder: 'Город доставки', required: true %>
+        </div>  
+
+        <div class="12u 12u(3)">
+          <%= text_field_tag :customer_comment, nil, placeholder: 'Комментарии' %>
+          <br>
+          <%= text_field_tag :customer_name, nil, placeholder: 'Ваше имя', required: true %>
+        </div>  
+
+        <div class="6u 12u(3)">
+          <%= text_field_tag :customer_email, nil, placeholder: 'Эл. Почта', required: true %>
+        </div>    
+        <div class="6u 12u(3)">
+          <%= text_field_tag :customer_phone, nil, placeholder: 'Телефон', required: true %>
+        </div>  
+        <div class="12u 12u(2)">
+          <input type="checkbox" id="conformation_cb" name="conformation_cb">
+          <label class="white_label">Я подтверждаю свое согласие с <a class="white_label" onclick="policyModal();">Политикой обработки персональных данных</a></label>
+        </div>
+        <div class="12u 12u(3)">
+          <%= submit_tag "Оставить запрос", class: "fit", disabled: true, :id => 'submit_request' %>
+        </div>
+      </div>  
+     <% end %>
+  <% end %>
+</section>
+
+<script type="text/javascript">
+  submitButtonEnable();
+  validateRequest();
+</script>

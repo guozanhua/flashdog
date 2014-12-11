@@ -1,0 +1,9 @@
+# namespace :redmine do
+#   desc 'Migrate redmine plugins'
+#   task :plugins_migrate do
+#     on roles(:app), in: :sequence, wait: 5 do
+#       execute "cd /home/#{fetch(:application)}/#{fetch(:application)}_#{fetch(:stage)}/current"
+#       execute "RAILS_ENV=#{fetch(:rails_env)} bundle exec rake redmine:plugins:migrate"
+#     end
+#   end
+# end

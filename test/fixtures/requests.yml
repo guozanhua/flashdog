@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  info: MyString
+  link: MyString
+  quantity: 1
+  destination_city: MyString
+  customer_comment: MyString
+  customer_name: MyString
+  customer_email: MyString
+  customer_phone: MyString
+  our_comment: MyString
+  complited: false
+
+two:
+  info: MyString
+  link: MyString
+  quantity: 1
+  destination_city: MyString
+  customer_comment: MyString
+  customer_name: MyString
+  customer_email: MyString
+  customer_phone: MyString
+  our_comment: MyString
+  complited: false

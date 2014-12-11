@@ -1,0 +1,1733 @@
+@import url(font-awesome.min.css);
+/*
+	Exponent by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+/* Basic */
+/* line 11, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+html, body, #skel-layers-wrapper {
+  height: 100%;
+}
+
+/* line 15, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+body {
+  background: #fff;
+}
+
+/* line 19, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+  -moz-animation: none !important;
+  -webkit-animation: none !important;
+  -o-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+
+/* line 32, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+body, input, select, textarea {
+  color: #93999a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-weight: normal;
+  letter-spacing: -0.025em;
+  line-height: 1.75em;
+}
+
+/* line 41, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+a {
+  -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  color: #7ed5b1;
+  text-decoration: none;
+}
+
+/* line 52, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+a:hover {
+  border-bottom-color: transparent;
+  color: #7ed5b1 !important;
+}
+
+/* line 57, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+a.icon:before {
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+/* line 65, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+a.icon:hover:before {
+  color: #7ed5b1 !important;
+}
+
+/* line 69, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+strong, b {
+  color: #626c6e;
+  font-weight: bold;
+}
+
+/* line 74, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+em, i {
+  font-style: italic;
+}
+
+/* line 78, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+p {
+  margin: 0 0 2em 0;
+}
+
+/* line 82, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #626c6e;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+}
+
+/* line 90, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 95, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+h2 {
+  font-size: 1.75em;
+  line-height: 1.5em;
+}
+
+/* line 100, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+h3 {
+  font-size: 1.35em;
+  line-height: 1.5em;
+}
+
+/* line 105, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+h4 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+/* line 110, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+h5 {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+/* line 115, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+h6 {
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+
+/* line 120, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em;
+}
+
+/* line 126, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em;
+}
+
+/* line 132, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+hr {
+  border: 0;
+  border-bottom: solid 1px #e2eaec;
+  margin: 3em 0;
+}
+
+/* line 138, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+hr.major {
+  margin: 6em 0;
+}
+
+/* line 142, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+blockquote {
+  border-left: solid 4px #e2eaec;
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 2em;
+}
+
+/* line 149, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+code {
+  background: rgba(144, 144, 144, 0.075);
+  border-radius: 6px;
+  border: solid 1px #e2eaec;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em;
+}
+
+/* line 159, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0 2em 0;
+}
+
+/* line 166, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+pre code {
+  display: block;
+  line-height: 1.75em;
+  padding: 1em 1.5em;
+  overflow-x: auto;
+}
+
+/* line 173, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.align-left {
+  text-align: left;
+}
+
+/* line 177, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.align-center {
+  text-align: center;
+}
+
+/* line 181, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.align-right {
+  text-align: right;
+}
+
+/* line 185, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.footnote {
+  font-size: 0.8em;
+}
+
+/* Section/Article */
+/* line 191, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+section.special, article.special {
+  text-align: center;
+}
+
+/* line 195, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+header p {
+  color: #bbbebf;
+  margin: 0 0 1.5em 0;
+  position: relative;
+}
+
+/* line 201, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+header h2 + p {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  margin-top: -1em;
+}
+
+/* line 207, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+header h3 + p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin-top: -0.8em;
+}
+
+/* line 215, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+header h4 + p,
+header h5 + p,
+header h6 + p {
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin-top: -0.6em;
+}
+
+/* line 221, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+header.major {
+  margin: 0 0 4em 0;
+  text-align: center;
+}
+
+/* line 226, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+header.major h2 {
+  font-size: 2.75em;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+/* line 232, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+header.major p {
+  margin: 0.5em 0 0 0;
+}
+
+/* Form */
+/* line 238, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+form {
+  margin: 0 0 2em 0;
+}
+
+/* line 242, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+label {
+  color: #626c6e;
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 0 0 1em 0;
+}
+
+/* line 254, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: rgba(144, 144, 144, 0.075);
+  border-radius: 6px;
+  border: none;
+  border: solid 1px #e2eaec;
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* line 276, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="text"]:invalid,
+input[type="password"]:invalid,
+input[type="email"]:invalid,
+select:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+/* line 284, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #7ed5b1;
+  box-shadow: 0 0 0 1px #7ed5b1;
+}
+
+/* line 289, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.select-wrapper {
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+/* line 295, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.select-wrapper:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 304, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.select-wrapper:before {
+  content: '\f078';
+  color: #e2eaec;
+  display: block;
+  height: 2.75em;
+  line-height: 2.75em;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 2.75em;
+}
+
+/* line 318, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.select-wrapper select::-ms-expand {
+  display: none;
+}
+
+/* line 325, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  height: 2.75em;
+}
+
+/* line 329, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+textarea {
+  padding: 0.75em 1em;
+}
+
+/* line 334, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: block;
+  float: left;
+  margin-right: -2em;
+  opacity: 0;
+  width: 1em;
+  z-index: -1;
+}
+
+/* line 349, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  text-decoration: none;
+  color: #93999a;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: normal;
+  padding-left: 2.4em;
+  padding-right: 0.75em;
+  position: relative;
+}
+
+/* line 362, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 372, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  background: rgba(144, 144, 144, 0.075);
+  border-radius: 6px;
+  border: solid 1px #e2eaec;
+  content: '';
+  display: inline-block;
+  height: 1.65em;
+  left: 0;
+  line-height: 1.58125em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1.65em;
+}
+
+/* line 388, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"]:checked + label:before,
+input[type="radio"]:checked + label:before {
+  background: #626c6e;
+  border-color: #626c6e;
+  color: #ffffff;
+  content: '\f00c';
+}
+
+/* line 396, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"]:focus + label:before,
+input[type="radio"]:focus + label:before {
+  border-color: #7ed5b1;
+  box-shadow: 0 0 0 1px #7ed5b1;
+}
+
+/* line 401, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="checkbox"] + label:before {
+  border-radius: 6px;
+}
+
+/* line 405, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="radio"] + label:before {
+  border-radius: 100%;
+}
+
+/* line 409, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+::-webkit-input-placeholder {
+  color: #bbbebf !important;
+  opacity: 1.0;
+}
+
+/* line 414, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+:-moz-placeholder {
+  color: #bbbebf !important;
+  opacity: 1.0;
+}
+
+/* line 419, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+::-moz-placeholder {
+  color: #bbbebf !important;
+  opacity: 1.0;
+}
+
+/* line 424, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+:-ms-input-placeholder {
+  color: #bbbebf !important;
+  opacity: 1.0;
+}
+
+/* line 429, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.formerize-placeholder {
+  color: #bbbebf !important;
+  opacity: 1.0;
+}
+
+/* Box */
+/* line 436, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.box {
+  border-radius: 6px;
+  border: solid 1px #e2eaec;
+  margin-bottom: 2em;
+  padding: 1.5em;
+}
+
+/* line 445, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.box > :last-child,
+.box > :last-child > :last-child,
+.box > :last-child > :last-child > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 449, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.box.alt {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* Icon */
+/* line 457, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+}
+
+/* line 463, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.icon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 472, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.icon > .label {
+  display: none;
+}
+
+/* line 476, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.icon.alt {
+  text-decoration: none;
+}
+
+/* line 480, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.icon.alt:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 489, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.icon.alt:before {
+  color: #fff !important;
+  text-shadow: 1px 0 0 #7ed5b1, -1px 0 0 #7ed5b1, 0 1px 0 #7ed5b1, 0 -1px 0 #7ed5b1;
+}
+
+/* line 494, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.icon.major {
+  border-radius: 100%;
+  border: solid 1px #e2eaec;
+  cursor: default;
+  display: inline-block;
+  height: 12em;
+  line-height: 12em;
+  margin: 0 0 2em 0;
+  text-align: center;
+  width: 12em;
+}
+
+/* line 506, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.icon.major:before {
+  font-size: 6em;
+}
+
+/* line 510, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.icon.fa-paper-plane {
+  text-indent: -0.75em;
+}
+
+/* Image */
+/* line 516, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.image {
+  border-radius: 6px;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 523, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.image img {
+  border-radius: 6px;
+  display: block;
+}
+
+/* line 528, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.image .caption {
+  background: #232626;
+  background: rgba(35, 38, 38, 0.7);
+  border-radius: 0 0 6px 6px;
+  bottom: 0;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  left: 0;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0.75em 1.25em;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 544, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.image.left {
+  float: left;
+  padding: 0 1.5em 1em 0;
+  top: 0.25em;
+}
+
+/* line 550, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.image.right {
+  float: right;
+  padding: 0 0 1em 1.5em;
+  top: 0.25em;
+}
+
+/* line 556, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.image.left, .image.right {
+  max-width: 40%;
+}
+
+/* line 560, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.image.left img, .image.right img {
+  width: 100%;
+}
+
+/* line 564, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.image.fit {
+  display: block;
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+/* line 570, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.image.fit img {
+  width: 100%;
+}
+
+/* List */
+/* line 576, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ol {
+  list-style: decimal;
+  margin: 0 0 2em 0;
+  padding-left: 1.25em;
+}
+
+/* line 582, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ol li {
+  padding-left: 0.25em;
+}
+
+/* line 586, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul {
+  list-style: disc;
+  margin: 0 0 2em 0;
+  padding-left: 1em;
+}
+
+/* line 592, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul li {
+  padding-left: 0.5em;
+}
+
+/* line 596, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.alt {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 601, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.alt li {
+  border-top: solid 1px #e2eaec;
+  padding: 0.5em 0;
+}
+
+/* line 606, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.alt li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+/* line 611, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 617, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.icons li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+/* line 622, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.icons li:last-child {
+  padding-right: 0;
+}
+
+/* line 626, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.icons li .icon:before {
+  font-size: 2em;
+}
+
+/* line 630, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions {
+  cursor: default;
+  list-style: none;
+  margin: 0 0 3em 0;
+  padding-left: 0;
+}
+
+/* line 637, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+  vertical-align: middle;
+}
+
+/* line 643, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions li:last-child {
+  padding-right: 0;
+}
+
+/* line 647, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.small li {
+  padding: 0 0.5em 0 0;
+}
+
+/* line 651, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.vertical li {
+  display: block;
+  padding: 1em 0 0 0;
+}
+
+/* line 656, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.vertical li:first-child {
+  padding-top: 0;
+}
+
+/* line 660, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.vertical li > * {
+  margin-bottom: 0;
+}
+
+/* line 664, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.vertical.small li {
+  padding: 0.5em 0 0 0;
+}
+
+/* line 668, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.vertical.small li:first-child {
+  padding-top: 0;
+}
+
+/* line 672, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.fit {
+  display: table;
+  margin-left: -1em;
+  padding: 0;
+  table-layout: fixed;
+  width: calc(100% + 1em);
+}
+
+/* line 680, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.fit li {
+  display: table-cell;
+  padding: 0 0 0 1em;
+}
+
+/* line 685, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.fit li > * {
+  margin-bottom: 0;
+}
+
+/* line 689, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.fit.small {
+  margin-left: -0.5em;
+  width: calc(100% + 0.5em);
+}
+
+/* line 694, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.actions.fit.small li {
+  padding: 0 0 0 0.5em;
+}
+
+/* line 698, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.major-icons {
+  list-style: none;
+  margin-top: -2.25em;
+  padding-left: 0;
+}
+
+/* line 704, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.major-icons li {
+  text-align: center;
+}
+
+/* line 708, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.major-icons li .icon {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 712, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.major-icons li p {
+  color: #626c6e;
+  font-weight: bold;
+}
+
+/* line 717, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.updates {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 722, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.updates li {
+  margin: 0 0 1.3em 0;
+  padding-left: 0;
+}
+
+/* line 727, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.updates li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 731, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.updates li p {
+  margin: 0;
+}
+
+/* line 735, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.updates li .timestamp {
+  color: #bbbebf;
+  display: block;
+  font-size: 0.8em;
+  margin: 0.25em 0 0 0;
+}
+
+/* line 742, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.menu {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 747, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.menu li {
+  border-left: solid 1px #e2eaec;
+  display: inline-block;
+  line-height: 1em;
+  margin: 0 0 0 0.5em;
+  padding: 0 0 0 0.5em;
+}
+
+/* line 755, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.menu li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* line 761, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.labeled-icons {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 766, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.labeled-icons li {
+  margin: 0 0 2em 0;
+  padding: 0 0 0 3.25em;
+  position: relative;
+}
+
+/* line 772, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.labeled-icons li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 776, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+ul.labeled-icons li .icon {
+  border-radius: 100%;
+  border: solid 1px #e2eaec;
+  cursor: default;
+  display: block;
+  height: 2em;
+  left: 0;
+  line-height: 2em;
+  position: absolute;
+  text-align: center;
+  top: -0.25em;
+  width: 2em;
+}
+
+/* line 790, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+dl {
+  margin: 0 0 2em 0;
+}
+
+/* Table */
+/* line 796, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+.table-wrapper {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+/* line 801, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table {
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+/* line 806, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table tbody tr {
+  border: solid 1px #e2eaec;
+  border-left: 0;
+  border-right: 0;
+}
+
+/* line 812, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(144, 144, 144, 0.075);
+}
+
+/* line 816, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table td {
+  padding: 0.75em 0.75em;
+}
+
+/* line 820, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table th {
+  color: #626c6e;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0 0.75em 0.75em 0.75em;
+  text-align: left;
+}
+
+/* line 828, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table thead {
+  border-bottom: solid 2px #e2eaec;
+}
+
+/* line 832, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table tfoot {
+  border-top: solid 2px #e2eaec;
+}
+
+/* line 836, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table.alt {
+  border-collapse: separate;
+}
+
+/* line 840, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table.alt tbody tr td {
+  border: solid 1px #e2eaec;
+  border-left-width: 0;
+  border-top-width: 0;
+}
+
+/* line 846, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table.alt tbody tr td:first-child {
+  border-left-width: 1px;
+}
+
+/* line 850, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table.alt tbody tr:first-child td {
+  border-top-width: 1px;
+}
+
+/* line 854, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table.alt thead {
+  border-bottom: 0;
+}
+
+/* line 858, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+table.alt tfoot {
+  border-top: 0;
+}
+
+/* Button */
+/* line 867, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px #e2eaec;
+  color: #626c6e !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  height: 3.35em;
+  line-height: 3.5em;
+  padding: 0 2.25em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* line 900, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"]:hover, input[type="submit"]:active,
+input[type="reset"]:hover,
+input[type="reset"]:active,
+input[type="button"]:hover,
+input[type="button"]:active,
+.button:hover,
+.button:active {
+  box-shadow: inset 0 0 0 1px #7ed5b1;
+  color: #7ed5b1 !important;
+}
+
+/* line 908, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+.button:active {
+  background-color: rgba(126, 213, 177, 0.15);
+}
+
+/* line 915, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"].icon:before,
+input[type="reset"].icon:before,
+input[type="button"].icon:before,
+.button.icon:before {
+  margin-right: 0.5em;
+}
+
+/* line 922, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"].fit,
+input[type="reset"].fit,
+input[type="button"].fit,
+.button.fit {
+  display: block;
+  margin: 0 0 1em 0;
+  width: 100%;
+}
+
+/* line 931, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"].small,
+input[type="reset"].small,
+input[type="button"].small,
+.button.small {
+  font-size: 0.8em;
+}
+
+/* line 938, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"].big,
+input[type="reset"].big,
+input[type="button"].big,
+.button.big {
+  font-size: 1.25em;
+  padding: 0 2.5em;
+  height: 2.75em;
+  line-height: 2.75em;
+  letter-spacing: -0.035em;
+}
+
+/* line 949, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"].special,
+input[type="reset"].special,
+input[type="button"].special,
+.button.special {
+  background-color: #7ed5b1 !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+
+/* line 958, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"].special.icon:before,
+input[type="reset"].special.icon:before,
+input[type="button"].special.icon:before,
+.button.special.icon:before {
+  color: #ffffff !important;
+}
+
+/* line 965, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"].special:hover,
+input[type="reset"].special:hover,
+input[type="button"].special:hover,
+.button.special:hover {
+  background-color: #8ddaba !important;
+}
+
+/* line 972, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"].special:active,
+input[type="reset"].special:active,
+input[type="button"].special:active,
+.button.special:active {
+  background-color: #6bcfa5 !important;
+}
+
+/* line 982, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"].disabled, input[type="submit"]:disabled,
+input[type="reset"].disabled,
+input[type="reset"]:disabled,
+input[type="button"].disabled,
+input[type="button"]:disabled,
+.button.disabled,
+.button:disabled {
+  background-color: #93999a !important;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
+  color: #fff !important;
+  cursor: default;
+  opacity: 0.25;
+}
+
+/* line 996, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+input[type="submit"].disabled.special, input[type="submit"]:disabled.special,
+input[type="reset"].disabled.special,
+input[type="reset"]:disabled.special,
+input[type="button"].disabled.special,
+input[type="button"]:disabled.special,
+.button.disabled.special,
+.button:disabled.special {
+  background-color: #93999a !important;
+}
+
+/* Header */
+/* line 1002, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#skel-layers-wrapper {
+  padding-top: 3.5em;
+}
+
+/* line 1006, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header {
+  background: #fff;
+  border-bottom: solid 1px #e2eaec;
+  height: 3.5em;
+  left: 0;
+  line-height: 3.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+/* line 1018, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header h1 {
+  height: inherit;
+  left: 1em;
+  line-height: inherit;
+  position: absolute;
+  top: 0;
+}
+
+/* line 1026, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header h1 a {
+  text-decoration: none;
+  border: 0;
+  font-size: 1.25em;
+}
+
+/* line 1032, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header h1 a:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 1041, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header h1 a:before {
+  color: #fff !important;
+  text-shadow: 1px 0 0 #7ed5b1, -1px 0 0 #7ed5b1, 0 1px 0 #7ed5b1, 0 -1px 0 #7ed5b1;
+}
+
+/* line 1046, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header h1 a:before {
+  color: #7ed5b1;
+  content: '\f0c2';
+  margin-right: 0.6em;
+}
+
+/* line 1052, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 1058, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header nav:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+/* line 1064, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 1069, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header nav ul li {
+  display: block;
+  float: left;
+  padding: 0;
+}
+
+/* line 1075, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header nav ul li > a, #header nav ul li > span {
+  border: 0;
+  color: #626c6e;
+  display: block;
+  font-weight: bold;
+  padding: 0 1em;
+}
+
+/* line 1083, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header nav ul li.special {
+  border-left: solid 1px #e2eaec;
+}
+
+/* line 1087, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header nav ul li.special > a, #header nav ul li.special > span {
+  padding: 0 1.5em;
+}
+
+/* line 1091, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header nav ul li.special > .icon:before {
+  color: #c2cacc;
+  margin-right: 0.5em;
+}
+
+/* line 1096, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header nav ul li:not(.special) + .special {
+  margin-left: 0.75em;
+}
+
+/* line 1100, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#header nav #menuPanel-content {
+  display: none;
+}
+
+/* Banner */
+/* line 1106, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner {
+  background-attachment: fixed,							fixed;
+  background-image: url(/assets/overlay.png), url(/assets/banner.jpg);
+  background-position: top left,						center center;
+  background-repeat: repeat,							no-repeat;
+  background-size: auto,							cover;
+  color: #d7dada;
+  height: 100%;
+  min-height: 35em;
+  position: relative;
+  text-align: center;
+}
+
+/* line 1119, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner h2, #banner h3, #banner h4, #banner h5, #banner h6, #banner strong, #banner b {
+  color: #ffffff;
+}
+
+/* line 1123, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner a {
+  color: #ffffff;
+}
+
+/* line 1130, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner input[type="submit"],
+#banner input[type="reset"],
+#banner input[type="button"],
+#banner .button {
+  box-shadow: inset 0 0 0 1px #ffffff;
+  color: #ffffff !important;
+}
+
+/* line 1138, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner input[type="submit"]:hover,
+#banner input[type="reset"]:hover,
+#banner input[type="button"]:hover,
+#banner .button:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+/* line 1145, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner input[type="submit"]:active,
+#banner input[type="reset"]:active,
+#banner input[type="button"]:active,
+#banner .button:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 1149, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner ul.labeled-icons li .icon {
+  border-color: #ffffff;
+}
+
+/* line 1153, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner ul.menu li {
+  border-color: #ffffff;
+}
+
+/* line 1157, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner ul.updates li .timestamp {
+  color: #c0c4c5;
+}
+
+/* line 1161, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner .icon.major {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* line 1166, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner:after {
+  -moz-transition: opacity 2.5s ease-in-out;
+  -webkit-transition: opacity 2.5s ease-in-out;
+  -o-transition: opacity 2.5s ease-in-out;
+  -ms-transition: opacity 2.5s ease-in-out;
+  transition: opacity 2.5s ease-in-out;
+  -moz-transition-delay: 1.25s;
+  -webkit-transition-delay: 1.25s;
+  -o-transition-delay: 1.25s;
+  -ms-transition-delay: 1.25s;
+  transition-delay: 1.25s;
+  background: #626c6e;
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 1188, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner h2 {
+  font-size: 2.75em;
+  line-height: 1.4em;
+}
+
+/* line 1193, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 1200, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner .inner {
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  display: inline-block;
+  max-width: 95%;
+  opacity: 1;
+  position: relative;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+/* line 1214, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner .inner .actions {
+  margin-bottom: 0;
+}
+
+/* line 1218, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner .inner .footnote {
+  margin-bottom: 0;
+  padding-top: 1.75em;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 1225, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner .more {
+  text-decoration: none;
+  background: #fff;
+  border-radius: 2em 2em 0 0;
+  border: 0;
+  bottom: 0;
+  color: #bbbebf;
+  height: 3.25em;
+  left: 50%;
+  margin-left: -2em;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 4em;
+  white-space: nowrap;
+  width: 4em;
+  z-index: 2;
+}
+
+/* line 1243, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner .more:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 1252, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner .more:before {
+  content: '\f078';
+  display: block;
+  height: 3em;
+  left: 0;
+  line-height: 3.75em;
+  position: absolute;
+  text-align: center;
+  text-indent: 0;
+  top: 0;
+  width: 4em;
+}
+
+/* line 1265, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner .more:hover {
+  color: #bbbebf !important;
+}
+
+/* line 1269, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#banner .more:hover:before {
+  color: #bbbebf !important;
+}
+
+/* line 1273, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+body.is-loading #banner:after {
+  opacity: 1.0;
+}
+
+/* line 1277, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+body.is-loading #banner .inner {
+  opacity: 0;
+}
+
+/* line 1281, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+body.is-touch #banner {
+  background-attachment: scroll;
+  background-position: top left, top 75%;
+}
+
+/* Main */
+/* line 1288, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#main {
+  padding: 6.5em 0 4.5em 0;
+}
+
+/* line 1292, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#main > section.feature {
+  border-top: solid 1px #e2eaec;
+  padding: 6.5em 0 4.5em 0;
+}
+
+/* line 1297, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#main > section.feature:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+/* line 1302, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#main > section.feature:last-child {
+  padding-bottom: 0;
+}
+
+/* line 1306, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#main > section.feature.major {
+  padding-left: 6em;
+  padding-right: 6em;
+  text-align: center;
+}
+
+/* line 1312, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#main > section.feature.major .icon {
+  margin: 0 0 3em 0;
+}
+
+/* line 1316, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#main > section.feature.major h2 {
+  font-size: 2.25em;
+  line-height: 1.4em;
+  margin-bottom: 0.7em;
+}
+
+/* line 1322, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#main > section.feature.major p {
+  font-size: 1.25em;
+  line-height: 1.75em;
+}
+
+/* line 1327, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#main > section:not(.feature) + section.feature {
+  margin-top: 6.5em;
+}
+
+/* line 1331, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#main > section.feature + section:not(.feature) {
+  border-top: solid 1px #e2eaec;
+  padding-top: 6.5em;
+}
+
+/* Footer */
+/* line 1338, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer {
+  background: #f7f9fa;
+  border-top: solid 1px #e2eaec;
+  padding: 6.5em 0;
+  color: #93999a;
+}
+
+/* line 1345, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
+  color: #626c6e;
+}
+
+/* line 1349, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer a {
+  border: 0;
+  color: inherit;
+}
+
+/* line 1357, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer input[type="submit"],
+#footer input[type="reset"],
+#footer input[type="button"],
+#footer .button {
+  box-shadow: inset 0 0 0 1px #d2dadc;
+  color: #626c6e !important;
+}
+
+/* line 1368, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer input[type="submit"]:hover, #footer input[type="submit"]:active,
+#footer input[type="reset"]:hover,
+#footer input[type="reset"]:active,
+#footer input[type="button"]:hover,
+#footer input[type="button"]:active,
+#footer .button:hover,
+#footer .button:active {
+  color: #7ed5b1 !important;
+  box-shadow: inset 0 0 0 1px #7ed5b1;
+}
+
+/* line 1373, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer ul.labeled-icons li .icon {
+  border-color: #d2dadc;
+}
+
+/* line 1377, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer ul.menu li {
+  border-color: #d2dadc;
+}
+
+/* line 1381, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer ul.updates li .timestamp {
+  color: #bbbebf;
+}
+
+/* line 1385, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer .icon.major {
+  border-color: #d2dadc;
+}
+
+/* line 1389, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer .icon.alt:before {
+  color: #f7f9fa !important;
+}
+
+/* line 1393, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer .copyright {
+  border-top: solid 1px #d2dadc;
+  color: #bbbebf;
+  margin-top: 4.5em;
+  overflow: hidden;
+  padding-top: 4.875em;
+  text-align: center;
+}
+
+/* line 1402, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer .copyright p {
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+/* line 1408, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#footer .copyright .menu {
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 0 0 0 0.25em;
+}
+
+/* Menu Panel */
+/* line 1416, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel {
+  background: #fff;
+  border-left: solid 1px #e2eaec;
+  box-shadow: 0 0 6px 0 rgba(20, 40, 64, 0.1);
+  cursor: default;
+  padding: 2.25em 1.5em;
+}
+
+/* line 1424, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel h2 {
+  font-size: 1.25em;
+  margin: 0 0 0.5em 0;
+}
+
+/* line 1429, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel .closer {
+  text-decoration: none;
+  display: block;
+  height: 4em;
+  overflow-x: hidden;
+  position: absolute;
+  right: 0;
+  text-indent: 8em;
+  top: 0;
+  white-space: nowrap;
+  width: 8em;
+}
+
+/* line 1442, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel .closer:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 1451, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel .closer:before {
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  color: #c2cacc;
+  content: '\f00d';
+  display: block;
+  height: 4em;
+  line-height: 4em;
+  position: absolute;
+  right: 1.5em;
+  text-align: center;
+  text-indent: 0;
+  top: 0;
+}
+
+/* line 1469, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel .closer:hover:before {
+  color: #7ed5b1;
+}
+
+/* line 1473, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel #menuPanel-content {
+  cursor: default;
+}
+
+/* line 1477, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel #menuPanel-content a, #menuPanel #menuPanel-content span {
+  border: 0;
+  color: inherit;
+}
+
+/* line 1482, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel #menuPanel-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* line 1489, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel #menuPanel-content ul li {
+  padding: 0 0 0 1em;
+}
+
+/* line 1493, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel #menuPanel-content ul li:before {
+  background: #e2eaec;
+  content: '';
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 1503, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel #menuPanel-content ul li > a, #menuPanel #menuPanel-content ul li > span {
+  display: block;
+  line-height: 3.5em;
+}
+
+/* line 1508, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel #menuPanel-content > ul > li {
+  padding-left: 0;
+}
+
+/* line 1512, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel #menuPanel-content > ul > li:first-child:before {
+  display: none;
+}
+
+/* line 1516, /Users/egorcemohonenko/Documents/rails_template/app/assets/stylesheets/style.css.scss */
+#menuPanel #menuPanel-content > ul > li > a, #menuPanel #menuPanel-content > ul > li > span {
+  color: #626c6e;
+}

@@ -1,0 +1,2051 @@
+I, [2014-11-27T12:53:07.378114 #46479]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-27 12:53:07 +0300
+I, [2014-11-27T12:53:07.388810 #46479]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-27T12:53:07.407158 #46479]  INFO -- :   Rendered application/_header.html.erb (0.4ms)
+I, [2014-11-27T12:53:07.417128 #46479]  INFO -- :   Rendered application/_modal_policy.html.erb (0.6ms)
+I, [2014-11-27T12:53:07.417240 #46479]  INFO -- :   Rendered application/_request_form_simple.html.erb (6.9ms)
+I, [2014-11-27T12:53:07.417330 #46479]  INFO -- :   Rendered pages/index.html.erb within layouts/application (14.3ms)
+I, [2014-11-27T12:53:07.421543 #46479]  INFO -- :   Rendered application/_footer.html.erb (0.4ms)
+I, [2014-11-27T12:53:07.422181 #46479]  INFO -- : Completed 200 OK in 33ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+I, [2014-11-27T12:53:07.442752 #46479]  INFO -- : Started GET "/assets/application-36f90e839e737d6af492507c56f412e5.js" for 127.0.0.1 at 2014-11-27 12:53:07 +0300
+F, [2014-11-27T12:53:07.444085 #46479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-36f90e839e737d6af492507c56f412e5.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T12:53:07.444978 #46479]  INFO -- : Started GET "/assets/application-3b7630cf789094c033676b79e5ff832f.css" for 127.0.0.1 at 2014-11-27 12:53:07 +0300
+F, [2014-11-27T12:53:07.446157 #46479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-3b7630cf789094c033676b79e5ff832f.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T12:53:07.451982 #46479]  INFO -- : Started GET "/assets/pic01-f24c46a475d4cccf47d4d4c588dac8e4.jpg" for 127.0.0.1 at 2014-11-27 12:53:07 +0300
+F, [2014-11-27T12:53:07.453456 #46479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/pic01-f24c46a475d4cccf47d4d4c588dac8e4.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T12:54:10.619764 #46479]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-27 12:54:10 +0300
+I, [2014-11-27T12:54:10.620913 #46479]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-27T12:54:10.621876 #46479]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-11-27T12:54:10.623388 #46479]  INFO -- :   Rendered application/_modal_policy.html.erb (0.0ms)
+I, [2014-11-27T12:54:10.623485 #46479]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.3ms)
+I, [2014-11-27T12:54:10.623602 #46479]  INFO -- :   Rendered pages/index.html.erb within layouts/application (1.8ms)
+I, [2014-11-27T12:54:10.624273 #46479]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-11-27T12:54:10.624511 #46479]  INFO -- : Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+I, [2014-11-27T12:54:10.632706 #46479]  INFO -- : Started GET "/assets/application-3b7630cf789094c033676b79e5ff832f.css" for 127.0.0.1 at 2014-11-27 12:54:10 +0300
+F, [2014-11-27T12:54:10.635178 #46479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-3b7630cf789094c033676b79e5ff832f.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T12:54:10.636094 #46479]  INFO -- : Started GET "/assets/application-36f90e839e737d6af492507c56f412e5.js" for 127.0.0.1 at 2014-11-27 12:54:10 +0300
+F, [2014-11-27T12:54:10.637231 #46479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-36f90e839e737d6af492507c56f412e5.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T12:54:10.651488 #46479]  INFO -- : Started GET "/assets/pic01-f24c46a475d4cccf47d4d4c588dac8e4.jpg" for 127.0.0.1 at 2014-11-27 12:54:10 +0300
+F, [2014-11-27T12:54:10.653211 #46479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/pic01-f24c46a475d4cccf47d4d4c588dac8e4.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T12:55:19.843719 #46479]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-27 12:55:19 +0300
+I, [2014-11-27T12:55:19.845004 #46479]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-27T12:55:19.845986 #46479]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-11-27T12:55:19.847527 #46479]  INFO -- :   Rendered application/_modal_policy.html.erb (0.1ms)
+I, [2014-11-27T12:55:19.847648 #46479]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.3ms)
+I, [2014-11-27T12:55:19.847730 #46479]  INFO -- :   Rendered pages/index.html.erb within layouts/application (1.9ms)
+I, [2014-11-27T12:55:19.848343 #46479]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-11-27T12:55:19.848563 #46479]  INFO -- : Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+I, [2014-11-27T12:55:19.867443 #46479]  INFO -- : Started GET "/assets/application-36f90e839e737d6af492507c56f412e5.js" for 127.0.0.1 at 2014-11-27 12:55:19 +0300
+F, [2014-11-27T12:55:19.868591 #46479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-36f90e839e737d6af492507c56f412e5.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T12:55:19.869176 #46479]  INFO -- : Started GET "/assets/application-3b7630cf789094c033676b79e5ff832f.css" for 127.0.0.1 at 2014-11-27 12:55:19 +0300
+F, [2014-11-27T12:55:19.870262 #46479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-3b7630cf789094c033676b79e5ff832f.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T12:55:19.875095 #46479]  INFO -- : Started GET "/assets/pic01-f24c46a475d4cccf47d4d4c588dac8e4.jpg" for 127.0.0.1 at 2014-11-27 12:55:19 +0300
+F, [2014-11-27T12:55:19.876453 #46479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/pic01-f24c46a475d4cccf47d4d4c588dac8e4.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T13:03:45.889462 #46495]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-27 13:03:45 +0300
+I, [2014-11-27T13:03:45.900737 #46495]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-27T13:03:45.921362 #46495]  INFO -- :   Rendered application/_header.html.erb (0.5ms)
+I, [2014-11-27T13:03:45.931143 #46495]  INFO -- :   Rendered application/_modal_policy.html.erb (0.8ms)
+I, [2014-11-27T13:03:45.931260 #46495]  INFO -- :   Rendered application/_request_form_simple.html.erb (6.6ms)
+I, [2014-11-27T13:03:45.931346 #46495]  INFO -- :   Rendered pages/index.html.erb within layouts/application (14.9ms)
+I, [2014-11-27T13:03:45.935877 #46495]  INFO -- :   Rendered application/_footer.html.erb (0.7ms)
+I, [2014-11-27T13:03:45.936464 #46495]  INFO -- : Completed 200 OK in 36ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+I, [2014-11-27T13:03:46.115993 #46495]  INFO -- : Started GET "/assets/overlay.png" for 127.0.0.1 at 2014-11-27 13:03:46 +0300
+F, [2014-11-27T13:03:46.117529 #46495] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/overlay.png"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T13:03:46.118468 #46495]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-11-27 13:03:46 +0300
+F, [2014-11-27T13:03:46.120040 #46495] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/banner.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T13:03:46.226651 #46495]  INFO -- : Started GET "/assets/fonts/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-11-27 13:03:46 +0300
+F, [2014-11-27T13:03:46.228541 #46495] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/fontawesome-webfont.woff"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T13:03:46.305849 #46495]  INFO -- : Started GET "/assets/fonts/fontawesome-webfont.ttf?v=4.2.0" for 127.0.0.1 at 2014-11-27 13:03:46 +0300
+F, [2014-11-27T13:03:46.307740 #46495] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T13:03:46.338539 #46495]  INFO -- : Started GET "/assets/fonts/fontawesome-webfont.svg?v=4.2.0" for 127.0.0.1 at 2014-11-27 13:03:46 +0300
+F, [2014-11-27T13:03:46.340341 #46495] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/fontawesome-webfont.svg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-27T13:04:20.536852 #46497]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-27 13:04:20 +0300
+I, [2014-11-27T13:04:20.546597 #46497]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-27T13:04:20.565871 #46497]  INFO -- :   Rendered application/_header.html.erb (0.4ms)
+I, [2014-11-27T13:04:20.575942 #46497]  INFO -- :   Rendered application/_modal_policy.html.erb (0.6ms)
+I, [2014-11-27T13:04:20.576048 #46497]  INFO -- :   Rendered application/_request_form_simple.html.erb (6.6ms)
+I, [2014-11-27T13:04:20.576129 #46497]  INFO -- :   Rendered pages/index.html.erb within layouts/application (14.3ms)
+I, [2014-11-27T13:04:20.580066 #46497]  INFO -- :   Rendered application/_footer.html.erb (0.3ms)
+I, [2014-11-27T13:04:20.580422 #46497]  INFO -- : Completed 200 OK in 34ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+I, [2014-11-27T13:04:20.687354 #46497]  INFO -- : Started GET "/assets/application-3b7630cf789094c033676b79e5ff832f.css" for 127.0.0.1 at 2014-11-27 13:04:20 +0300
+I, [2014-11-27T13:04:20.691562 #46497]  INFO -- : Started GET "/assets/application-36f90e839e737d6af492507c56f412e5.js" for 127.0.0.1 at 2014-11-27 13:04:20 +0300
+I, [2014-11-27T13:04:24.965668 #46497]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-27 13:04:24 +0300
+I, [2014-11-27T13:04:25.159744 #46497]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-27 13:04:25 +0300
+I, [2014-11-27T13:04:25.163575 #46497]  INFO -- : Started GET "/assets/pic01-f24c46a475d4cccf47d4d4c588dac8e4.jpg" for 127.0.0.1 at 2014-11-27 13:04:25 +0300
+I, [2014-11-27T13:04:25.180748 #46497]  INFO -- : Started GET "/assets/overlay.png" for 127.0.0.1 at 2014-11-27 13:04:25 +0300
+I, [2014-11-27T13:04:25.183568 #46497]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-11-27 13:04:25 +0300
+I, [2014-11-27T13:04:25.270470 #46497]  INFO -- : Started GET "/assets/fontawesome-webfont-40f2907cb897f1df723a5c75a8d0d852.woff?v=4.2.0" for 127.0.0.1 at 2014-11-27 13:04:25 +0300
+I, [2014-11-27T13:05:03.507523 #46497]  INFO -- : Started GET "/howto" for 127.0.0.1 at 2014-11-27 13:05:03 +0300
+I, [2014-11-27T13:05:03.609615 #46497]  INFO -- : Processing by PagesController#howto as HTML
+I, [2014-11-27T13:05:04.263241 #46497]  INFO -- :   Rendered application/_header.html.erb (0.1ms)
+I, [2014-11-27T13:05:04.265543 #46497]  INFO -- :   Rendered application/_modal_policy.html.erb (0.1ms)
+I, [2014-11-27T13:05:04.265676 #46497]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.9ms)
+I, [2014-11-27T13:05:04.265824 #46497]  INFO -- :   Rendered pages/howto.html.erb within layouts/application (4.7ms)
+I, [2014-11-27T13:05:04.266823 #46497]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-11-27T13:05:04.267206 #46497]  INFO -- : Completed 200 OK in 657ms (Views: 656.5ms | ActiveRecord: 0.0ms)
+I, [2014-11-27T13:05:04.302767 #46497]  INFO -- : Started GET "/assets/ship-c914e63798e57b5d48cd5e15a35c00df.jpg" for 127.0.0.1 at 2014-11-27 13:05:04 +0300
+I, [2014-11-27T13:11:11.493742 #46497]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-27 13:11:11 +0300
+I, [2014-11-27T13:11:11.495077 #46497]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-27T13:11:11.502339 #46497]  INFO -- :   Rendered application/_header.html.erb (0.3ms)
+I, [2014-11-27T13:11:11.511676 #46497]  INFO -- :   Rendered application/_modal_policy.html.erb (0.5ms)
+I, [2014-11-27T13:11:11.511774 #46497]  INFO -- :   Rendered application/_request_form_simple.html.erb (5.8ms)
+I, [2014-11-27T13:11:11.511854 #46497]  INFO -- :   Rendered pages/index.html.erb within layouts/application (14.2ms)
+I, [2014-11-27T13:11:11.515797 #46497]  INFO -- :   Rendered application/_footer.html.erb (0.4ms)
+I, [2014-11-27T13:11:11.516027 #46497]  INFO -- : Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+I, [2014-11-28T18:02:29.139055 #80725]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-28 18:02:29 +0300
+I, [2014-11-28T18:02:29.150204 #80725]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-28T18:02:29.171456 #80725]  INFO -- :   Rendered application/_header.html.erb (0.4ms)
+I, [2014-11-28T18:02:29.180804 #80725]  INFO -- :   Rendered application/_modal_policy.html.erb (0.6ms)
+I, [2014-11-28T18:02:29.180910 #80725]  INFO -- :   Rendered application/_request_form_simple.html.erb (6.3ms)
+I, [2014-11-28T18:02:29.180991 #80725]  INFO -- :   Rendered pages/index.html.erb within layouts/application (14.4ms)
+I, [2014-11-28T18:02:29.185244 #80725]  INFO -- :   Rendered application/_footer.html.erb (0.4ms)
+I, [2014-11-28T18:02:29.186005 #80725]  INFO -- : Completed 200 OK in 35ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+I, [2014-11-28T18:02:29.509694 #80725]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-28 18:02:29 +0300
+I, [2014-11-28T18:02:29.514886 #80725]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-28 18:02:29 +0300
+I, [2014-11-28T18:02:39.099586 #80725]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-28 18:02:39 +0300
+I, [2014-11-28T18:02:39.100879 #80725]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-28T18:02:39.102305 #80725]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-11-28T18:02:39.103759 #80725]  INFO -- :   Rendered application/_modal_policy.html.erb (0.0ms)
+I, [2014-11-28T18:02:39.103888 #80725]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.3ms)
+I, [2014-11-28T18:02:39.103979 #80725]  INFO -- :   Rendered pages/index.html.erb within layouts/application (1.9ms)
+I, [2014-11-28T18:02:39.104697 #80725]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-11-28T18:02:39.104931 #80725]  INFO -- : Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+I, [2014-11-28T18:56:38.985155 #80889]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-28 18:56:38 +0300
+I, [2014-11-28T18:56:39.005658 #80889]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-28T18:56:39.036122 #80889]  INFO -- :   Rendered application/_header.html.erb (0.6ms)
+I, [2014-11-28T18:56:39.055379 #80889]  INFO -- :   Rendered application/_modal_policy.html.erb (0.8ms)
+I, [2014-11-28T18:56:39.055531 #80889]  INFO -- :   Rendered application/_request_form_simple.html.erb (10.9ms)
+I, [2014-11-28T18:56:39.055831 #80889]  INFO -- :   Rendered pages/index.html.erb within layouts/application (26.9ms)
+I, [2014-11-28T18:56:39.064215 #80889]  INFO -- :   Rendered application/_footer.html.erb (0.5ms)
+I, [2014-11-28T18:56:39.065047 #80889]  INFO -- : Completed 200 OK in 59ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+I, [2014-11-28T18:56:39.117985 #80889]  INFO -- : Started GET "/assets/application-ed9c4ff46ff91284da9edf374871f960.js" for 127.0.0.1 at 2014-11-28 18:56:39 +0300
+I, [2014-11-28T18:56:39.123945 #80889]  INFO -- : Started GET "/assets/application-c6b7599f268231b375d45156b5cdebbf.css" for 127.0.0.1 at 2014-11-28 18:56:39 +0300
+I, [2014-11-28T18:56:40.569764 #80889]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-28 18:56:40 +0300
+I, [2014-11-28T18:56:40.572087 #80889]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-28 18:56:40 +0300
+I, [2014-11-28T18:56:40.753154 #80889]  INFO -- : Started GET "/assets/pic01-78d579fb82c44de60b539b4d71026d01.jpg" for 127.0.0.1 at 2014-11-28 18:56:40 +0300
+I, [2014-11-28T18:56:40.778560 #80889]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-11-28 18:56:40 +0300
+I, [2014-11-28T18:56:41.000786 #80889]  INFO -- : Started GET "/assets/fontawesome-webfont-40f2907cb897f1df723a5c75a8d0d852.woff?v=4.2.0" for 127.0.0.1 at 2014-11-28 18:56:41 +0300
+I, [2014-11-28T18:57:03.787142 #80889]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-28 18:57:03 +0300
+I, [2014-11-28T18:57:03.788470 #80889]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-28T18:57:03.789962 #80889]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-11-28T18:57:03.792094 #80889]  INFO -- :   Rendered application/_modal_policy.html.erb (0.1ms)
+I, [2014-11-28T18:57:03.792223 #80889]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.9ms)
+I, [2014-11-28T18:57:03.792432 #80889]  INFO -- :   Rendered pages/index.html.erb within layouts/application (2.7ms)
+I, [2014-11-28T18:57:03.793581 #80889]  INFO -- :   Rendered application/_footer.html.erb (0.1ms)
+I, [2014-11-28T18:57:03.793922 #80889]  INFO -- : Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+I, [2014-11-28T18:57:03.848441 #80889]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-28 18:57:03 +0300
+I, [2014-11-28T18:57:10.111765 #80889]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-28 18:57:10 +0300
+I, [2014-11-28T18:57:10.112621 #80889]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-28T18:57:10.113494 #80889]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-11-28T18:57:10.114741 #80889]  INFO -- :   Rendered application/_modal_policy.html.erb (0.0ms)
+I, [2014-11-28T18:57:10.114819 #80889]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.1ms)
+I, [2014-11-28T18:57:10.114908 #80889]  INFO -- :   Rendered pages/index.html.erb within layouts/application (1.6ms)
+I, [2014-11-28T18:57:10.115382 #80889]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-11-28T18:57:10.115586 #80889]  INFO -- : Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+I, [2014-11-28T18:57:10.179030 #80889]  INFO -- : Started GET "/assets/application-c6b7599f268231b375d45156b5cdebbf.css" for 127.0.0.1 at 2014-11-28 18:57:10 +0300
+I, [2014-11-28T18:57:10.181451 #80889]  INFO -- : Started GET "/assets/application-ed9c4ff46ff91284da9edf374871f960.js" for 127.0.0.1 at 2014-11-28 18:57:10 +0300
+I, [2014-11-28T18:57:10.217435 #80889]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-28 18:57:10 +0300
+I, [2014-11-28T18:57:10.220125 #80889]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-28 18:57:10 +0300
+I, [2014-11-28T18:57:10.222214 #80889]  INFO -- : Started GET "/assets/pic01-78d579fb82c44de60b539b4d71026d01.jpg" for 127.0.0.1 at 2014-11-28 18:57:10 +0300
+I, [2014-11-28T18:57:10.233660 #80889]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-11-28 18:57:10 +0300
+I, [2014-11-28T18:57:10.305412 #80889]  INFO -- : Started GET "/assets/fontawesome-webfont-40f2907cb897f1df723a5c75a8d0d852.woff?v=4.2.0" for 127.0.0.1 at 2014-11-28 18:57:10 +0300
+I, [2014-11-28T18:57:19.803417 #80889]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-28 18:57:19 +0300
+I, [2014-11-28T18:57:19.804728 #80889]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-28T18:57:19.805790 #80889]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-11-28T18:57:19.807180 #80889]  INFO -- :   Rendered application/_modal_policy.html.erb (0.0ms)
+I, [2014-11-28T18:57:19.807274 #80889]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.2ms)
+I, [2014-11-28T18:57:19.807365 #80889]  INFO -- :   Rendered pages/index.html.erb within layouts/application (1.7ms)
+I, [2014-11-28T18:57:19.807998 #80889]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-11-28T18:57:19.808200 #80889]  INFO -- : Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+I, [2014-11-28T18:57:19.908472 #80889]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-28 18:57:19 +0300
+I, [2014-11-28T18:57:19.911538 #80889]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-28 18:57:19 +0300
+I, [2014-11-28T18:57:19.932738 #80889]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-11-28 18:57:19 +0300
+I, [2014-11-28T18:57:50.079062 #80889]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-28 18:57:50 +0300
+I, [2014-11-28T18:57:50.080319 #80889]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-28T18:57:50.081365 #80889]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-11-28T18:57:50.082589 #80889]  INFO -- :   Rendered application/_modal_policy.html.erb (0.0ms)
+I, [2014-11-28T18:57:50.082664 #80889]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.1ms)
+I, [2014-11-28T18:57:50.082743 #80889]  INFO -- :   Rendered pages/index.html.erb within layouts/application (1.5ms)
+I, [2014-11-28T18:57:50.083213 #80889]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-11-28T18:57:50.083391 #80889]  INFO -- : Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+I, [2014-11-28T18:57:50.179202 #80889]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-28 18:57:50 +0300
+I, [2014-11-28T18:57:50.184273 #80889]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-28 18:57:50 +0300
+I, [2014-11-28T18:57:50.201782 #80889]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-11-28 18:57:50 +0300
+I, [2014-11-28T18:58:07.592575 #80916]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-28 18:58:07 +0300
+I, [2014-11-28T18:58:07.612010 #80916]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-28T18:58:07.642417 #80916]  INFO -- :   Rendered application/_header.html.erb (0.6ms)
+I, [2014-11-28T18:58:07.657391 #80916]  INFO -- :   Rendered application/_modal_policy.html.erb (0.6ms)
+I, [2014-11-28T18:58:07.657521 #80916]  INFO -- :   Rendered application/_request_form_simple.html.erb (10.1ms)
+I, [2014-11-28T18:58:07.657628 #80916]  INFO -- :   Rendered pages/index.html.erb within layouts/application (20.6ms)
+I, [2014-11-28T18:58:07.663721 #80916]  INFO -- :   Rendered application/_footer.html.erb (1.3ms)
+I, [2014-11-28T18:58:07.664545 #80916]  INFO -- : Completed 200 OK in 52ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+I, [2014-11-28T18:58:07.855850 #80916]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-28 18:58:07 +0300
+I, [2014-11-28T18:58:07.860251 #80916]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-28 18:58:07 +0300
+I, [2014-11-28T18:58:08.064052 #80916]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-11-28 18:58:08 +0300
+I, [2014-11-28T18:58:08.236670 #80916]  INFO -- : Started GET "/assets/overlay.png" for 127.0.0.1 at 2014-11-28 18:58:08 +0300
+I, [2014-11-28T19:04:04.600336 #81044]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-28 19:04:04 +0300
+I, [2014-11-28T19:04:04.612296 #81044]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-28T19:04:04.629771 #81044]  INFO -- :   Rendered application/_header.html.erb (0.5ms)
+I, [2014-11-28T19:04:04.639854 #81044]  INFO -- :   Rendered application/_modal_policy.html.erb (0.6ms)
+I, [2014-11-28T19:04:04.639982 #81044]  INFO -- :   Rendered application/_request_form_simple.html.erb (6.7ms)
+I, [2014-11-28T19:04:04.640069 #81044]  INFO -- :   Rendered pages/index.html.erb within layouts/application (14.7ms)
+I, [2014-11-28T19:04:04.645693 #81044]  INFO -- :   Rendered application/_footer.html.erb (0.6ms)
+I, [2014-11-28T19:04:04.646074 #81044]  INFO -- : Completed 200 OK in 34ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+I, [2014-11-28T19:04:04.680603 #81044]  INFO -- : Started GET "/assets/application-42c81adb1374bb37e56f1587d6bdc3e3.js" for 127.0.0.1 at 2014-11-28 19:04:04 +0300
+I, [2014-11-28T19:04:04.683208 #81044]  INFO -- : Started GET "/assets/application-01d19da914932afcd45af65c2ecfbffa.css" for 127.0.0.1 at 2014-11-28 19:04:04 +0300
+I, [2014-11-28T19:04:05.657658 #81044]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-28 19:04:05 +0300
+I, [2014-11-28T19:04:05.660881 #81044]  INFO -- : Started GET "/assets/pic01-f24c46a475d4cccf47d4d4c588dac8e4.jpg" for 127.0.0.1 at 2014-11-28 19:04:05 +0300
+I, [2014-11-28T19:04:05.661146 #81044]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-28 19:04:05 +0300
+I, [2014-11-28T19:04:05.685094 #81044]  INFO -- : Started GET "/assets/overlay.png" for 127.0.0.1 at 2014-11-28 19:04:05 +0300
+I, [2014-11-28T19:04:05.687286 #81044]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-11-28 19:04:05 +0300
+I, [2014-11-30T14:27:06.740216 #2999]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-30 14:27:06 +0300
+I, [2014-11-30T14:27:06.749243 #2999]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-30T14:27:06.765493 #2999]  INFO -- :   Rendered application/_header.html.erb (0.4ms)
+I, [2014-11-30T14:27:06.774019 #2999]  INFO -- :   Rendered application/_modal_policy.html.erb (0.5ms)
+I, [2014-11-30T14:27:06.774119 #2999]  INFO -- :   Rendered application/_request_form_simple.html.erb (5.6ms)
+I, [2014-11-30T14:27:06.774200 #2999]  INFO -- :   Rendered pages/index.html.erb within layouts/application (13.1ms)
+I, [2014-11-30T14:27:06.778076 #2999]  INFO -- :   Rendered application/_footer.html.erb (0.3ms)
+I, [2014-11-30T14:27:06.778432 #2999]  INFO -- : Completed 200 OK in 29ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+I, [2014-11-30T14:27:06.875745 #2999]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-30 14:27:06 +0300
+I, [2014-11-30T14:27:06.881207 #2999]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-30 14:27:06 +0300
+I, [2014-11-30T14:27:07.204652 #2999]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-11-30 14:27:07 +0300
+I, [2014-11-30T14:27:10.562211 #2999]  INFO -- : Started GET "/howto" for 127.0.0.1 at 2014-11-30 14:27:10 +0300
+I, [2014-11-30T14:27:10.563273 #2999]  INFO -- : Processing by PagesController#howto as HTML
+I, [2014-11-30T14:27:10.566350 #2999]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-11-30T14:27:10.567711 #2999]  INFO -- :   Rendered application/_modal_policy.html.erb (0.0ms)
+I, [2014-11-30T14:27:10.567800 #2999]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.1ms)
+I, [2014-11-30T14:27:10.567886 #2999]  INFO -- :   Rendered pages/howto.html.erb within layouts/application (2.4ms)
+I, [2014-11-30T14:27:10.568469 #2999]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-11-30T14:27:10.568668 #2999]  INFO -- : Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+I, [2014-11-30T14:34:16.917702 #3017]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-30 14:34:16 +0300
+I, [2014-11-30T14:34:16.927026 #3017]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-30T14:34:16.947056 #3017]  INFO -- :   Rendered application/_header.html.erb (0.6ms)
+I, [2014-11-30T14:34:16.955980 #3017]  INFO -- :   Rendered application/_modal_policy.html.erb (0.6ms)
+I, [2014-11-30T14:34:16.956083 #3017]  INFO -- :   Rendered application/_request_form_simple.html.erb (5.7ms)
+I, [2014-11-30T14:34:16.956165 #3017]  INFO -- :   Rendered pages/index.html.erb within layouts/application (13.5ms)
+I, [2014-11-30T14:34:16.960056 #3017]  INFO -- :   Rendered application/_footer.html.erb (0.3ms)
+I, [2014-11-30T14:34:16.960414 #3017]  INFO -- : Completed 200 OK in 33ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+I, [2014-11-30T14:34:17.041868 #3017]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-30 14:34:17 +0300
+I, [2014-11-30T14:34:17.046114 #3017]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-30 14:34:17 +0300
+I, [2014-11-30T14:34:17.203259 #3017]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-11-30 14:34:17 +0300
+I, [2014-11-30T14:34:44.094265 #3022]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-30 14:34:44 +0300
+I, [2014-11-30T14:34:44.104170 #3022]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-30T14:34:44.121289 #3022]  INFO -- :   Rendered application/_header.html.erb (0.7ms)
+I, [2014-11-30T14:34:44.130839 #3022]  INFO -- :   Rendered application/_modal_policy.html.erb (0.6ms)
+I, [2014-11-30T14:34:44.130954 #3022]  INFO -- :   Rendered application/_request_form_simple.html.erb (6.1ms)
+I, [2014-11-30T14:34:44.131039 #3022]  INFO -- :   Rendered pages/index.html.erb within layouts/application (14.0ms)
+I, [2014-11-30T14:34:44.135167 #3022]  INFO -- :   Rendered application/_footer.html.erb (0.4ms)
+I, [2014-11-30T14:34:44.135534 #3022]  INFO -- : Completed 200 OK in 31ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+I, [2014-11-30T14:34:44.151768 #3022]  INFO -- : Started GET "/assets/application.css" for 127.0.0.1 at 2014-11-30 14:34:44 +0300
+F, [2014-11-30T14:34:44.154624 #3022] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-30T14:34:44.155498 #3022]  INFO -- : Started GET "/assets/application.js" for 127.0.0.1 at 2014-11-30 14:34:44 +0300
+F, [2014-11-30T14:34:44.156706 #3022] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-30T14:34:44.163291 #3022]  INFO -- : Started GET "/assets/pic01.jpg" for 127.0.0.1 at 2014-11-30 14:34:44 +0300
+F, [2014-11-30T14:34:44.164511 #3022] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/pic01.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-30T14:35:16.639374 #3026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-30 14:35:16 +0300
+I, [2014-11-30T14:35:16.651001 #3026]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-30T14:35:16.670858 #3026]  INFO -- :   Rendered application/_header.html.erb (0.5ms)
+I, [2014-11-30T14:35:16.680530 #3026]  INFO -- :   Rendered application/_modal_policy.html.erb (0.5ms)
+I, [2014-11-30T14:35:16.680652 #3026]  INFO -- :   Rendered application/_request_form_simple.html.erb (6.3ms)
+I, [2014-11-30T14:35:16.680757 #3026]  INFO -- :   Rendered pages/index.html.erb within layouts/application (15.2ms)
+I, [2014-11-30T14:35:16.684583 #3026]  INFO -- :   Rendered application/_footer.html.erb (0.4ms)
+I, [2014-11-30T14:35:16.684986 #3026]  INFO -- : Completed 200 OK in 34ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+I, [2014-11-30T14:35:16.693673 #3026]  INFO -- : Started GET "/assets/application.css" for 127.0.0.1 at 2014-11-30 14:35:16 +0300
+F, [2014-11-30T14:35:16.695902 #3026] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-30T14:35:16.696717 #3026]  INFO -- : Started GET "/assets/application.js" for 127.0.0.1 at 2014-11-30 14:35:16 +0300
+F, [2014-11-30T14:35:16.697898 #3026] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-30T14:35:16.714932 #3026]  INFO -- : Started GET "/assets/pic01.jpg" for 127.0.0.1 at 2014-11-30 14:35:16 +0300
+F, [2014-11-30T14:35:16.716824 #3026] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/pic01.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-30T14:35:18.958061 #3026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-30 14:35:18 +0300
+I, [2014-11-30T14:35:18.958946 #3026]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-30T14:35:18.960025 #3026]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-11-30T14:35:18.961717 #3026]  INFO -- :   Rendered application/_modal_policy.html.erb (0.0ms)
+I, [2014-11-30T14:35:18.961815 #3026]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.4ms)
+I, [2014-11-30T14:35:18.961912 #3026]  INFO -- :   Rendered pages/index.html.erb within layouts/application (2.0ms)
+I, [2014-11-30T14:35:18.962524 #3026]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-11-30T14:35:18.962766 #3026]  INFO -- : Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+I, [2014-11-30T14:35:18.976024 #3026]  INFO -- : Started GET "/assets/application.css" for 127.0.0.1 at 2014-11-30 14:35:18 +0300
+F, [2014-11-30T14:35:18.977254 #3026] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-30T14:35:18.978336 #3026]  INFO -- : Started GET "/assets/application.js" for 127.0.0.1 at 2014-11-30 14:35:18 +0300
+F, [2014-11-30T14:35:18.980376 #3026] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-30T14:35:18.984491 #3026]  INFO -- : Started GET "/assets/pic01.jpg" for 127.0.0.1 at 2014-11-30 14:35:18 +0300
+F, [2014-11-30T14:35:18.986503 #3026] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/pic01.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-11-30T14:35:43.849031 #3029]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-11-30 14:35:43 +0300
+I, [2014-11-30T14:35:43.859854 #3029]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-11-30T14:35:43.875382 #3029]  INFO -- :   Rendered application/_header.html.erb (0.4ms)
+I, [2014-11-30T14:35:43.883969 #3029]  INFO -- :   Rendered application/_modal_policy.html.erb (0.5ms)
+I, [2014-11-30T14:35:43.884067 #3029]  INFO -- :   Rendered application/_request_form_simple.html.erb (5.6ms)
+I, [2014-11-30T14:35:43.884164 #3029]  INFO -- :   Rendered pages/index.html.erb within layouts/application (12.5ms)
+I, [2014-11-30T14:35:43.887711 #3029]  INFO -- :   Rendered application/_footer.html.erb (0.4ms)
+I, [2014-11-30T14:35:43.888027 #3029]  INFO -- : Completed 200 OK in 28ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+I, [2014-11-30T14:35:43.903179 #3029]  INFO -- : Started GET "/assets/application.css" for 127.0.0.1 at 2014-11-30 14:35:43 +0300
+I, [2014-11-30T14:35:43.907073 #3029]  INFO -- : Started GET "/assets/application.js" for 127.0.0.1 at 2014-11-30 14:35:43 +0300
+I, [2014-11-30T14:35:47.967514 #3029]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-11-30 14:35:47 +0300
+I, [2014-11-30T14:35:47.970480 #3029]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-11-30 14:35:47 +0300
+I, [2014-11-30T14:35:47.974480 #3029]  INFO -- : Started GET "/assets/pic01.jpg" for 127.0.0.1 at 2014-11-30 14:35:47 +0300
+I, [2014-12-01T00:23:13.230199 #8216]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-01 00:23:13 +0300
+I, [2014-12-01T00:23:13.241587 #8216]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-01T00:23:13.262060 #8216]  INFO -- :   Rendered application/_header.html.erb (0.5ms)
+I, [2014-12-01T00:23:13.278927 #8216]  INFO -- :   Rendered application/_modal_policy.html.erb (0.7ms)
+I, [2014-12-01T00:23:13.279054 #8216]  INFO -- :   Rendered application/_request_form_simple.html.erb (6.8ms)
+I, [2014-12-01T00:23:13.279161 #8216]  INFO -- :   Rendered pages/index.html.erb within layouts/application (22.2ms)
+I, [2014-12-01T00:23:19.180065 #8216]  INFO -- :   Rendered application/_footer.html.erb (1.2ms)
+I, [2014-12-01T00:23:19.181330 #8216]  INFO -- : Completed 200 OK in 5939ms (Views: 5929.0ms | ActiveRecord: 0.0ms)
+I, [2014-12-01T00:23:19.191768 #8216]  INFO -- : Started GET "/assets/application.css" for 127.0.0.1 at 2014-12-01 00:23:19 +0300
+I, [2014-12-01T00:23:19.196966 #8216]  INFO -- : Started GET "/assets/application.js" for 127.0.0.1 at 2014-12-01 00:23:19 +0300
+I, [2014-12-01T00:23:19.405604 #8216]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-01 00:23:19 +0300
+I, [2014-12-01T00:23:19.407990 #8216]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-12-01 00:23:19 +0300
+I, [2014-12-01T00:23:20.012209 #8216]  INFO -- : Started GET "/assets/pic01.jpg" for 127.0.0.1 at 2014-12-01 00:23:20 +0300
+I, [2014-12-01T00:23:20.073246 #8216]  INFO -- : Started GET "/assets/overlay.png" for 127.0.0.1 at 2014-12-01 00:23:20 +0300
+I, [2014-12-01T00:23:20.074880 #8216]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-12-01 00:23:20 +0300
+I, [2014-12-01T00:23:20.263737 #8216]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-01 00:23:20 +0300
+I, [2014-12-01T15:15:22.281877 #17719]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-01 15:15:22 +0300
+I, [2014-12-01T15:15:22.292407 #17719]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-01T15:15:22.312269 #17719]  INFO -- :   Rendered application/_header.html.erb (0.4ms)
+I, [2014-12-01T15:15:22.322638 #17719]  INFO -- :   Rendered application/_modal_policy.html.erb (0.6ms)
+I, [2014-12-01T15:15:22.322748 #17719]  INFO -- :   Rendered application/_request_form_simple.html.erb (7.1ms)
+I, [2014-12-01T15:15:22.322833 #17719]  INFO -- :   Rendered pages/index.html.erb within layouts/application (15.1ms)
+I, [2014-12-01T15:15:22.327414 #17719]  INFO -- :   Rendered application/_footer.html.erb (0.5ms)
+I, [2014-12-01T15:15:22.328146 #17719]  INFO -- : Completed 200 OK in 35ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+I, [2014-12-01T15:15:22.443179 #17719]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-01 15:15:22 +0300
+I, [2014-12-01T15:15:22.448215 #17719]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-12-01 15:15:22 +0300
+I, [2014-12-01T15:15:22.487934 #17719]  INFO -- : Started GET "/assets/overlay.png" for 127.0.0.1 at 2014-12-01 15:15:22 +0300
+I, [2014-12-01T15:15:22.489576 #17719]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-12-01 15:15:22 +0300
+I, [2014-12-01T15:15:22.825068 #17719]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-01 15:15:22 +0300
+I, [2014-12-01T15:15:32.264424 #17719]  INFO -- : Started GET "/admin/request" for 127.0.0.1 at 2014-12-01 15:15:32 +0300
+I, [2014-12-01T15:15:32.268844 #17719]  INFO -- : Processing by RailsAdmin::MainController#index as HTML
+I, [2014-12-01T15:15:32.268918 #17719]  INFO -- :   Parameters: {"model_name"=>"request"}
+E, [2014-12-01T15:15:32.273100 #17719] ERROR -- : SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1
+I, [2014-12-01T15:15:32.273561 #17719]  INFO -- : Completed 500 Internal Server Error in 5ms
+F, [2014-12-01T15:15:32.276522 #17719] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1):
+  config/initializers/rails_admin.rb:8:in `block (3 levels) in <top (required)>'
+
+
+I, [2014-12-01T15:15:33.694200 #17719]  INFO -- : Started GET "/admin/request" for 127.0.0.1 at 2014-12-01 15:15:33 +0300
+I, [2014-12-01T15:15:33.695259 #17719]  INFO -- : Processing by RailsAdmin::MainController#index as HTML
+I, [2014-12-01T15:15:33.695328 #17719]  INFO -- :   Parameters: {"model_name"=>"request"}
+E, [2014-12-01T15:15:33.696854 #17719] ERROR -- : SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1
+I, [2014-12-01T15:15:33.697023 #17719]  INFO -- : Completed 500 Internal Server Error in 2ms
+F, [2014-12-01T15:15:33.698817 #17719] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1):
+  config/initializers/rails_admin.rb:8:in `block (3 levels) in <top (required)>'
+
+
+I, [2014-12-01T15:15:34.671879 #17719]  INFO -- : Started GET "/admin/" for 127.0.0.1 at 2014-12-01 15:15:34 +0300
+I, [2014-12-01T15:15:34.672833 #17719]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+E, [2014-12-01T15:15:34.674116 #17719] ERROR -- : SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1
+I, [2014-12-01T15:15:34.674272 #17719]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-12-01T15:15:34.676070 #17719] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1):
+  config/initializers/rails_admin.rb:8:in `block (3 levels) in <top (required)>'
+
+
+I, [2014-12-01T15:15:48.292718 #17719]  INFO -- : Started GET "/admin/" for 127.0.0.1 at 2014-12-01 15:15:48 +0300
+I, [2014-12-01T15:15:48.294668 #17719]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+E, [2014-12-01T15:15:48.297817 #17719] ERROR -- : SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1
+I, [2014-12-01T15:15:48.298060 #17719]  INFO -- : Completed 500 Internal Server Error in 3ms
+F, [2014-12-01T15:15:48.300609 #17719] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1):
+  config/initializers/rails_admin.rb:8:in `block (3 levels) in <top (required)>'
+
+
+I, [2014-12-01T15:16:22.695640 #17719]  INFO -- : Started GET "/admin/" for 127.0.0.1 at 2014-12-01 15:16:22 +0300
+I, [2014-12-01T15:16:22.697131 #17719]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+E, [2014-12-01T15:16:22.698531 #17719] ERROR -- : SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1
+I, [2014-12-01T15:16:22.698711 #17719]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-12-01T15:16:22.700637 #17719] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1):
+  config/initializers/rails_admin.rb:8:in `block (3 levels) in <top (required)>'
+
+
+I, [2014-12-01T15:16:24.019624 #17719]  INFO -- : Started GET "/admin/" for 127.0.0.1 at 2014-12-01 15:16:24 +0300
+I, [2014-12-01T15:16:24.020627 #17719]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+E, [2014-12-01T15:16:24.022236 #17719] ERROR -- : SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1
+I, [2014-12-01T15:16:24.022427 #17719]  INFO -- : Completed 500 Internal Server Error in 2ms
+F, [2014-12-01T15:16:24.024382 #17719] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1):
+  config/initializers/rails_admin.rb:8:in `block (3 levels) in <top (required)>'
+
+
+I, [2014-12-01T15:16:36.670750 #17719]  INFO -- : Started GET "/admins" for 127.0.0.1 at 2014-12-01 15:16:36 +0300
+I, [2014-12-01T15:16:36.671910 #17719]  INFO -- : Processing by RailsAdmin::MainController#index as HTML
+I, [2014-12-01T15:16:36.671991 #17719]  INFO -- :   Parameters: {"model_name"=>"s"}
+E, [2014-12-01T15:16:36.674179 #17719] ERROR -- : SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1
+I, [2014-12-01T15:16:36.674443 #17719]  INFO -- : Completed 500 Internal Server Error in 2ms
+F, [2014-12-01T15:16:36.676679 #17719] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1):
+  config/initializers/rails_admin.rb:8:in `block (3 levels) in <top (required)>'
+
+
+I, [2014-12-01T15:47:41.904926 #17904]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-01 15:47:41 +0300
+I, [2014-12-01T15:47:41.913754 #17904]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-01T15:47:41.933283 #17904]  INFO -- :   Rendered application/_header.html.erb (0.3ms)
+I, [2014-12-01T15:47:41.941737 #17904]  INFO -- :   Rendered application/_modal_policy.html.erb (0.5ms)
+I, [2014-12-01T15:47:41.941833 #17904]  INFO -- :   Rendered application/_request_form_simple.html.erb (5.5ms)
+I, [2014-12-01T15:47:41.941914 #17904]  INFO -- :   Rendered pages/index.html.erb within layouts/application (12.8ms)
+I, [2014-12-01T15:47:42.028448 #17904]  INFO -- :   Rendered application/_footer.html.erb (0.4ms)
+I, [2014-12-01T15:47:42.028806 #17904]  INFO -- : Completed 200 OK in 115ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+I, [2014-12-01T15:47:42.126828 #17904]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-01 15:47:42 +0300
+I, [2014-12-01T15:47:42.132176 #17904]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-12-01 15:47:42 +0300
+I, [2014-12-01T15:47:42.158577 #17904]  INFO -- : Started GET "/assets/overlay.png" for 127.0.0.1 at 2014-12-01 15:47:42 +0300
+I, [2014-12-01T15:47:42.161248 #17904]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-12-01 15:47:42 +0300
+I, [2014-12-01T15:47:42.294093 #17904]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-01 15:47:42 +0300
+I, [2014-12-01T16:07:56.694285 #17904]  INFO -- : Started GET "/admin/" for 127.0.0.1 at 2014-12-01 16:07:56 +0300
+I, [2014-12-01T16:07:56.735955 #17904]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+E, [2014-12-01T16:07:56.779299 #17904] ERROR -- : SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1
+I, [2014-12-01T16:07:56.780072 #17904]  INFO -- : Completed 500 Internal Server Error in 44ms
+F, [2014-12-01T16:07:56.783195 #17904] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: admins: SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = 1  ORDER BY "admins"."id" ASC LIMIT 1):
+  config/initializers/rails_admin.rb:8:in `block (3 levels) in <top (required)>'
+
+
+I, [2014-12-02T00:58:01.733765 #2948]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-02 00:58:01 +0300
+I, [2014-12-02T00:58:01.744090 #2948]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-02T00:58:01.763770 #2948]  INFO -- :   Rendered application/_header.html.erb (0.5ms)
+I, [2014-12-02T00:58:01.773111 #2948]  INFO -- :   Rendered application/_modal_policy.html.erb (0.6ms)
+I, [2014-12-02T00:58:01.773218 #2948]  INFO -- :   Rendered application/_request_form_simple.html.erb (6.2ms)
+I, [2014-12-02T00:58:01.773299 #2948]  INFO -- :   Rendered pages/index.html.erb within layouts/application (14.7ms)
+I, [2014-12-02T00:58:02.825222 #2948]  INFO -- :   Rendered application/_footer.html.erb (0.4ms)
+I, [2014-12-02T00:58:02.825581 #2948]  INFO -- : Completed 200 OK in 1081ms (Views: 1072.5ms | ActiveRecord: 0.0ms)
+I, [2014-12-02T00:58:02.921204 #2948]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-02 00:58:02 +0300
+I, [2014-12-02T00:58:02.924745 #2948]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-12-02 00:58:02 +0300
+I, [2014-12-02T00:58:02.952535 #2948]  INFO -- : Started GET "/assets/overlay-4c4950c83f6c8f1323140e5574f028b4.png" for 127.0.0.1 at 2014-12-02 00:58:02 +0300
+I, [2014-12-02T00:58:02.954097 #2948]  INFO -- : Started GET "/assets/banner-2c4df54b62eaa1a689255d46992d15f0.jpg" for 127.0.0.1 at 2014-12-02 00:58:02 +0300
+I, [2014-12-02T00:58:03.129663 #2948]  INFO -- : Started GET "/assets/fontawesome-webfont-40f2907cb897f1df723a5c75a8d0d852.woff?v=4.2.0" for 127.0.0.1 at 2014-12-02 00:58:03 +0300
+I, [2014-12-02T00:58:03.135691 #2948]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-02 00:58:03 +0300
+I, [2014-12-02T00:58:04.557412 #2948]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-02 00:58:04 +0300
+I, [2014-12-02T00:58:04.558921 #2948]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-02T00:58:04.560245 #2948]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-12-02T00:58:04.561897 #2948]  INFO -- :   Rendered application/_modal_policy.html.erb (0.0ms)
+I, [2014-12-02T00:58:04.562016 #2948]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.5ms)
+I, [2014-12-02T00:58:04.562119 #2948]  INFO -- :   Rendered pages/index.html.erb within layouts/application (2.0ms)
+I, [2014-12-02T00:58:04.562899 #2948]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-12-02T00:58:04.563105 #2948]  INFO -- : Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+I, [2014-12-02T00:58:04.644946 #2948]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-02 00:58:04 +0300
+I, [2014-12-02T00:58:04.648647 #2948]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-12-02 00:58:04 +0300
+I, [2014-12-02T00:58:04.669909 #2948]  INFO -- : Started GET "/assets/banner-2c4df54b62eaa1a689255d46992d15f0.jpg" for 127.0.0.1 at 2014-12-02 00:58:04 +0300
+I, [2014-12-02T00:58:04.879105 #2948]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-02 00:58:04 +0300
+I, [2014-12-02T00:58:04.921957 #2948]  INFO -- : Started GET "/admin/" for 127.0.0.1 at 2014-12-02 00:58:04 +0300
+I, [2014-12-02T00:58:04.926274 #2948]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2014-12-02T00:58:04.930851 #2948]  INFO -- : Completed 401 Unauthorized in 4ms
+I, [2014-12-02T00:58:04.950729 #2948]  INFO -- : Started GET "/admins/sign_in" for 127.0.0.1 at 2014-12-02 00:58:04 +0300
+I, [2014-12-02T00:58:04.952637 #2948]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2014-12-02T00:58:04.955656 #2948]  INFO -- : Completed 500 Internal Server Error in 3ms
+F, [2014-12-02T00:58:04.958693 #2948] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'admins'):
+  activerecord (4.1.8) lib/active_record/connection_adapters/sqlite3_adapter.rb:515:in `table_structure'
+  activerecord (4.1.8) lib/active_record/connection_adapters/sqlite3_adapter.rb:390:in `columns'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:93:in `block in prepare_default_proc'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:44:in `yield'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:44:in `columns'
+  activerecord (4.1.8) lib/active_record/model_schema.rb:214:in `columns'
+  activerecord (4.1.8) lib/active_record/model_schema.rb:223:in `columns_hash'
+  activerecord (4.1.8) lib/active_record/inheritance.rb:180:in `subclass_from_attributes?'
+  activerecord (4.1.8) lib/active_record/inheritance.rb:23:in `new'
+  devise (3.4.1) app/controllers/devise/sessions_controller.rb:9:in `new'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T00:58:33.054856 #2953]  INFO -- : Started GET "/admins" for 127.0.0.1 at 2014-12-02 00:58:33 +0300
+I, [2014-12-02T00:58:33.066058 #2953]  INFO -- : Processing by RailsAdmin::MainController#index as HTML
+I, [2014-12-02T00:58:33.066148 #2953]  INFO -- :   Parameters: {"model_name"=>"s"}
+I, [2014-12-02T00:58:33.081162 #2953]  INFO -- : Completed 401 Unauthorized in 15ms
+I, [2014-12-02T00:58:33.100929 #2953]  INFO -- : Started GET "/admins/sign_in" for 127.0.0.1 at 2014-12-02 00:58:33 +0300
+I, [2014-12-02T00:58:33.103450 #2953]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2014-12-02T00:58:33.106865 #2953]  INFO -- : Completed 500 Internal Server Error in 3ms
+F, [2014-12-02T00:58:33.109644 #2953] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'admins'):
+  activerecord (4.1.8) lib/active_record/connection_adapters/sqlite3_adapter.rb:515:in `table_structure'
+  activerecord (4.1.8) lib/active_record/connection_adapters/sqlite3_adapter.rb:390:in `columns'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:93:in `block in prepare_default_proc'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:44:in `yield'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:44:in `columns'
+  activerecord (4.1.8) lib/active_record/model_schema.rb:214:in `columns'
+  activerecord (4.1.8) lib/active_record/model_schema.rb:223:in `columns_hash'
+  activerecord (4.1.8) lib/active_record/inheritance.rb:180:in `subclass_from_attributes?'
+  activerecord (4.1.8) lib/active_record/inheritance.rb:23:in `new'
+  devise (3.4.1) app/controllers/devise/sessions_controller.rb:9:in `new'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T00:58:37.253313 #2953]  INFO -- : Started GET "/admin" for 127.0.0.1 at 2014-12-02 00:58:37 +0300
+I, [2014-12-02T00:58:37.254783 #2953]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2014-12-02T00:58:37.255707 #2953]  INFO -- : Completed 401 Unauthorized in 1ms
+I, [2014-12-02T00:58:37.261582 #2953]  INFO -- : Started GET "/admins/sign_in" for 127.0.0.1 at 2014-12-02 00:58:37 +0300
+I, [2014-12-02T00:58:37.262536 #2953]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2014-12-02T00:58:37.263693 #2953]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-12-02T00:58:37.266387 #2953] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'admins'):
+  activerecord (4.1.8) lib/active_record/connection_adapters/sqlite3_adapter.rb:515:in `table_structure'
+  activerecord (4.1.8) lib/active_record/connection_adapters/sqlite3_adapter.rb:390:in `columns'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:93:in `block in prepare_default_proc'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:44:in `yield'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:44:in `columns'
+  activerecord (4.1.8) lib/active_record/model_schema.rb:214:in `columns'
+  activerecord (4.1.8) lib/active_record/model_schema.rb:223:in `columns_hash'
+  activerecord (4.1.8) lib/active_record/inheritance.rb:180:in `subclass_from_attributes?'
+  activerecord (4.1.8) lib/active_record/inheritance.rb:23:in `new'
+  devise (3.4.1) app/controllers/devise/sessions_controller.rb:9:in `new'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T00:58:37.347715 #2953]  INFO -- : Started GET "/admin" for 127.0.0.1 at 2014-12-02 00:58:37 +0300
+I, [2014-12-02T00:58:37.348899 #2953]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2014-12-02T00:58:37.349760 #2953]  INFO -- : Completed 401 Unauthorized in 1ms
+I, [2014-12-02T00:58:37.355256 #2953]  INFO -- : Started GET "/admins/sign_in" for 127.0.0.1 at 2014-12-02 00:58:37 +0300
+I, [2014-12-02T00:58:37.356352 #2953]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2014-12-02T00:58:37.357707 #2953]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-12-02T00:58:37.362088 #2953] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'admins'):
+  activerecord (4.1.8) lib/active_record/connection_adapters/sqlite3_adapter.rb:515:in `table_structure'
+  activerecord (4.1.8) lib/active_record/connection_adapters/sqlite3_adapter.rb:390:in `columns'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:93:in `block in prepare_default_proc'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:44:in `yield'
+  activerecord (4.1.8) lib/active_record/connection_adapters/schema_cache.rb:44:in `columns'
+  activerecord (4.1.8) lib/active_record/model_schema.rb:214:in `columns'
+  activerecord (4.1.8) lib/active_record/model_schema.rb:223:in `columns_hash'
+  activerecord (4.1.8) lib/active_record/inheritance.rb:180:in `subclass_from_attributes?'
+  activerecord (4.1.8) lib/active_record/inheritance.rb:23:in `new'
+  devise (3.4.1) app/controllers/devise/sessions_controller.rb:9:in `new'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T01:00:32.636909 #2960]  INFO -- : Started GET "/admins/sign_in" for 127.0.0.1 at 2014-12-02 01:00:32 +0300
+F, [2014-12-02T01:00:32.643696 #2960] FATAL -- : 
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/egorcemohonenko/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/egorcemohonenko/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T01:00:36.576026 #2960]  INFO -- : Started GET "/admin" for 127.0.0.1 at 2014-12-02 01:00:36 +0300
+F, [2014-12-02T01:00:36.577893 #2960] FATAL -- : 
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/egorcemohonenko/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/egorcemohonenko/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T01:00:36.676754 #2960]  INFO -- : Started GET "/admin" for 127.0.0.1 at 2014-12-02 01:00:36 +0300
+F, [2014-12-02T01:00:36.679070 #2960] FATAL -- : 
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/egorcemohonenko/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/egorcemohonenko/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T01:00:38.211073 #2960]  INFO -- : Started GET "/admin" for 127.0.0.1 at 2014-12-02 01:00:38 +0300
+F, [2014-12-02T01:00:38.213691 #2960] FATAL -- : 
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/egorcemohonenko/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/egorcemohonenko/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T01:02:49.338169 #2960]  INFO -- : Started GET "/admin" for 127.0.0.1 at 2014-12-02 01:02:49 +0300
+I, [2014-12-02T01:02:49.354764 #2960]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2014-12-02T01:02:49.366718 #2960]  INFO -- : Completed 401 Unauthorized in 12ms
+I, [2014-12-02T01:02:49.388462 #2960]  INFO -- : Started GET "/admins/sign_in" for 127.0.0.1 at 2014-12-02 01:02:49 +0300
+I, [2014-12-02T01:02:49.391224 #2960]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2014-12-02T01:02:49.420552 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.6ms)
+I, [2014-12-02T01:02:49.420714 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (7.0ms)
+I, [2014-12-02T01:02:49.433284 #2960]  INFO -- :   Rendered application/_footer.html.erb (0.4ms)
+I, [2014-12-02T01:02:49.433674 #2960]  INFO -- : Completed 200 OK in 42ms (Views: 25.4ms | ActiveRecord: 2.1ms)
+I, [2014-12-02T01:02:49.530219 #2960]  INFO -- : Started GET "/admins/assets/style.css" for 127.0.0.1 at 2014-12-02 01:02:49 +0300
+F, [2014-12-02T01:02:49.533185 #2960] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/admins/assets/style.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T01:02:49.534094 #2960]  INFO -- : Started GET "/admins/assets/style-wide.css" for 127.0.0.1 at 2014-12-02 01:02:49 +0300
+F, [2014-12-02T01:02:49.536068 #2960] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/admins/assets/style-wide.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T01:02:49.630694 #2960]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-02 01:02:49 +0300
+I, [2014-12-02T01:02:51.811112 #2960]  INFO -- : Started POST "/admins/sign_in" for 127.0.0.1 at 2014-12-02 01:02:51 +0300
+I, [2014-12-02T01:02:51.812466 #2960]  INFO -- : Processing by Devise::SessionsController#create as HTML
+I, [2014-12-02T01:02:51.812550 #2960]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZT0FxRgV3OAPXFk8vy035I24qUupNPaVjTvgDs1wzuk=", "admin"=>{"email"=>"1germes@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2014-12-02T01:02:51.916931 #2960]  INFO -- : Redirected to http://0.0.0.0:3000/admin/
+I, [2014-12-02T01:02:51.917132 #2960]  INFO -- : Completed 302 Found in 104ms (ActiveRecord: 5.9ms)
+I, [2014-12-02T01:02:51.922226 #2960]  INFO -- : Started GET "/admin/" for 127.0.0.1 at 2014-12-02 01:02:51 +0300
+I, [2014-12-02T01:02:51.923319 #2960]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2014-12-02T01:02:52.062207 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/rails_admin-0.6.5/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (11.9ms)
+I, [2014-12-02T01:02:52.078498 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/rails_admin-0.6.5/app/views/layouts/rails_admin/_secondary_navigation.html.haml (4.5ms)
+I, [2014-12-02T01:02:52.078607 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/rails_admin-0.6.5/app/views/layouts/rails_admin/_navigation.html.haml (8.7ms)
+I, [2014-12-02T01:02:52.086437 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/rails_admin-0.6.5/app/views/layouts/rails_admin/pjax.html.haml (4.7ms)
+I, [2014-12-02T01:02:52.086805 #2960]  INFO -- : Completed 200 OK in 163ms (Views: 41.6ms | ActiveRecord: 5.5ms)
+I, [2014-12-02T01:02:52.207441 #2960]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-02 01:02:52 +0300
+I, [2014-12-02T01:03:02.080546 #2960]  INFO -- : Started GET "/admins/sign_in" for 127.0.0.1 at 2014-12-02 01:03:02 +0300
+I, [2014-12-02T01:03:02.081854 #2960]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2014-12-02T01:03:02.084941 #2960]  INFO -- : Redirected to http://0.0.0.0:3000/
+I, [2014-12-02T01:03:02.085255 #2960]  INFO -- : Filter chain halted as :require_no_authentication rendered or redirected
+I, [2014-12-02T01:03:02.085762 #2960]  INFO -- : Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+I, [2014-12-02T01:03:02.099572 #2960]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-02 01:03:02 +0300
+I, [2014-12-02T01:03:02.102426 #2960]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-02T01:03:02.111995 #2960]  INFO -- :   Rendered application/_header.html.erb (0.4ms)
+I, [2014-12-02T01:03:02.122071 #2960]  INFO -- :   Rendered application/_modal_policy.html.erb (0.5ms)
+I, [2014-12-02T01:03:02.122165 #2960]  INFO -- :   Rendered application/_request_form_simple.html.erb (7.0ms)
+I, [2014-12-02T01:03:02.122253 #2960]  INFO -- :   Rendered pages/index.html.erb within layouts/application (14.7ms)
+I, [2014-12-02T01:03:02.126268 #2960]  INFO -- :   Rendered application/_footer.html.erb (0.4ms)
+I, [2014-12-02T01:03:02.126529 #2960]  INFO -- : Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+I, [2014-12-02T01:03:02.143494 #2960]  INFO -- : Started GET "/assets/overlay.png" for 127.0.0.1 at 2014-12-02 01:03:02 +0300
+I, [2014-12-02T01:03:02.147042 #2960]  INFO -- : Started GET "/assets/banner.jpg" for 127.0.0.1 at 2014-12-02 01:03:02 +0300
+I, [2014-12-02T01:03:07.537230 #2960]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-02 01:03:07 +0300
+I, [2014-12-02T01:03:07.538263 #2960]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-02T01:03:07.542849 #2960]  INFO -- :   Rendered application/_header.html.erb (0.3ms)
+I, [2014-12-02T01:03:07.551249 #2960]  INFO -- :   Rendered application/_modal_policy.html.erb (0.6ms)
+I, [2014-12-02T01:03:07.551348 #2960]  INFO -- :   Rendered application/_request_form_simple.html.erb (5.5ms)
+I, [2014-12-02T01:03:07.551435 #2960]  INFO -- :   Rendered pages/index.html.erb within layouts/application (11.5ms)
+I, [2014-12-02T01:03:07.553562 #2960]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-12-02T01:03:07.553758 #2960]  INFO -- : Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+I, [2014-12-02T01:03:07.630043 #2960]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-02 01:03:07 +0300
+I, [2014-12-02T01:03:07.632757 #2960]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-12-02 01:03:07 +0300
+I, [2014-12-02T01:03:14.636303 #2960]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-02 01:03:14 +0300
+I, [2014-12-02T01:03:14.637221 #2960]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-02T01:03:14.638184 #2960]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-12-02T01:03:14.639574 #2960]  INFO -- :   Rendered application/_modal_policy.html.erb (0.0ms)
+I, [2014-12-02T01:03:14.639654 #2960]  INFO -- :   Rendered application/_request_form_simple.html.erb (1.2ms)
+I, [2014-12-02T01:03:14.639738 #2960]  INFO -- :   Rendered pages/index.html.erb within layouts/application (1.7ms)
+I, [2014-12-02T01:03:14.640503 #2960]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-12-02T01:03:14.640682 #2960]  INFO -- : Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+I, [2014-12-02T01:03:14.737420 #2960]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-02 01:03:14 +0300
+I, [2014-12-02T01:03:14.745158 #2960]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-12-02 01:03:14 +0300
+I, [2014-12-02T01:03:14.914436 #2960]  INFO -- : Started GET "/admin/" for 127.0.0.1 at 2014-12-02 01:03:14 +0300
+I, [2014-12-02T01:03:14.915865 #2960]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2014-12-02T01:03:14.928864 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/rails_admin-0.6.5/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (6.2ms)
+I, [2014-12-02T01:03:14.933316 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/rails_admin-0.6.5/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.8ms)
+I, [2014-12-02T01:03:14.933546 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/rails_admin-0.6.5/app/views/layouts/rails_admin/_navigation.html.haml (3.5ms)
+I, [2014-12-02T01:03:14.937707 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/rails_admin-0.6.5/app/views/layouts/rails_admin/pjax.html.haml (1.6ms)
+I, [2014-12-02T01:03:14.938046 #2960]  INFO -- : Completed 200 OK in 22ms (Views: 15.7ms | ActiveRecord: 1.4ms)
+I, [2014-12-02T01:03:15.112184 #2960]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-02 01:03:15 +0300
+I, [2014-12-02T01:03:17.312037 #2960]  INFO -- : Started DELETE "/admins/sign_out" for 127.0.0.1 at 2014-12-02 01:03:17 +0300
+I, [2014-12-02T01:03:17.314061 #2960]  INFO -- : Processing by Devise::SessionsController#destroy as HTML
+I, [2014-12-02T01:03:17.314201 #2960]  INFO -- :   Parameters: {"authenticity_token"=>"L/Z52xHNcdxSaVs8GOSuwbL7t/jGXpk6i+TDo0sumfM="}
+I, [2014-12-02T01:03:17.322501 #2960]  INFO -- : Redirected to http://0.0.0.0:3000/
+I, [2014-12-02T01:03:17.322684 #2960]  INFO -- : Completed 302 Found in 8ms (ActiveRecord: 0.7ms)
+I, [2014-12-02T01:03:17.327541 #2960]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-02 01:03:17 +0300
+I, [2014-12-02T01:03:17.328885 #2960]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-02T01:03:17.330341 #2960]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-12-02T01:03:17.330867 #2960]  INFO -- :   Rendered application/_modal_policy.html.erb (0.0ms)
+I, [2014-12-02T01:03:17.330944 #2960]  INFO -- :   Rendered application/_request_form_simple.html.erb (0.3ms)
+I, [2014-12-02T01:03:17.331037 #2960]  INFO -- :   Rendered pages/index.html.erb within layouts/application (0.9ms)
+I, [2014-12-02T01:03:17.331894 #2960]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-12-02T01:03:17.332108 #2960]  INFO -- : Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+I, [2014-12-02T01:03:17.398161 #2960]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-02 01:03:17 +0300
+I, [2014-12-02T01:03:17.400487 #2960]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-12-02 01:03:17 +0300
+I, [2014-12-02T01:03:17.574679 #2960]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-02 01:03:17 +0300
+I, [2014-12-02T01:03:19.435835 #2960]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-02 01:03:19 +0300
+I, [2014-12-02T01:03:19.437072 #2960]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-02T01:03:19.438289 #2960]  INFO -- :   Rendered application/_header.html.erb (0.0ms)
+I, [2014-12-02T01:03:19.440533 #2960]  INFO -- :   Rendered application/_modal_policy.html.erb (0.1ms)
+I, [2014-12-02T01:03:19.440760 #2960]  INFO -- :   Rendered application/_request_form_simple.html.erb (2.0ms)
+I, [2014-12-02T01:03:19.441010 #2960]  INFO -- :   Rendered pages/index.html.erb within layouts/application (2.8ms)
+I, [2014-12-02T01:03:19.442318 #2960]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-12-02T01:03:19.442535 #2960]  INFO -- : Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+I, [2014-12-02T01:03:19.530813 #2960]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-02 01:03:19 +0300
+I, [2014-12-02T01:03:19.534632 #2960]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-12-02 01:03:19 +0300
+I, [2014-12-02T01:03:19.722699 #2960]  INFO -- : Started GET "/admin/" for 127.0.0.1 at 2014-12-02 01:03:19 +0300
+I, [2014-12-02T01:03:19.724215 #2960]  INFO -- : Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2014-12-02T01:03:19.725213 #2960]  INFO -- : Completed 401 Unauthorized in 1ms
+I, [2014-12-02T01:03:19.731079 #2960]  INFO -- : Started GET "/admins/sign_in" for 127.0.0.1 at 2014-12-02 01:03:19 +0300
+I, [2014-12-02T01:03:19.732116 #2960]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2014-12-02T01:03:19.736266 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.4ms)
+I, [2014-12-02T01:03:19.736374 #2960]  INFO -- :   Rendered /Users/egorcemohonenko/.rvm/gems/ruby-2.1.0@logistic/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (2.8ms)
+I, [2014-12-02T01:03:19.737180 #2960]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-12-02T01:03:19.737407 #2960]  INFO -- : Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+I, [2014-12-02T01:03:19.818986 #2960]  INFO -- : Started GET "/admins/assets/style.css" for 127.0.0.1 at 2014-12-02 01:03:19 +0300
+I, [2014-12-02T01:03:19.819923 #2960]  INFO -- : Started GET "/admins/assets/style-wide.css" for 127.0.0.1 at 2014-12-02 01:03:19 +0300
+F, [2014-12-02T01:03:19.821650 #2960] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/admins/assets/style.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+F, [2014-12-02T01:03:19.823288 #2960] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/admins/assets/style-wide.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-02T01:03:19.923065 #2960]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-02 01:03:19 +0300
+I, [2014-12-11T23:18:12.375021 #2583]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-11 23:18:12 +0300
+I, [2014-12-11T23:18:12.388004 #2583]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-11T23:18:12.417900 #2583]  INFO -- :   Rendered pages/index.html.erb within layouts/application (16.5ms)
+I, [2014-12-11T23:18:12.852699 #2583]  INFO -- :   Rendered application/_header.html.erb (0.4ms)
+I, [2014-12-11T23:18:12.856951 #2583]  INFO -- :   Rendered application/_footer.html.erb (0.7ms)
+I, [2014-12-11T23:18:12.861237 #2583]  INFO -- :   Rendered application/_yandex_metrica.html.erb (0.4ms)
+I, [2014-12-11T23:18:12.861682 #2583]  INFO -- : Completed 200 OK in 474ms (Views: 463.4ms | ActiveRecord: 0.0ms)
+I, [2014-12-11T23:18:13.100988 #2583]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+I, [2014-12-11T23:18:13.106755 #2583]  INFO -- : Started GET "/assets/style-wide.css" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+I, [2014-12-11T23:18:13.120894 #2583]  INFO -- : Started GET "/assets/pic02-fffac5447a47fdba1e0de71be492bb10.jpg" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+I, [2014-12-11T23:18:13.121860 #2583]  INFO -- : Started GET "/assets/pic05-bf8cfcc77f81c5aa471febd918afc8a3.jpg" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+I, [2014-12-11T23:18:13.130005 #2583]  INFO -- : Started GET "/assets/pic04-909ea21437fde91acff9389d002343d2.jpg" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+I, [2014-12-11T23:18:13.130480 #2583]  INFO -- : Started GET "/assets/pic03-cc80ff0c9687f8ca5d8f76746ec50d9c.jpg" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+F, [2014-12-11T23:18:13.136811 #2583] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/style-wide.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-11T23:18:13.144155 #2583]  INFO -- : Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+I, [2014-12-11T23:18:13.144998 #2583]  INFO -- : Started GET "/assets/pic06-14a65a64a854a2b8b16b5ed869ab0aa2.jpg" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+F, [2014-12-11T23:18:13.158402 #2583] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/font-awesome.min.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-11T23:18:13.194894 #2583]  INFO -- : Started GET "/assets/overlay-0f7b79a8ca28c51f2350df9880e567a6.png" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+I, [2014-12-11T23:18:13.195490 #2583]  INFO -- : Started GET "/assets/banner-7ebc6cbb0226dc8d5020b65165005443.jpg" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+I, [2014-12-11T23:18:13.258864 #2583]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-11 23:18:13 +0300
+I, [2014-12-11T23:19:58.991548 #2621]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-11 23:19:58 +0300
+I, [2014-12-11T23:19:59.006474 #2621]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-11T23:19:59.022220 #2621]  INFO -- :   Rendered pages/index.html.erb within layouts/application (1.4ms)
+I, [2014-12-11T23:19:59.036121 #2621]  INFO -- :   Rendered application/_header.html.erb (0.4ms)
+I, [2014-12-11T23:19:59.039646 #2621]  INFO -- :   Rendered application/_footer.html.erb (0.5ms)
+I, [2014-12-11T23:19:59.042816 #2621]  INFO -- :   Rendered application/_yandex_metrica.html.erb (0.4ms)
+I, [2014-12-11T23:19:59.043147 #2621]  INFO -- : Completed 200 OK in 37ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+I, [2014-12-11T23:19:59.318883 #2621]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-11 23:19:59 +0300
+I, [2014-12-11T23:19:59.322951 #2621]  INFO -- : Started GET "/assets/style-xlarge.css" for 127.0.0.1 at 2014-12-11 23:19:59 +0300
+I, [2014-12-11T23:19:59.339145 #2621]  INFO -- : Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2014-12-11 23:19:59 +0300
+F, [2014-12-11T23:19:59.350476 #2621] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/font-awesome.min.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-11T23:19:59.422755 #2621]  INFO -- : Started GET "/assets/overlay-0f7b79a8ca28c51f2350df9880e567a6.png" for 127.0.0.1 at 2014-12-11 23:19:59 +0300
+I, [2014-12-11T23:19:59.424295 #2621]  INFO -- : Started GET "/assets/banner-7ebc6cbb0226dc8d5020b65165005443.jpg" for 127.0.0.1 at 2014-12-11 23:19:59 +0300
+I, [2014-12-11T23:19:59.594051 #2621]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2014-12-11 23:19:59 +0300
+I, [2014-12-11T23:20:20.075121 #2621]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-11 23:20:20 +0300
+I, [2014-12-11T23:20:20.078260 #2621]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-11T23:20:20.080335 #2621]  INFO -- :   Rendered pages/index.html.erb within layouts/application (0.6ms)
+I, [2014-12-11T23:20:20.093626 #2621]  INFO -- :   Rendered application/_header.html.erb (0.1ms)
+I, [2014-12-11T23:20:20.093864 #2621]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-12-11T23:20:20.094022 #2621]  INFO -- :   Rendered application/_yandex_metrica.html.erb (0.0ms)
+I, [2014-12-11T23:20:20.094236 #2621]  INFO -- : Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+I, [2014-12-11T23:20:20.377533 #2621]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-11 23:20:20 +0300
+I, [2014-12-11T23:20:20.378797 #2621]  INFO -- : Started GET "/assets/style-xlarge.css" for 127.0.0.1 at 2014-12-11 23:20:20 +0300
+I, [2014-12-11T23:20:20.393313 #2621]  INFO -- : Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2014-12-11 23:20:20 +0300
+F, [2014-12-11T23:20:20.402919 #2621] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/font-awesome.min.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-11T23:20:20.427339 #2621]  INFO -- : Started GET "/assets/overlay-0f7b79a8ca28c51f2350df9880e567a6.png" for 127.0.0.1 at 2014-12-11 23:20:20 +0300
+I, [2014-12-11T23:20:20.427823 #2621]  INFO -- : Started GET "/assets/banner-7ebc6cbb0226dc8d5020b65165005443.jpg" for 127.0.0.1 at 2014-12-11 23:20:20 +0300
+I, [2014-12-11T23:22:02.325966 #2621]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-11 23:22:02 +0300
+I, [2014-12-11T23:22:02.329844 #2621]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-11T23:22:02.331976 #2621]  INFO -- :   Rendered pages/index.html.erb within layouts/application (0.8ms)
+I, [2014-12-11T23:22:02.344384 #2621]  INFO -- :   Rendered application/_header.html.erb (0.1ms)
+I, [2014-12-11T23:22:02.344689 #2621]  INFO -- :   Rendered application/_footer.html.erb (0.0ms)
+I, [2014-12-11T23:22:02.344922 #2621]  INFO -- :   Rendered application/_yandex_metrica.html.erb (0.0ms)
+I, [2014-12-11T23:22:02.345151 #2621]  INFO -- : Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+I, [2014-12-11T23:22:02.596765 #2621]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-11 23:22:02 +0300
+I, [2014-12-11T23:22:02.599122 #2621]  INFO -- : Started GET "/assets/style-xlarge.css" for 127.0.0.1 at 2014-12-11 23:22:02 +0300
+I, [2014-12-11T23:22:02.615406 #2621]  INFO -- : Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2014-12-11 23:22:02 +0300
+F, [2014-12-11T23:22:02.624277 #2621] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/font-awesome.min.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.10.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.10.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.10.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `call'
+  puma (2.10.1) lib/puma/thread_pool.rb:96:in `block in spawn_thread'
+
+
+I, [2014-12-11T23:22:02.670625 #2621]  INFO -- : Started GET "/assets/overlay-0f7b79a8ca28c51f2350df9880e567a6.png" for 127.0.0.1 at 2014-12-11 23:22:02 +0300
+I, [2014-12-11T23:22:02.671113 #2621]  INFO -- : Started GET "/assets/banner-7ebc6cbb0226dc8d5020b65165005443.jpg" for 127.0.0.1 at 2014-12-11 23:22:02 +0300
+I, [2014-12-11T23:22:19.537197 #2657]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-11 23:22:19 +0300
+I, [2014-12-11T23:22:19.550413 #2657]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-11T23:22:19.567012 #2657]  INFO -- :   Rendered pages/index.html.erb within layouts/application (1.4ms)
+I, [2014-12-11T23:22:19.582044 #2657]  INFO -- :   Rendered application/_header.html.erb (0.9ms)
+I, [2014-12-11T23:22:19.585975 #2657]  INFO -- :   Rendered application/_footer.html.erb (0.6ms)
+I, [2014-12-11T23:22:19.589185 #2657]  INFO -- :   Rendered application/_yandex_metrica.html.erb (0.4ms)
+I, [2014-12-11T23:22:19.589539 #2657]  INFO -- : Completed 200 OK in 39ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+I, [2014-12-11T23:22:19.855188 #2657]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-11 23:22:19 +0300
+I, [2014-12-11T23:22:19.858437 #2657]  INFO -- : Started GET "/assets/style-xlarge.css" for 127.0.0.1 at 2014-12-11 23:22:19 +0300
+I, [2014-12-11T23:22:20.886115 #2657]  INFO -- : Started GET "/assets/overlay-0f7b79a8ca28c51f2350df9880e567a6.png" for 127.0.0.1 at 2014-12-11 23:22:20 +0300
+I, [2014-12-11T23:22:20.886695 #2657]  INFO -- : Started GET "/assets/banner-7ebc6cbb0226dc8d5020b65165005443.jpg" for 127.0.0.1 at 2014-12-11 23:22:20 +0300
+I, [2014-12-11T23:22:21.035944 #2657]  INFO -- : Started GET "/assets/fontawesome-webfont-40f2907cb897f1df723a5c75a8d0d852.woff?v=4.2.0" for 127.0.0.1 at 2014-12-11 23:22:21 +0300
+I, [2014-12-11T23:25:28.243406 #2713]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-12-11 23:25:28 +0300
+I, [2014-12-11T23:25:28.258023 #2713]  INFO -- : Processing by PagesController#index as HTML
+I, [2014-12-11T23:25:28.274282 #2713]  INFO -- :   Rendered pages/index.html.erb within layouts/application (1.5ms)
+I, [2014-12-11T23:25:28.290530 #2713]  INFO -- :   Rendered application/_header.html.erb (0.5ms)
+I, [2014-12-11T23:25:28.294389 #2713]  INFO -- :   Rendered application/_footer.html.erb (0.5ms)
+I, [2014-12-11T23:25:28.297880 #2713]  INFO -- :   Rendered application/_yandex_metrica.html.erb (0.4ms)
+I, [2014-12-11T23:25:28.298232 #2713]  INFO -- : Completed 200 OK in 40ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+I, [2014-12-11T23:25:28.583662 #2713]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-11 23:25:28 +0300
+I, [2014-12-11T23:25:28.588319 #2713]  INFO -- : Started GET "/assets/style-xlarge.css" for 127.0.0.1 at 2014-12-11 23:25:28 +0300

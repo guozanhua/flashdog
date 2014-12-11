@@ -1,0 +1,9 @@
+namespace :deploy do
+  desc 'Restart unicorn application'
+  task :restart do
+    on roles(:app), in: :sequence, wait: 5 do
+    sudo "pumactl -S /var/run/#{fetch(:application)}.state restart"
+    # sudo "service nginx restart"
+    end
+  end
+end
